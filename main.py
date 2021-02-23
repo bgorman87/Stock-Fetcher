@@ -1,5 +1,6 @@
 import json
 import re
+import html5lib
 
 import requests
 from bs4 import BeautifulSoup
@@ -19,28 +20,33 @@ from bs4 import BeautifulSoup
 
 # Create a dictionary with each stock symbol as key and another dictionary of required values as the key value
 
-### P/E (Price-Earnings) ###
-# EPS -
+# TODO - Consolidate queries as much as possible to reduce risk of being blocked by yahoo finance
 
-### DCF (Discounted Cash Flow) ###
-#
+def get_dcf_npv(cash_and_cash_eq, liabilities, free_cash_flow, outstanding_shares, growth_rate, margin_of_safety):
+    conservative_growth = growth_rate * (1-margin_of_safety)
+    growth_decline = 0.05
+    discount_rate = 0.09
+    free_cash_growth = []
+    npv_free_cash = []
+    free_cash_growth.append(free_cash_flow * (1 + conservative_growth))
+    npv_free_cash.append(free_cash_growth[0] / (1 + discount_rate))
+    for i in range(2, 11):
+        free_cash_growth.append(free_cash_growth[i-2] * (1 + (conservative_growth * ((1 - growth_decline) ** (i - 1)))))
+        npv_free_cash.append(free_cash_growth[i-1] / ((1 + discount_rate) ** i))
 
-### ROE (Return on Equity) ###
-#
+    total_npv = sum(npv_free_cash)
+    year_10_free_cash = npv_free_cash[-1] * 12
 
-# Required data are as follows:
-# -
-# -
-# -
-# -
-# -
+    npv_dcf = (total_npv + year_10_free_cash + cash_and_cash_eq - liabilities) / outstanding_shares
+
+    return npv_dcf
 
 
 def row_get_Data_Text(tr, coltag='td'):  # td (data) or th (header)
     return [td.get_text(strip=True) for td in tr.find_all(coltag)]
 
 
-def get_historical_pe(local_symbol):
+def get_morningstar_pe(local_symbol):
     historical_PE_link = "http://financials.morningstar.com/valuate/current-valuation-list.action?&t" \
                          "={}&region=can&culture=en-US"
     link = historical_PE_link.format(local_symbol)
@@ -57,6 +63,30 @@ def get_historical_pe(local_symbol):
         print(e)
     if values:
         return values[3][3]
+    else:
+        return values
+
+
+def get_morningstar_roe(local_symbol):
+    historical_ROE_link = "http://financials.morningstar.com/finan/financials/getKeyStatPart.html?&t={}"
+    link = historical_ROE_link.format(local_symbol)
+    values = []
+    content_rows = []
+    try:
+        html_content = requests.get(link).text
+        test = json.loads(html_content)
+        soup = BeautifulSoup(test['componentData'], "html5lib")
+        rows = soup.findAll(lambda tag: tag.name == 'td')
+
+        for row in rows:
+            if "i26" in str(row):
+                content_rows.append(row)
+    except (ValueError, AttributeError) as e:
+        print(e)
+    if content_rows:
+        values = [float(value.get_text()) for value in content_rows]
+    if values:
+        return sum(values[5:-1])/5
     else:
         return values
 
@@ -141,7 +171,7 @@ for symbol in master_list:
 
     # print("------ P/E CALC -----")
     #
-    # historical_PE = get_historical_pe(morningstar_symbol)
+    # historical_PE = get_morningstar_pe(morningstar_symbol)
     # print("Historical Price/Earnings:", historical_PE)
     #
     # current_EPS = get_yahoo_stat(yahoo_symbol, "eps")
@@ -160,22 +190,31 @@ for symbol in master_list:
     # print(f"Current Price Based on P/E 5y Estimate: ${current_5y_backtrack_pe}")
     # new_stonk[symbol]["P/E"] = current_5y_backtrack_pe
     # print(new_stonk)
-
-    print("------ DCF CALC -----")
-
+    #
+    # print("------ DCF CALC -----")
+    #
     # fcf_raw_value, fcf_fmt_value = get_yahoo_stat(yahoo_symbol, "fcf")
     # print(f"Free Cash Flow: ${fcf_fmt_value}")
-
+    #
     # cash_raw_eq, cash_fmt_eq = get_yahoo_stat(yahoo_symbol, "ceq")
     # print(f"Cash and Cash Equivalents: ${cash_fmt_eq}")
-
+    #
     # liabilities_raw, liabilities_fmt = get_yahoo_stat(yahoo_symbol, "liabilities")
     # print(f"Total Liabilities: ${liabilities_fmt}")
+    #
+    # shares_outstanding_raw, shares_outstanding_fmt = get_yahoo_stat(yahoo_symbol, "shares_outstanding")
+    # print(f"Shares Outstanding: ${shares_outstanding_fmt}")
+    #
+    # current_10y_backtrack_dcf = int(get_dcf_npv(cash_raw_eq, liabilities_raw, fcf_raw_value, shares_outstanding_raw,
+    #                                        growth_estimate, 0.25))
+    # print(f"Current Price Based on DCF 10y Estimate: ${current_10y_backtrack_dcf}")
+    # new_stonk[symbol]["DCF"] = current_10y_backtrack_dcf
+    # print(new_stonk)
 
-    shares_outstanding_raw, shares_outstanding_fmt = get_yahoo_stat(yahoo_symbol, "shares_outstanding")
-    print(f"Shares Outstanding: ${shares_outstanding_fmt}")
+    print("------ ROE CALC -----")
 
-
+    historical_ROE = get_morningstar_roe(morningstar_symbol)
+    print("Historical Return on Equity:", historical_ROE)
 
 
     # finn_company_url = 'https://finnhub.io/api/v1/stock/profile2?symbol={}&token={}'
