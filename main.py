@@ -1,6 +1,12 @@
 from stonk_functions import *
 from stonk_list import xnas_symbols, xtse_symbols
 
+# TODO  - Save calculated values into json file.
+#       - Possibly Chart/Graph Results
+#       - Some sort of system to automatically import stock symbols into a master list
+#       - Some sort of notification when PE/DCF/ROE is higher than the current stock price.
+#           - In this notification, maybe list the industry and in future maybe some symbols the I can use to compare
+
 
 class SkipStock(Exception):
     pass
@@ -37,7 +43,7 @@ for symbol in master_list:
         shares_outstanding_raw, shares_outstanding_fmt, trailing_dividend_rate_raw, trailing_dividend_rate_fmt = \
             get_yahoo_stat(yahoo_symbol, "shares_outstanding")
         ## Calculations
-        if not is_float(growth_estimate) and is_float(current_EPS) and is_float(historical_PE):
+        if is_float(growth_estimate) and is_float(current_EPS) and is_float(historical_PE):
             growth_safety_pe = growth_estimate * 0.75
             future_5y_estimate_pe = float(current_EPS) * float(historical_PE) * ((1.0 + growth_safety_pe) ** 5)
             current_5y_backtrack_pe = int(future_5y_estimate_pe / ((1.0 + 0.12) ** 5))
@@ -51,7 +57,7 @@ for symbol in master_list:
             print("Historical PE Ratio Not Found For:", symbol)
             raise SkipStock
 
-        if not is_float(cash_raw_eq) and not is_float(liabilities_raw) and not is_float(fcf_raw_value) and not is_float(
+        if is_float(cash_raw_eq) and is_float(liabilities_raw) and is_float(fcf_raw_value) and is_float(
                 shares_outstanding_raw):
             current_10y_backtrack_dcf = int(
                 get_dcf_npv(discount_rate, cash_raw_eq, liabilities_raw, fcf_raw_value, shares_outstanding_raw,
@@ -69,8 +75,8 @@ for symbol in master_list:
             print("Shares Outstanding Not Found For:", symbol)
             raise SkipStock
 
-        if not is_float(stockholders_equity_raw) and not is_float(historical_ROE) and not is_float(
-                shares_outstanding_raw) and not is_float(trailing_dividend_rate_raw):
+        if is_float(stockholders_equity_raw) and is_float(historical_ROE) and is_float(shares_outstanding_raw) and \
+                is_float(trailing_dividend_rate_raw):
             current_10y_backtrack_roe = get_roe_npv(discount_rate, stockholders_equity_raw, historical_ROE / 100,
                                                     shares_outstanding_raw,
                                                     trailing_dividend_rate_raw, growth_estimate, 0.25)
