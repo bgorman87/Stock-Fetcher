@@ -1,9 +1,12 @@
 import json
 import re
 import time
+import random
 
 import requests
 from bs4 import BeautifulSoup
+
+print_bool = False
 
 
 def get_roe_npv(discount_rate, equity, equity_rate, shares_outstanding, dividend_rate, growth_rate, margin_of_safety):
@@ -64,8 +67,9 @@ def get_morningstar_pe(local_symbol):
         rows = table.findAll(lambda tag: tag.name == 'tr')
         for row in rows:
             values.append(row_get_Data_Text(row, 'td'))
-    except (requests.exceptions.RequestException, ValueError, AttributeError, KeyError) as e:
-        print(e)
+    except (requests.exceptions.RequestException, ValueError, AttributeError, KeyError, TypeError):
+        pass
+        # print(e)
     if values:
         return values[3][3]
     else:
@@ -86,22 +90,30 @@ def get_morningstar_roe(local_symbol):
         for row in rows:
             if "i26" in str(row):
                 content_rows.append(row)
-    except (requests.exceptions.RequestException, ValueError, AttributeError, KeyError) as e:
-        print(e)
+    except (requests.exceptions.RequestException, ValueError, AttributeError, KeyError, TypeError):
+        pass
+        # print(e)
     if content_rows:
-        values = [float(value.get_text()) for value in content_rows]
+        values = [value.get_text() for value in content_rows]
+    for i, value in enumerate(values):
+        if not is_float(value):
+            values[i] = 0
     if values:
-        return sum(values[5:-1]) / 5
+        return sum([float(value) for value in values[5:-1]]) / 5
     else:
         return values
 
 
 def get_yahoo_stat(local_symbol, stat_type=None):
+    rand_int = random.randint(2, 5)
+    time.sleep(rand_int)
+
     current_eps_link = "https://ca.finance.yahoo.com/quote/{}?p={}"
     growth_estimate_link = "https://ca.finance.yahoo.com/quote/{}/analysis?p={}"
     fcf_link = "https://ca.finance.yahoo.com/quote/{}/cash-flow?p={}"
     ceq_link = "https://ca.finance.yahoo.com/quote/{}/balance-sheet?p={}"
     shares_outstanding_link = "https://ca.finance.yahoo.com/quote/{}/key-statistics?p={}"
+
     if stat_type == "eps":
         link = current_eps_link.format(local_symbol, local_symbol)
     elif stat_type == "growth" or stat_type == "title":
@@ -114,10 +126,12 @@ def get_yahoo_stat(local_symbol, stat_type=None):
         link = shares_outstanding_link.format(local_symbol, local_symbol)
     else:
         link = ""
+
     data = ""
     error = False
     json_data = {}
     html_content = ""
+
     try:
         html_content = requests.get(link).text
     except requests.exceptions.RequestException as reqE:
@@ -131,77 +145,78 @@ def get_yahoo_stat(local_symbol, stat_type=None):
             start = script_data.find("context") - 2
             json_data = json.loads(script_data[start:-12])
         except (AttributeError, KeyError, ValueError) as soupError:
-            print(soupError)
+            if print_bool:
+                print(soupError)
             error = True
     if not error and stat_type == "eps":
         try:
             eps = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['defaultKeyStatistics'] \
                 ['trailingEps']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             eps = ""
         try:
             price = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['price'] \
                 ['regularMarketPrice']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             price = ""
         data = [eps, price]
     elif stat_type == "growth":
         try:
             growth = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['earningsTrend']['trend'][4][
                 'growth']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             growth = ""
         data = growth
     elif stat_type == "title":
         try:
             local_title = json_data['context']['dispatcher']['stores']['PageStore']['pageData']['title']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             local_title = ""
         data = local_title
     elif stat_type == "fcf":
         try:
             trailing_cash_flow_raw = json_data['context']['dispatcher']['stores']['QuoteTimeSeriesStore']['timeSeries'][
                 'trailingFreeCashFlow'][0]['reportedValue']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             trailing_cash_flow_raw = ""
         try:
             trailing_cash_flow_fmt = json_data['context']['dispatcher']['stores']['QuoteTimeSeriesStore']['timeSeries'][
                 'trailingFreeCashFlow'][0]['reportedValue']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             trailing_cash_flow_fmt = ""
         data = [trailing_cash_flow_raw, trailing_cash_flow_fmt]
     elif stat_type == "ceq":
         try:
             cash_raw = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['balanceSheetHistory'][
                 'balanceSheetStatements'][0]['cash']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             cash_raw = ""
         try:
             cash_fmt = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['balanceSheetHistory'][
                 'balanceSheetStatements'][0]['cash']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             cash_fmt = ""
         try:
             total_liabilities_raw = json_data['context']['dispatcher']['stores']['QuoteSummaryStore'][
                 'balanceSheetHistory']['balanceSheetStatements'][0]['totalLiab']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             total_liabilities_raw = ""
         try:
             total_liabilities_fmt = json_data['context']['dispatcher']['stores']['QuoteSummaryStore'][
                 'balanceSheetHistory']['balanceSheetStatements'][0]['totalLiab']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             total_liabilities_fmt = ""
         try:
             total_stock_equity_raw = \
                 json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['balanceSheetHistory'][
                     'balanceSheetStatements'][0]['totalStockholderEquity']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             total_stock_equity_raw = ""
         try:
             total_stock_equity_fmt = \
                 json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['balanceSheetHistory'][
                     'balanceSheetStatements'][0]['totalStockholderEquity']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             total_stock_equity_fmt = ""
         data = [cash_raw, cash_fmt, total_liabilities_raw, total_liabilities_fmt, total_stock_equity_raw,
                 total_stock_equity_fmt]
@@ -209,22 +224,22 @@ def get_yahoo_stat(local_symbol, stat_type=None):
         try:
             shares_out_raw = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['defaultKeyStatistics'][
                 'sharesOutstanding']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             shares_out_raw = ""
         try:
             shares_out_fmt = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['defaultKeyStatistics'][
                 'sharesOutstanding']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             shares_out_fmt = ""
         try:
             trailing_dividend_raw = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['summaryDetail'][
                 'trailingAnnualDividendRate']['raw']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             trailing_dividend_raw = ""
         try:
             trailing_dividend_fmt = json_data['context']['dispatcher']['stores']['QuoteSummaryStore']['summaryDetail'][
                 'trailingAnnualDividendRate']['fmt']
-        except KeyError:
+        except (KeyError, IndexError, TypeError, ValueError):
             trailing_dividend_fmt = ""
         data = [shares_out_raw, shares_out_fmt, trailing_dividend_raw, trailing_dividend_fmt]
     return data
@@ -234,5 +249,5 @@ def is_float(f):
     try:
         float(f)
         return True
-    except ValueError:
+    except (TypeError, ValueError):
         return False
