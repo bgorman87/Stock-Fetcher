@@ -1,0 +1,8642 @@
+{
+    "TGP.nyse": {
+        "Current": 14.58,
+        "P/E": 109,
+        "DCF": 65,
+        "ROE": 234,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "CAS.tsx": {
+        "Current": 17.91,
+        "P/E": 63,
+        "DCF": 81,
+        "ROE": 115,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "CG.tsx": {
+        "Current": 12.5,
+        "P/E": 128,
+        "DCF": 204,
+        "ROE": 322,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "CIX.tsx": {
+        "Current": 18.59,
+        "P/E": 19,
+        "DCF": 21,
+        "ROE": 26,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "SPB.nyse": {
+        "Current": 84.82,
+        "P/E": 205,
+        "DCF": 99,
+        "ROE": 116,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "CTC.tsx": {
+        "Current": 202.6,
+        "P/E": 307,
+        "DCF": 12532,
+        "ROE": 4026,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "WMS.nyse": {
+        "Current": 104.46,
+        "P/E": 285,
+        "DCF": 518,
+        "ROE": 549,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "SHI.nyse": {
+        "Current": 24.24,
+        "P/E": 41,
+        "DCF": 305,
+        "ROE": 223,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "INVA.nas": {
+        "Current": 11.975,
+        "P/E": 33,
+        "DCF": 82,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "APOG.nas": {
+        "Current": 42.31,
+        "P/E": 44,
+        "DCF": 103,
+        "ROE": 49,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "BIP.nyse": {
+        "Current": 53.22,
+        "P/E": 228,
+        "DCF": 99,
+        "ROE": 99,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "NVO.nyse": {
+        "Current": 70.8205,
+        "P/E": 115,
+        "DCF": 222,
+        "ROE": 117,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "MCY.nyse": {
+        "Current": 63.55,
+        "P/E": 359,
+        "DCF": 459,
+        "ROE": 287,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "AMOT.nas": {
+        "Current": 54.43,
+        "P/E": 59,
+        "DCF": 71,
+        "ROE": 71,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "CAJ.nyse": {
+        "Current": 21.7,
+        "P/E": 97,
+        "DCF": 446,
+        "ROE": 686,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "TDS.nyse": {
+        "Current": 22.68,
+        "P/E": 390,
+        "DCF": 623,
+        "ROE": 1096,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "TKC.nyse": {
+        "Current": 5.485,
+        "P/E": 17,
+        "DCF": 290,
+        "ROE": 163,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "HSBC.nyse": {
+        "Current": 29.675,
+        "P/E": 47,
+        "DCF": 684,
+        "ROE": 33,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "SVM.tsx": {
+        "Current": 6.63,
+        "P/E": 1534,
+        "DCF": 88821,
+        "ROE": 365711,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "SRLP.nyse": {
+        "Current": 20.34,
+        "P/E": 140,
+        "DCF": 343,
+        "ROE": 1415,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "KOP.nyse": {
+        "Current": 37.37,
+        "P/E": 150,
+        "DCF": 52,
+        "ROE": 371,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "APAM.nyse": {
+        "Current": 49.835,
+        "P/E": 60,
+        "DCF": 131,
+        "ROE": 92,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "GLP.nyse": {
+        "Current": 23.12,
+        "P/E": 6,
+        "DCF": -24,
+        "ROE": 7,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "CONE.nas": {
+        "Current": 65.47,
+        "P/E": 22324,
+        "DCF": 179015,
+        "ROE": 52078,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "APTV.nyse": {
+        "Current": 150.655,
+        "P/E": 289,
+        "DCF": 248,
+        "ROE": 883,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "NXST.nas": {
+        "Current": 155.78,
+        "P/E": 938,
+        "DCF": 1078,
+        "ROE": 4019,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "LCII.nyse": {
+        "Current": 144.67,
+        "P/E": 136,
+        "DCF": 191,
+        "ROE": 189,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "CNU.tsx": {
+        "Current": 120,
+        "P/E": 1013,
+        "DCF": 763,
+        "ROE": 1075,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "DR.tsx": {
+        "Current": 6.83,
+        "P/E": 6,
+        "DCF": 43,
+        "ROE": 14,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "NWC.tsx": {
+        "Current": 34.7,
+        "P/E": 43,
+        "DCF": 66,
+        "ROE": 36,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "ONEX.tsx": {
+        "Current": 79.59,
+        "P/E": 864,
+        "DCF": 4241,
+        "ROE": 85038,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "PIF.tsx": {
+        "Current": 20.26,
+        "P/E": 1039,
+        "DCF": 563,
+        "ROE": 382,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "AMKR.nas": {
+        "Current": 22.465,
+        "P/E": 55,
+        "DCF": 33,
+        "ROE": 45,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "CALM.nas": {
+        "Current": 42.475,
+        "P/E": 236,
+        "DCF": 109,
+        "ROE": 524,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "FANH.nas": {
+        "Current": 14.875,
+        "P/E": 29,
+        "DCF": 99,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "FCFS.nas": {
+        "Current": 68.52,
+        "P/E": 81,
+        "DCF": 98,
+        "ROE": 90,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "NVEC.nas": {
+        "Current": 72.195,
+        "P/E": 87,
+        "DCF": 110,
+        "ROE": 136,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "SAFM.nas": {
+        "Current": 164.67,
+        "P/E": 1095,
+        "DCF": 5640,
+        "ROE": 11842,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "SPTN.nas": {
+        "Current": 21.23,
+        "P/E": 74,
+        "DCF": 44,
+        "ROE": 25,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "STAY.nas": {
+        "Current": 16.98,
+        "P/E": 44,
+        "DCF": 72,
+        "ROE": 45,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "TXRH.nas": {
+        "Current": 97.695,
+        "P/E": 152,
+        "DCF": 793,
+        "ROE": 3186,
+        "Exchange": "NASDAQ",
+        "Quality": "Good"
+    },
+    "AEG.nyse": {
+        "Current": 4.99,
+        "P/E": 49,
+        "DCF": 34,
+        "ROE": 40,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "AEM.nyse": {
+        "Current": 59.05,
+        "P/E": 559,
+        "DCF": 99,
+        "ROE": 64,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "ALSN.nyse": {
+        "Current": 42.5,
+        "P/E": 73,
+        "DCF": 215,
+        "ROE": 184,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "ALV.nyse": {
+        "Current": 98.33,
+        "P/E": 107,
+        "DCF": 216,
+        "ROE": 154,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "ASX.nyse": {
+        "Current": 7.49,
+        "P/E": 14,
+        "DCF": 286,
+        "ROE": 594,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "BMA.nyse": {
+        "Current": 14.48,
+        "P/E": 129,
+        "DCF": 0,
+        "ROE": 8919,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "CCU.nyse": {
+        "Current": 18.38,
+        "P/E": 29,
+        "DCF": 6731,
+        "ROE": 5303,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "CEA.nyse": {
+        "Current": 23.57,
+        "P/E": 204,
+        "DCF": 2365,
+        "ROE": 3212,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "CIG.nyse": {
+        "Current": 2.14,
+        "P/E": 11,
+        "DCF": 2,
+        "ROE": 6,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "ZZZ.tsx": {
+        "Current": 30.8,
+        "P/E": 36,
+        "DCF": 96,
+        "ROE": 44,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "NTES.nas": {
+        "Current": 107.9,
+        "P/E": 104,
+        "DCF": 326,
+        "ROE": 183,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CW.nyse": {
+        "Current": 123.64,
+        "P/E": 2041,
+        "DCF": 23520,
+        "ROE": 42733,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "DE.nyse": {
+        "Current": 369.92,
+        "P/E": 1424,
+        "DCF": 789,
+        "ROE": 548,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "ELP.nyse": {
+        "Current": 11.23,
+        "P/E": 25,
+        "DCF": 136,
+        "ROE": 40,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "ESNT.nyse": {
+        "Current": 45.89,
+        "P/E": 260,
+        "DCF": 87,
+        "ROE": 55,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "GEO.nyse": {
+        "Current": 8.08,
+        "P/E": 26,
+        "DCF": 13,
+        "ROE": 36,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "JEF.nyse": {
+        "Current": 33.03,
+        "P/E": 343,
+        "DCF": 187,
+        "ROE": 37,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "KBH.nyse": {
+        "Current": 44.07,
+        "P/E": 52,
+        "DCF": 58,
+        "ROE": 54,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "LAZ.nyse": {
+        "Current": 43.98,
+        "P/E": 47,
+        "DCF": 61,
+        "ROE": 43,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "LFC.nyse": {
+        "Current": 10.68,
+        "P/E": 55,
+        "DCF": 8652,
+        "ROE": 1479,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "MGA.nyse": {
+        "Current": 92.7064,
+        "P/E": 321,
+        "DCF": 193,
+        "ROE": 221,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "PBFX.nyse": {
+        "Current": 14.45,
+        "P/E": 17,
+        "DCF": 27,
+        "ROE": 23,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "PHM.nyse": {
+        "Current": 47.97,
+        "P/E": 71,
+        "DCF": 125,
+        "ROE": 59,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "PKX.nyse": {
+        "Current": 66.98,
+        "P/E": 140,
+        "DCF": 31501,
+        "ROE": 33942,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "RM.nyse": {
+        "Current": 36.815,
+        "P/E": 56,
+        "DCF": 408,
+        "ROE": 81,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "RMAX.nyse": {
+        "Current": 42.795,
+        "P/E": 327,
+        "DCF": 5242,
+        "ROE": 4209,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "RNR.nyse": {
+        "Current": 165.83,
+        "P/E": 478,
+        "DCF": 930,
+        "ROE": 261,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "SHLX.nyse": {
+        "Current": 13.84,
+        "P/E": 18,
+        "DCF": 19,
+        "ROE": 24,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "SNX.nyse": {
+        "Current": 102.65,
+        "P/E": 2198,
+        "DCF": 402,
+        "ROE": 101,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "STM.nyse": {
+        "Current": 35.75,
+        "P/E": 75,
+        "DCF": 76,
+        "ROE": 151,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "TROX.nyse": {
+        "Current": 19.46,
+        "P/E": 2172,
+        "DCF": 130,
+        "ROE": 76,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "TX.nyse": {
+        "Current": 36.02,
+        "P/E": 86,
+        "DCF": 101,
+        "ROE": 116,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "WOR.nyse": {
+        "Current": 72.72,
+        "P/E": 1492,
+        "DCF": 386,
+        "ROE": 233,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "WWE.nyse": {
+        "Current": 57.23,
+        "P/E": 156,
+        "DCF": 224,
+        "ROE": 71,
+        "Exchange": "NYSE",
+        "Quality": "Good"
+    },
+    "GS.nyse": {
+        "Current": 348.81,
+        "P/E": 347,
+        "DCF": -4003,
+        "ROE": 416,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "DX.nyse": {
+        "Current": 18.64,
+        "P/E": 24,
+        "DCF": -25,
+        "ROE": 9,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "AUTO.nas": {
+        "Current": 2.93,
+        "P/E": -34,
+        "DCF": -30,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NMRK.nas": {
+        "Current": 10.95,
+        "P/E": 0,
+        "DCF": -105,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ROLL.nas": {
+        "Current": 201,
+        "P/E": 109,
+        "DCF": 96,
+        "ROE": 73,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "TEX.nyse": {
+        "Current": 47.2,
+        "P/E": 0,
+        "DCF": 51338,
+        "ROE": 18652,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "CMCSA.nas": {
+        "Current": 57.19,
+        "P/E": 34,
+        "DCF": 25,
+        "ROE": 62,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRI.nyse": {
+        "Current": 153.28,
+        "P/E": 194,
+        "DCF": 0,
+        "ROE": 142,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "LXFR.nyse": {
+        "Current": 21.87,
+        "P/E": 0,
+        "DCF": -12,
+        "ROE": 12,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "ATO.nyse": {
+        "Current": 91.67,
+        "P/E": 119,
+        "DCF": -168,
+        "ROE": 66,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "NWN.nyse": {
+        "Current": 52.915,
+        "P/E": 0,
+        "DCF": -111,
+        "ROE": 23,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "LPG.nyse": {
+        "Current": 14.21,
+        "P/E": 17,
+        "DCF": 64,
+        "ROE": 0,
+        "Exchange": "NYSE",
+        "Quality": "Okay"
+    },
+    "CMD.nyse": {
+        "Current": 77.6175,
+        "P/E": 5,
+        "DCF": 84,
+        "ROE": 33,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "HMSY.nas": {
+        "Current": 36.75,
+        "P/E": 29,
+        "DCF": 19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HVT.nyse": {
+        "Current": 36.9775,
+        "P/E": 0,
+        "DCF": 59,
+        "ROE": 30,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "DOW.nyse": {
+        "Current": 64.17,
+        "P/E": 17,
+        "DCF": 0,
+        "ROE": 18,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "ATH.nyse": {
+        "Current": 50.225,
+        "P/E": 1,
+        "DCF": -535,
+        "ROE": 0,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "INSE.nas": {
+        "Current": 9.7101,
+        "P/E": -25,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MKC.nyse": {
+        "Current": 86.55,
+        "P/E": 0,
+        "DCF": 14,
+        "ROE": 38,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "OTTR.nas": {
+        "Current": 45.33,
+        "P/E": 41,
+        "DCF": -75,
+        "ROE": 35,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BPFH.nas": {
+        "Current": 14.6212,
+        "P/E": 10,
+        "DCF": -87,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NAVI.nas": {
+        "Current": 13.225,
+        "P/E": 11,
+        "DCF": -370,
+        "ROE": 20,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IRMD.nas": {
+        "Current": 21.96,
+        "P/E": 7,
+        "DCF": 20,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GRUB.nyse": {
+        "Current": 67.67,
+        "P/E": -1030,
+        "DCF": 117,
+        "ROE": 0,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "ROST.nas": {
+        "Current": 122.62,
+        "P/E": 17,
+        "DCF": 501,
+        "ROE": 419,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FN.tsx": {
+        "Current": 50.65,
+        "P/E": 34,
+        "DCF": 0,
+        "ROE": 75,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AVA.nyse": {
+        "Current": 45.4,
+        "P/E": 41,
+        "DCF": -86,
+        "ROE": 31,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "MMS.nyse": {
+        "Current": 87.38,
+        "P/E": 1,
+        "DCF": 91,
+        "ROE": 63,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "BKEP.nas": {
+        "Current": 3.015,
+        "P/E": -9,
+        "DCF": 0,
+        "ROE": -8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTXS.nas": {
+        "Current": 133.88,
+        "P/E": 244,
+        "DCF": 100,
+        "ROE": 20,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OXY.nyse": {
+        "Current": 30.68,
+        "P/E": -546,
+        "DCF": -56,
+        "ROE": 0,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "MSON.nas": {
+        "Current": 19.36,
+        "P/E": -32,
+        "DCF": -48,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MSI.nyse": {
+        "Current": 178.945,
+        "P/E": 282,
+        "DCF": 62,
+        "ROE": 22,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "CLAR.nas": {
+        "Current": 18,
+        "P/E": 7,
+        "DCF": 11,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NUVA.nas": {
+        "Current": 64.865,
+        "P/E": -67,
+        "DCF": 39,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "UDR.nyse": {
+        "Current": 45.15,
+        "P/E": 0,
+        "DCF": -14,
+        "ROE": 3,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "BCC.nyse": {
+        "Current": 59.36,
+        "P/E": 22,
+        "DCF": 2,
+        "ROE": 3,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "UBA.nyse": {
+        "Current": 18.17,
+        "P/E": 0,
+        "DCF": 22,
+        "ROE": 12,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "HON.nyse": {
+        "Current": 214.38,
+        "P/E": 137,
+        "DCF": 77,
+        "ROE": 83,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "ACBI.nas": {
+        "Current": 25.26,
+        "P/E": 52,
+        "DCF": -71,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HPE.nyse": {
+        "Current": 15.81,
+        "P/E": -3,
+        "DCF": -28,
+        "ROE": 11,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "CHRW.nas": {
+        "Current": 95.92,
+        "P/E": 63,
+        "DCF": 36,
+        "ROE": 70,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "WH.nyse": {
+        "Current": 69.19,
+        "P/E": 0,
+        "DCF": -27,
+        "ROE": 8,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "TTM.nyse": {
+        "Current": 21.97,
+        "P/E": 0,
+        "DCF": -3351,
+        "ROE": -362,
+        "Exchange": "NYSE",
+        "Quality": "Bad"
+    },
+    "AAV.tsx": {
+        "Current": 2.81,
+        "P/E": -74,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ABX.tsx": {
+        "Current": 25.36,
+        "P/E": 3,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AC.tsx": {
+        "Current": 29.72,
+        "P/E": -19,
+        "DCF": -63,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ACQ.tsx": {
+        "Current": 32.98,
+        "P/E": -13,
+        "DCF": 143,
+        "ROE": -6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ADN.tsx": {
+        "Current": 18.89,
+        "P/E": 12,
+        "DCF": -14,
+        "ROE": 16,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AEM.tsx": {
+        "Current": 73.72,
+        "P/E": 183,
+        "DCF": 10,
+        "ROE": 11,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AFN.tsx": {
+        "Current": 40.11,
+        "P/E": -91,
+        "DCF": -76,
+        "ROE": 23,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AGI.tsx": {
+        "Current": 10.02,
+        "P/E": 233,
+        "DCF": -72,
+        "ROE": -419,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AIF.tsx": {
+        "Current": 61.56,
+        "P/E": 110,
+        "DCF": 38,
+        "ROE": 35,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AIM.tsx": {
+        "Current": 4.48,
+        "P/E": 1,
+        "DCF": -4,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ALA.tsx": {
+        "Current": 21.13,
+        "P/E": 100,
+        "DCF": -92,
+        "ROE": 17,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AQN.tsx": {
+        "Current": 19.79,
+        "P/E": 26,
+        "DCF": -11,
+        "ROE": 13,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ARE.tsx": {
+        "Current": 19.67,
+        "P/E": 19,
+        "DCF": -30,
+        "ROE": 13,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ARX.tsx": {
+        "Current": 8.5,
+        "P/E": -11,
+        "DCF": -7,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ATA.tsx": {
+        "Current": 27.88,
+        "P/E": 12,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ATP.tsx": {
+        "Current": 3.65,
+        "P/E": 5,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "BB.tsx": {
+        "Current": 14.8,
+        "P/E": -39,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BCE.tsx": {
+        "Current": 56.48,
+        "P/E": 33,
+        "DCF": 17,
+        "ROE": 48,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BDT.tsx": {
+        "Current": 8.74,
+        "P/E": 17,
+        "DCF": 28,
+        "ROE": 8,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "BHC.tsx": {
+        "Current": 41.6,
+        "P/E": -20,
+        "DCF": -46,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BIR.tsx": {
+        "Current": 3.11,
+        "P/E": -9,
+        "DCF": 0,
+        "ROE": -1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BLX.tsx": {
+        "Current": 41.17,
+        "P/E": 820,
+        "DCF": 51,
+        "ROE": 15,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "BMO.tsx": {
+        "Current": 110.21,
+        "P/E": 80,
+        "DCF": 329,
+        "ROE": 135,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "BNAU.tsx": {
+        "Current": 1.82,
+        "P/E": -1,
+        "DCF": -1690,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BNS.tsx": {
+        "Current": 79.31,
+        "P/E": 41,
+        "DCF": -339,
+        "ROE": 79,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BOS.tsx": {
+        "Current": 24.55,
+        "P/E": 15,
+        "DCF": 10,
+        "ROE": 5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BTE.tsx": {
+        "Current": 1.48,
+        "P/E": -700,
+        "DCF": 0,
+        "ROE": -34,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BTO.tsx": {
+        "Current": 5.65,
+        "P/E": 35,
+        "DCF": 5,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "BYD.tsx": {
+        "Current": 226.98,
+        "P/E": 72,
+        "DCF": 84,
+        "ROE": 10,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CAE.tsx": {
+        "Current": 35.13,
+        "P/E": 0,
+        "DCF": -3,
+        "ROE": 12,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CCA.tsx": {
+        "Current": 117.81,
+        "P/E": 54,
+        "DCF": 47,
+        "ROE": 48,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CCO.tsx": {
+        "Current": 21.51,
+        "P/E": -36,
+        "DCF": -14,
+        "ROE": 12,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CEE.tsx": {
+        "Current": 1.85,
+        "P/E": 2,
+        "DCF": 4,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "CERV.tsx": {
+        "Current": 16.1,
+        "P/E": 13,
+        "DCF": 54,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CF.tsx": {
+        "Current": 12.44,
+        "P/E": 31,
+        "DCF": 161,
+        "ROE": -2,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "CFX.tsx": {
+        "Current": 9.5,
+        "P/E": -4,
+        "DCF": -1,
+        "ROE": 4,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CGO.tsx": {
+        "Current": 97.5,
+        "P/E": 22,
+        "DCF": -95,
+        "ROE": 12,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CGY.tsx": {
+        "Current": 60.39,
+        "P/E": 18,
+        "DCF": 8,
+        "ROE": 27,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CHR.tsx": {
+        "Current": 5.15,
+        "P/E": 2,
+        "DCF": -43,
+        "ROE": 18,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CIGI.tsx": {
+        "Current": 128.37,
+        "P/E": 62,
+        "DCF": 36,
+        "ROE": 70,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CLS.tsx": {
+        "Current": 10.7,
+        "P/E": 4,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CM.tsx": {
+        "Current": 124.49,
+        "P/E": 71,
+        "DCF": 629,
+        "ROE": 172,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "CMG.tsx": {
+        "Current": 6.31,
+        "P/E": 4,
+        "DCF": 2,
+        "ROE": 2,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CNQ.tsx": {
+        "Current": 40.2,
+        "P/E": -10,
+        "DCF": -8,
+        "ROE": 9,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CP.tsx": {
+        "Current": 465.29,
+        "P/E": 340,
+        "DCF": 76,
+        "ROE": 327,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CPG.tsx": {
+        "Current": 5.7,
+        "P/E": 0,
+        "DCF": 29322,
+        "ROE": -145963,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CPX.tsx": {
+        "Current": 35.83,
+        "P/E": 31,
+        "DCF": -64,
+        "ROE": 34,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CRON.tsx": {
+        "Current": 12.87,
+        "P/E": -98,
+        "DCF": -25,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CSU.tsx": {
+        "Current": 1703.19,
+        "P/E": 1527,
+        "DCF": 1757,
+        "ROE": 673,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CVE.tsx": {
+        "Current": 10.57,
+        "P/E": -21,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "CWB.tsx": {
+        "Current": 34.11,
+        "P/E": 24,
+        "DCF": -7,
+        "ROE": 36,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "DOL.tsx": {
+        "Current": 50.07,
+        "P/E": 48,
+        "DCF": 32,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "DOO.tsx": {
+        "Current": 96.9,
+        "P/E": 59,
+        "DCF": 139,
+        "ROE": -315,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "DPM.tsx": {
+        "Current": 8.09,
+        "P/E": 4809,
+        "DCF": 538,
+        "ROE": -41,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "DSG.tsx": {
+        "Current": 77.25,
+        "P/E": 60,
+        "DCF": 38,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "EDR.tsx": {
+        "Current": 7.48,
+        "P/E": 362,
+        "DCF": -407415,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "EDV.tsx": {
+        "Current": 24.39,
+        "P/E": -397,
+        "DCF": 581,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "EIF.tsx": {
+        "Current": 40.7,
+        "P/E": 11,
+        "DCF": 3,
+        "ROE": 46,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ELD.tsx": {
+        "Current": 14.3,
+        "P/E": 1356,
+        "DCF": 5605,
+        "ROE": -23198,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "ELF.tsx": {
+        "Current": 895,
+        "P/E": 2002,
+        "DCF": -2561,
+        "ROE": 1941,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "EMA.tsx": {
+        "Current": 53.26,
+        "P/E": 63,
+        "DCF": -143,
+        "ROE": 39,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ENB.tsx": {
+        "Current": 45.43,
+        "P/E": 33,
+        "DCF": -19,
+        "ROE": 44,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ENGH.tsx": {
+        "Current": 61.41,
+        "P/E": 52,
+        "DCF": 50,
+        "ROE": 20,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "EQB.tsx": {
+        "Current": 140.4,
+        "P/E": 122,
+        "DCF": -1092,
+        "ROE": 389,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ERF.tsx": {
+        "Current": 7.09,
+        "P/E": -97,
+        "DCF": 12,
+        "ROE": -6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ESI.tsx": {
+        "Current": 1.56,
+        "P/E": -2,
+        "DCF": 4,
+        "ROE": -1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ESN.tsx": {
+        "Current": 0.38,
+        "P/E": -3,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ET.tsx": {
+        "Current": 0,
+        "P/E": 0,
+        "DCF": 43,
+        "ROE": 21,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "FEC.tsx": {
+        "Current": 6.43,
+        "P/E": 0,
+        "DCF": 120,
+        "ROE": 122,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "FM.tsx": {
+        "Current": 27.9,
+        "P/E": -57,
+        "DCF": 11,
+        "ROE": -3,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FNV.tsx": {
+        "Current": 150.46,
+        "P/E": 245,
+        "DCF": 73,
+        "ROE": 34,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FR.tsx": {
+        "Current": 20.94,
+        "P/E": 3294,
+        "DCF": -29710,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FRU.tsx": {
+        "Current": 7.58,
+        "P/E": -12,
+        "DCF": 4,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FSV.tsx": {
+        "Current": 189.31,
+        "P/E": 66,
+        "DCF": 40,
+        "ROE": 7,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FSZ.tsx": {
+        "Current": 11.01,
+        "P/E": 1,
+        "DCF": 10,
+        "ROE": 8,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FTS.tsx": {
+        "Current": 52.41,
+        "P/E": 34,
+        "DCF": -115,
+        "ROE": 35,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "FTT.tsx": {
+        "Current": 32.87,
+        "P/E": 38,
+        "DCF": -10,
+        "ROE": 35,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "GAU.tsx": {
+        "Current": 1.56,
+        "P/E": 42,
+        "DCF": -4,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GC.tsx": {
+        "Current": 43.06,
+        "P/E": -23,
+        "DCF": -84,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GCL.tsx": {
+        "Current": 1.16,
+        "P/E": -4,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GEI.tsx": {
+        "Current": 22.35,
+        "P/E": 17,
+        "DCF": 23,
+        "ROE": 21,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GEO.tsx": {
+        "Current": 1.955,
+        "P/E": 33,
+        "DCF": -35,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GFL.tsx": {
+        "Current": 41.37,
+        "P/E": 0,
+        "DCF": -21,
+        "ROE": -75,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GH.tsx": {
+        "Current": 7.28,
+        "P/E": 2,
+        "DCF": 4,
+        "ROE": 5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GIL.tsx": {
+        "Current": 39.01,
+        "P/E": -21,
+        "DCF": 29,
+        "ROE": 10,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GTE.tsx": {
+        "Current": 1.04,
+        "P/E": -129,
+        "DCF": -20,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GUD.tsx": {
+        "Current": 5.27,
+        "P/E": 6,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GWO.tsx": {
+        "Current": 32.89,
+        "P/E": 25,
+        "DCF": -521,
+        "ROE": 32,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "GWR.tsx": {
+        "Current": 22.39,
+        "P/E": 0,
+        "DCF": -9,
+        "ROE": 5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "H.tsx": {
+        "Current": 28.87,
+        "P/E": 30,
+        "DCF": -27,
+        "ROE": 15,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "HBM.tsx": {
+        "Current": 9.48,
+        "P/E": -37,
+        "DCF": -20,
+        "ROE": -7,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "HCG.tsx": {
+        "Current": 32.52,
+        "P/E": 39,
+        "DCF": -331,
+        "ROE": 18,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "HRX.tsx": {
+        "Current": 16.46,
+        "P/E": -52,
+        "DCF": 38,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "IAG.tsx": {
+        "Current": 68.12,
+        "P/E": 43,
+        "DCF": -689,
+        "ROE": 69,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "IBG.tsx": {
+        "Current": 9.62,
+        "P/E": 5,
+        "DCF": 18,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "IGM.tsx": {
+        "Current": 38.72,
+        "P/E": 30,
+        "DCF": 0,
+        "ROE": 48,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "IMO.tsx": {
+        "Current": 32.24,
+        "P/E": -27,
+        "DCF": -15,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "INE.tsx": {
+        "Current": 22.35,
+        "P/E": -47,
+        "DCF": -109,
+        "ROE": 10,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "IPL.tsx": {
+        "Current": 18.42,
+        "P/E": 6,
+        "DCF": -35,
+        "ROE": 8,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ISV.tsx": {
+        "Current": 21.7,
+        "P/E": 11,
+        "DCF": 21,
+        "ROE": 13,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ITP.tsx": {
+        "Current": 28.8,
+        "P/E": 12,
+        "DCF": 19,
+        "ROE": 11,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "K.tsx": {
+        "Current": 8.37,
+        "P/E": 15,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "KBL.tsx": {
+        "Current": 39.61,
+        "P/E": 17,
+        "DCF": 31,
+        "ROE": 30,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "KEY.tsx": {
+        "Current": 27.11,
+        "P/E": 10,
+        "DCF": -6,
+        "ROE": 96,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "KL.tsx": {
+        "Current": 43.05,
+        "P/E": 49,
+        "DCF": 31,
+        "ROE": 23,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "KPT.tsx": {
+        "Current": 10.93,
+        "P/E": 9,
+        "DCF": 0,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "L.tsx": {
+        "Current": 65.54,
+        "P/E": 61,
+        "DCF": 95,
+        "ROE": 28,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "LB.tsx": {
+        "Current": 40.02,
+        "P/E": 26,
+        "DCF": -652,
+        "ROE": 72,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "LIF.tsx": {
+        "Current": 40.3,
+        "P/E": 33,
+        "DCF": 55,
+        "ROE": 45,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "LNR.tsx": {
+        "Current": 84.66,
+        "P/E": 20,
+        "DCF": 42,
+        "ROE": 106,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "LUN.tsx": {
+        "Current": 14.94,
+        "P/E": 22,
+        "DCF": 5,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MAL.tsx": {
+        "Current": 11.57,
+        "P/E": 0,
+        "DCF": 24,
+        "ROE": 19,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "MAXR.tsx": {
+        "Current": 58.2,
+        "P/E": 184,
+        "DCF": -80,
+        "ROE": -25,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MEG.tsx": {
+        "Current": 7.54,
+        "P/E": -109,
+        "DCF": 31,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MFC.tsx": {
+        "Current": 27.22,
+        "P/E": 27,
+        "DCF": -273,
+        "ROE": 23,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MFI.tsx": {
+        "Current": 27.15,
+        "P/E": 28,
+        "DCF": -7,
+        "ROE": 13,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MG.tsx": {
+        "Current": 115.01,
+        "P/E": 11,
+        "DCF": 22,
+        "ROE": 36,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MIC.tsx": {
+        "Current": 43.41,
+        "P/E": 23,
+        "DCF": 65,
+        "ROE": 40,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MRE.tsx": {
+        "Current": 13.98,
+        "P/E": -1,
+        "DCF": -13,
+        "ROE": 17,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MRU.tsx": {
+        "Current": 54.95,
+        "P/E": 40,
+        "DCF": 45,
+        "ROE": 53,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MSI.tsx": {
+        "Current": 33.69,
+        "P/E": 47,
+        "DCF": -2,
+        "ROE": 13,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "MTL.tsx": {
+        "Current": 12.45,
+        "P/E": 20,
+        "DCF": 32,
+        "ROE": 10,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "MTY.tsx": {
+        "Current": 55.63,
+        "P/E": -34,
+        "DCF": 101,
+        "ROE": 69,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "MX.tsx": {
+        "Current": 53.17,
+        "P/E": -36,
+        "DCF": 6,
+        "ROE": 23,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "NA.tsx": {
+        "Current": 87.08,
+        "P/E": 56,
+        "DCF": 116,
+        "ROE": 87,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "NFI.tsx": {
+        "Current": 30.26,
+        "P/E": -69,
+        "DCF": 10,
+        "ROE": 52,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "NGD.tsx": {
+        "Current": 2.16,
+        "P/E": -9,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "NTR.tsx": {
+        "Current": 72.92,
+        "P/E": 132,
+        "DCF": 20,
+        "ROE": 51,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "OGC.tsx": {
+        "Current": 1.88,
+        "P/E": -22,
+        "DCF": 9,
+        "ROE": 21,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "OGD.tsx": {
+        "Current": 0.96,
+        "P/E": -5,
+        "DCF": -12,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "OR.tsx": {
+        "Current": 14.06,
+        "P/E": 7,
+        "DCF": -8,
+        "ROE": -5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "ORL.tsx": {
+        "Current": 4.58,
+        "P/E": -28,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "OTEX.tsx": {
+        "Current": 59.37,
+        "P/E": 9,
+        "DCF": 58,
+        "ROE": 30,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PAAS.tsx": {
+        "Current": 39.99,
+        "P/E": 71,
+        "DCF": 20,
+        "ROE": 8,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PBH.tsx": {
+        "Current": 116.21,
+        "P/E": 900,
+        "DCF": 3185,
+        "ROE": 7131,
+        "Exchange": "TSX",
+        "Quality": "Good"
+    },
+    "PD.tsx": {
+        "Current": 34.12,
+        "P/E": -56,
+        "DCF": -49,
+        "ROE": -2,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PEY.tsx": {
+        "Current": 6.14,
+        "P/E": -1,
+        "DCF": -12,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PHO.tsx": {
+        "Current": 2.54,
+        "P/E": 1,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PKI.tsx": {
+        "Current": 39.9,
+        "P/E": 13,
+        "DCF": 20,
+        "ROE": 15,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PLC.tsx": {
+        "Current": 30.01,
+        "P/E": 16,
+        "DCF": -14,
+        "ROE": 9,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "POW.tsx": {
+        "Current": 32.85,
+        "P/E": 20,
+        "DCF": -467,
+        "ROE": 31,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PPL.tsx": {
+        "Current": 38.27,
+        "P/E": -13,
+        "DCF": -9,
+        "ROE": 25,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PSI.tsx": {
+        "Current": 10.37,
+        "P/E": 1,
+        "DCF": 8,
+        "ROE": 4,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PSK.tsx": {
+        "Current": 14.33,
+        "P/E": 25,
+        "DCF": 0,
+        "ROE": 21,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "PTS.tsx": {
+        "Current": 20,
+        "P/E": -16,
+        "DCF": -28,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "PXT.tsx": {
+        "Current": 22.87,
+        "P/E": 31,
+        "DCF": 24,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "QSR.tsx": {
+        "Current": 79.18,
+        "P/E": 60,
+        "DCF": 14,
+        "ROE": 66,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "QTRH.tsx": {
+        "Current": 2.59,
+        "P/E": 7,
+        "DCF": 0,
+        "ROE": 5,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "RBA.tsx": {
+        "Current": 71.62,
+        "P/E": 48,
+        "DCF": 0,
+        "ROE": 24,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "RCG.tsx": {
+        "Current": 1.76,
+        "P/E": 4,
+        "DCF": -7,
+        "ROE": -1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "RCH.tsx": {
+        "Current": 38.1,
+        "P/E": 37,
+        "DCF": 49,
+        "ROE": 25,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "RNW.tsx": {
+        "Current": 19.74,
+        "P/E": 20,
+        "DCF": 14,
+        "ROE": 11,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "RUS.tsx": {
+        "Current": 25.76,
+        "P/E": 4,
+        "DCF": 80,
+        "ROE": 27,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "RY.tsx": {
+        "Current": 116.45,
+        "P/E": 59,
+        "DCF": 281,
+        "ROE": 81,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "S.tsx": {
+        "Current": 0.58,
+        "P/E": 0,
+        "DCF": -6,
+        "ROE": -82,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SAP.tsx": {
+        "Current": 38.39,
+        "P/E": 27,
+        "DCF": 16,
+        "ROE": 31,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SCL.tsx": {
+        "Current": 7.27,
+        "P/E": -204,
+        "DCF": 30,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SES.tsx": {
+        "Current": 4.4,
+        "P/E": -181,
+        "DCF": 87,
+        "ROE": -30,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SHOP.tsx": {
+        "Current": 1422.91,
+        "P/E": 6535,
+        "DCF": 85,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SII.tsx": {
+        "Current": 55.69,
+        "P/E": 12,
+        "DCF": 1,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SIS.tsx": {
+        "Current": 17.41,
+        "P/E": 10,
+        "DCF": 5,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SJ.tsx": {
+        "Current": 49.38,
+        "P/E": 41,
+        "DCF": 0,
+        "ROE": 25,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SLF.tsx": {
+        "Current": 64.47,
+        "P/E": 40,
+        "DCF": -293,
+        "ROE": 59,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SNC.tsx": {
+        "Current": 27.36,
+        "P/E": -77,
+        "DCF": -75,
+        "ROE": -5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SOY.tsx": {
+        "Current": 17.75,
+        "P/E": 40,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SSL.tsx": {
+        "Current": 8.65,
+        "P/E": 11,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SSRM.tsx": {
+        "Current": 18.95,
+        "P/E": 30,
+        "DCF": 8,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SU.tsx": {
+        "Current": 29.32,
+        "P/E": -33,
+        "DCF": -35,
+        "ROE": 5,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SW.tsx": {
+        "Current": 21.36,
+        "P/E": -74,
+        "DCF": -8,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "SXP.tsx": {
+        "Current": 2.4,
+        "P/E": 2,
+        "DCF": 31,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "T.tsx": {
+        "Current": 26.61,
+        "P/E": 16,
+        "DCF": 5,
+        "ROE": 31,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TA.tsx": {
+        "Current": 11.19,
+        "P/E": -39,
+        "DCF": 4,
+        "ROE": -1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TCW.tsx": {
+        "Current": 2.22,
+        "P/E": -68,
+        "DCF": 24,
+        "ROE": -26,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TD.tsx": {
+        "Current": 81.65,
+        "P/E": 52,
+        "DCF": 1022,
+        "ROE": 67,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TFII.tsx": {
+        "Current": 91.64,
+        "P/E": 52,
+        "DCF": 64,
+        "ROE": 50,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TGL.tsx": {
+        "Current": 2.06,
+        "P/E": -1,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TH.tsx": {
+        "Current": 3.78,
+        "P/E": -71,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TIH.tsx": {
+        "Current": 89.39,
+        "P/E": 45,
+        "DCF": 38,
+        "ROE": 34,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TKO.tsx": {
+        "Current": 2.28,
+        "P/E": -4,
+        "DCF": 6,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TOT.tsx": {
+        "Current": 4.05,
+        "P/E": -12,
+        "DCF": 18,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TOU.tsx": {
+        "Current": 26.08,
+        "P/E": 72,
+        "DCF": -16,
+        "ROE": 12,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TOY.tsx": {
+        "Current": 37.17,
+        "P/E": 10,
+        "DCF": 102,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TRI.tsx": {
+        "Current": 109.33,
+        "P/E": 150,
+        "DCF": -1,
+        "ROE": 92,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TRL.tsx": {
+        "Current": 1.43,
+        "P/E": -2,
+        "DCF": -21,
+        "ROE": 3,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TRP.tsx": {
+        "Current": 58.24,
+        "P/E": 130,
+        "DCF": -79,
+        "ROE": 42,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TRQ.tsx": {
+        "Current": 19.73,
+        "P/E": 7,
+        "DCF": -36,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TRZ.tsx": {
+        "Current": 5.85,
+        "P/E": -142,
+        "DCF": -1966,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "TXG.tsx": {
+        "Current": 16.44,
+        "P/E": 3643,
+        "DCF": 22249,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "UFS.tsx": {
+        "Current": 47.85,
+        "P/E": -44,
+        "DCF": 7,
+        "ROE": 6,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "UNS.tsx": {
+        "Current": 9.76,
+        "P/E": -10,
+        "DCF": 0,
+        "ROE": 4,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "URE.tsx": {
+        "Current": 1.45,
+        "P/E": -47,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "VET.tsx": {
+        "Current": 10.83,
+        "P/E": 89,
+        "DCF": -20,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "VII.tsx": {
+        "Current": 9.25,
+        "P/E": -584,
+        "DCF": 27,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "VQS.tsx": {
+        "Current": 6.85,
+        "P/E": -598,
+        "DCF": -26,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "WCN.tsx": {
+        "Current": 128.49,
+        "P/E": 0,
+        "DCF": 23,
+        "ROE": 24,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "WEF.tsx": {
+        "Current": 1.69,
+        "P/E": 1,
+        "DCF": -2,
+        "ROE": 1,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "WJX.tsx": {
+        "Current": 20.5,
+        "P/E": 16,
+        "DCF": 44,
+        "ROE": 29,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "WN.tsx": {
+        "Current": 101.7,
+        "P/E": 234,
+        "DCF": 149,
+        "ROE": 44,
+        "Exchange": "TSX",
+        "Quality": "Okay"
+    },
+    "WPM.tsx": {
+        "Current": 48.95,
+        "P/E": 86,
+        "DCF": 11,
+        "ROE": 4,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "WPRT.tsx": {
+        "Current": 12.16,
+        "P/E": -88,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "WSP.tsx": {
+        "Current": 115.93,
+        "P/E": 104,
+        "DCF": 308,
+        "ROE": 110,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "X.tsx": {
+        "Current": 127.94,
+        "P/E": 84,
+        "DCF": -468,
+        "ROE": 75,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "XBC.tsx": {
+        "Current": 5.46,
+        "P/E": -29,
+        "DCF": -15,
+        "ROE": 0,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "Y.tsx": {
+        "Current": 12.04,
+        "P/E": 3,
+        "DCF": 18,
+        "ROE": 2,
+        "Exchange": "TSX",
+        "Quality": "Bad"
+    },
+    "AAON.nas": {
+        "Current": 74.86,
+        "P/E": 52,
+        "DCF": 22,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AAPL.nas": {
+        "Current": 121.03,
+        "P/E": 66,
+        "DCF": 81,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ABCB.nas": {
+        "Current": 55.47,
+        "P/E": 52,
+        "DCF": -41,
+        "ROE": 38,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACGL.nas": {
+        "Current": 37.62,
+        "P/E": 42,
+        "DCF": 32,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACHC.nas": {
+        "Current": 59.72,
+        "P/E": -974,
+        "DCF": -48,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACIW.nas": {
+        "Current": 40.69,
+        "P/E": 85,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACLS.nas": {
+        "Current": 39.79,
+        "P/E": 43,
+        "DCF": -19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACOR.nas": {
+        "Current": 5.86,
+        "P/E": -2730,
+        "DCF": -725,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ACTG.nas": {
+        "Current": 6.39,
+        "P/E": 10,
+        "DCF": -11,
+        "ROE": -12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADBE.nas": {
+        "Current": 444.3,
+        "P/E": 611,
+        "DCF": 253,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADES.nas": {
+        "Current": 5.75,
+        "P/E": -40,
+        "DCF": 237,
+        "ROE": 516,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "ADI.nas": {
+        "Current": 149.54,
+        "P/E": 104,
+        "DCF": 77,
+        "ROE": 72,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADP.nas": {
+        "Current": 182.77,
+        "P/E": 146,
+        "DCF": 32,
+        "ROE": 93,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADSK.nas": {
+        "Current": 268.11,
+        "P/E": 2312,
+        "DCF": 257,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADTN.nas": {
+        "Current": 18.29,
+        "P/E": 1,
+        "DCF": -5,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ADUS.nas": {
+        "Current": 106.25,
+        "P/E": 84,
+        "DCF": 69,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AEGN.nas": {
+        "Current": 29.13,
+        "P/E": -229,
+        "DCF": 59,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AEHR.nas": {
+        "Current": 2.56,
+        "P/E": -27,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AEIS.nas": {
+        "Current": 106.35,
+        "P/E": 58,
+        "DCF": 37,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AEP.nas": {
+        "Current": 81.04,
+        "P/E": 87,
+        "DCF": -194,
+        "ROE": 51,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AGNC.nas": {
+        "Current": 16.47,
+        "P/E": -6,
+        "DCF": -103,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AIMC.nas": {
+        "Current": 63.49,
+        "P/E": -10,
+        "DCF": 48,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AINV.nas": {
+        "Current": 14.47,
+        "P/E": -15,
+        "DCF": 59,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AKAM.nas": {
+        "Current": 97.55,
+        "P/E": 107,
+        "DCF": 34,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALGN.nas": {
+        "Current": 536.44,
+        "P/E": 1760,
+        "DCF": 252,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALGT.nas": {
+        "Current": 253.71,
+        "P/E": -39,
+        "DCF": -162,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALRM.nas": {
+        "Current": 87.24,
+        "P/E": 163,
+        "DCF": 15,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALTA.nas": {
+        "Current": 38.63,
+        "P/E": 29,
+        "DCF": -114,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALTM.nas": {
+        "Current": 59.22,
+        "P/E": 0,
+        "DCF": -2530,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALTR.nas": {
+        "Current": 60.63,
+        "P/E": -4,
+        "DCF": 44,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ALXN.nas": {
+        "Current": 151.59,
+        "P/E": 223,
+        "DCF": 207,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "AMAT.nas": {
+        "Current": 114.29,
+        "P/E": 83,
+        "DCF": 107,
+        "ROE": 90,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMBA.nas": {
+        "Current": 113.78,
+        "P/E": -79,
+        "DCF": 23,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMCX.nas": {
+        "Current": 78.63,
+        "P/E": 14,
+        "DCF": -16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMD.nas": {
+        "Current": 81.05,
+        "P/E": 395,
+        "DCF": 22,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMED.nas": {
+        "Current": 266.3,
+        "P/E": 269,
+        "DCF": 193,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMGN.nas": {
+        "Current": 230.36,
+        "P/E": 222,
+        "DCF": 186,
+        "ROE": 115,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMNB.nas": {
+        "Current": 36.5,
+        "P/E": 29,
+        "DCF": -186,
+        "ROE": 25,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMPH.nas": {
+        "Current": 19.36,
+        "P/E": 21,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMRB.nas": {
+        "Current": 15.1,
+        "P/E": 19,
+        "DCF": 0,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "AMSC.nas": {
+        "Current": 25.92,
+        "P/E": -109,
+        "DCF": -33,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMSF.nas": {
+        "Current": 64.7,
+        "P/E": 61,
+        "DCF": 17,
+        "ROE": 49,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMSWA.nas": {
+        "Current": 21.38,
+        "P/E": 7,
+        "DCF": 19,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMWD.nas": {
+        "Current": 106.36,
+        "P/E": 63,
+        "DCF": 87,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AMZN.nas": {
+        "Current": 3089.49,
+        "P/E": 15568,
+        "DCF": 2984,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANGI.nas": {
+        "Current": 16.88,
+        "P/E": -6,
+        "DCF": 206,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANGO.nas": {
+        "Current": 22.93,
+        "P/E": -838,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANIK.nas": {
+        "Current": 37.07,
+        "P/E": -34,
+        "DCF": 42,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANIP.nas": {
+        "Current": 32.34,
+        "P/E": -342,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANSS.nas": {
+        "Current": 316.88,
+        "P/E": 169,
+        "DCF": 76,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ANY.nas": {
+        "Current": 2.69,
+        "P/E": -20,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AOSL.nas": {
+        "Current": 36.24,
+        "P/E": 125,
+        "DCF": 35,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "APA.nas": {
+        "Current": 21.23,
+        "P/E": -389,
+        "DCF": -31,
+        "ROE": 4,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "APEI.nas": {
+        "Current": 33.41,
+        "P/E": 27,
+        "DCF": 55,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "APPF.nas": {
+        "Current": 139.43,
+        "P/E": 1462,
+        "DCF": 7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "APPS.nas": {
+        "Current": 87.2,
+        "P/E": 120,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "APYX.nas": {
+        "Current": 11.49,
+        "P/E": -3,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARAV.nas": {
+        "Current": 7.22,
+        "P/E": -320,
+        "DCF": -7653,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARAY.nas": {
+        "Current": 5.44,
+        "P/E": -2,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARCB.nas": {
+        "Current": 73.9,
+        "P/E": 53,
+        "DCF": 35,
+        "ROE": 37,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARCC.nas": {
+        "Current": 18.57,
+        "P/E": 10,
+        "DCF": -50,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARLP.nas": {
+        "Current": 5.85,
+        "P/E": -2,
+        "DCF": 10,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "ARNA.nas": {
+        "Current": 77.07,
+        "P/E": -8,
+        "DCF": -26,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AROW.nas": {
+        "Current": 36.1,
+        "P/E": 28,
+        "DCF": -155,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARTNA.nas": {
+        "Current": 42.33,
+        "P/E": 27,
+        "DCF": 0,
+        "ROE": 20,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ARWR.nas": {
+        "Current": 72.74,
+        "P/E": -152,
+        "DCF": -4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASML.nas": {
+        "Current": 537.63,
+        "P/E": 253,
+        "DCF": 196,
+        "ROE": 134,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASND.nas": {
+        "Current": 149.25,
+        "P/E": -1964,
+        "DCF": -173,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASPS.nas": {
+        "Current": 9.06,
+        "P/E": -209,
+        "DCF": -6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASRT.nas": {
+        "Current": 0.9835,
+        "P/E": -4,
+        "DCF": -11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASTE.nas": {
+        "Current": 77.17,
+        "P/E": 64,
+        "DCF": 68,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ASYS.nas": {
+        "Current": 12.32,
+        "P/E": -29,
+        "DCF": -6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATHX.nas": {
+        "Current": 1.95,
+        "P/E": -6515,
+        "DCF": -28613,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATLC.nas": {
+        "Current": 32.53,
+        "P/E": 24,
+        "DCF": 265,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATNI.nas": {
+        "Current": 52.09,
+        "P/E": -58,
+        "DCF": 21,
+        "ROE": 18,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATRO.nas": {
+        "Current": 18.41,
+        "P/E": -332,
+        "DCF": 154,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATRS.nas": {
+        "Current": 4.54,
+        "P/E": 284,
+        "DCF": -25,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATSG.nas": {
+        "Current": 29.315,
+        "P/E": 10,
+        "DCF": -47,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ATVI.nas": {
+        "Current": 93.035,
+        "P/E": 159,
+        "DCF": 47,
+        "ROE": 44,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AUB.nas": {
+        "Current": 41.23,
+        "P/E": 31,
+        "DCF": -166,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AUDC.nas": {
+        "Current": 29.37,
+        "P/E": 67,
+        "DCF": 8,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVAV.nas": {
+        "Current": 121.68,
+        "P/E": 79,
+        "DCF": 97,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVDL.nas": {
+        "Current": 9.77,
+        "P/E": 1,
+        "DCF": -20,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVGO.nas": {
+        "Current": 451.17,
+        "P/E": 906,
+        "DCF": 302,
+        "ROE": 200,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVID.nas": {
+        "Current": 21.11,
+        "P/E": 14,
+        "DCF": -7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVNW.nas": {
+        "Current": 63.75,
+        "P/E": 219,
+        "DCF": 34,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AVT.nas": {
+        "Current": 39.39,
+        "P/E": -11,
+        "DCF": 59,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AXON.nas": {
+        "Current": 152.26,
+        "P/E": -14,
+        "DCF": 16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "AY.nas": {
+        "Current": 36.89,
+        "P/E": 35,
+        "DCF": 263,
+        "ROE": 81,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "AZN.nas": {
+        "Current": 48.42,
+        "P/E": 58,
+        "DCF": 6,
+        "ROE": 60,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "AZPN.nas": {
+        "Current": 150.54,
+        "P/E": 175,
+        "DCF": 74,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BANF.nas": {
+        "Current": 77.22,
+        "P/E": 36,
+        "DCF": -157,
+        "ROE": 42,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BANR.nas": {
+        "Current": 59.02,
+        "P/E": 46,
+        "DCF": -294,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BBBY.nas": {
+        "Current": 30.16,
+        "P/E": -59,
+        "DCF": -296,
+        "ROE": 347,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BBSI.nas": {
+        "Current": 73.28,
+        "P/E": 70,
+        "DCF": 143,
+        "ROE": 121,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "BCBP.nas": {
+        "Current": 15.77,
+        "P/E": 14,
+        "DCF": 0,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BCOR.nas": {
+        "Current": 17.345,
+        "P/E": -1461,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BCPC.nas": {
+        "Current": 130.7,
+        "P/E": 129,
+        "DCF": 94,
+        "ROE": 86,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BDSI.nas": {
+        "Current": 4,
+        "P/E": 29,
+        "DCF": 3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BECN.nas": {
+        "Current": 54.31,
+        "P/E": -106,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BFIN.nas": {
+        "Current": 10.98,
+        "P/E": 10,
+        "DCF": -49,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BGCP.nas": {
+        "Current": 4.57,
+        "P/E": 4,
+        "DCF": 1,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BGFV.nas": {
+        "Current": 14.9,
+        "P/E": 25,
+        "DCF": -5,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BIIB.nas": {
+        "Current": 266.13,
+        "P/E": 142,
+        "DCF": 87,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BKCC.nas": {
+        "Current": 3.55,
+        "P/E": -29,
+        "DCF": -15,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BKNG.nas": {
+        "Current": 2401.04,
+        "P/E": 837,
+        "DCF": 262086,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BLBD.nas": {
+        "Current": 25.29,
+        "P/E": 10,
+        "DCF": -6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BLDR.nas": {
+        "Current": 46.74,
+        "P/E": 50,
+        "DCF": 6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BLKB.nas": {
+        "Current": 73.82,
+        "P/E": 7,
+        "DCF": -19,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BLMN.nas": {
+        "Current": 28.48,
+        "P/E": -27,
+        "DCF": -13,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BMRC.nas": {
+        "Current": 41.5,
+        "P/E": 33,
+        "DCF": 0,
+        "ROE": 33,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BMRN.nas": {
+        "Current": 76.77,
+        "P/E": 906,
+        "DCF": -33,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BMTC.nas": {
+        "Current": 47.52,
+        "P/E": 24,
+        "DCF": -181,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BOCH.nas": {
+        "Current": 12.91,
+        "P/E": 9,
+        "DCF": -67,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BOKF.nas": {
+        "Current": 97.79,
+        "P/E": 69,
+        "DCF": -670,
+        "ROE": 74,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BOOM.nas": {
+        "Current": 67.1,
+        "P/E": -2,
+        "DCF": 26,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BPMC.nas": {
+        "Current": 107.36,
+        "P/E": 126,
+        "DCF": -148,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BPOP.nas": {
+        "Current": 73.36,
+        "P/E": 56,
+        "DCF": -599,
+        "ROE": 50,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BRKL.nas": {
+        "Current": 16.33,
+        "P/E": 7,
+        "DCF": -80,
+        "ROE": 10,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BRKR.nas": {
+        "Current": 61.39,
+        "P/E": 32,
+        "DCF": 17,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BRKS.nas": {
+        "Current": 84.09,
+        "P/E": 135,
+        "DCF": -2,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BRP.nas": {
+        "Current": 27.88,
+        "P/E": -42,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BRY.nas": {
+        "Current": 6.325,
+        "P/E": -33,
+        "DCF": -6,
+        "ROE": -3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BSET.nas": {
+        "Current": 27.57,
+        "P/E": -21,
+        "DCF": -14,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BSRR.nas": {
+        "Current": 28.4,
+        "P/E": 26,
+        "DCF": 0,
+        "ROE": 26,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BUSE.nas": {
+        "Current": 26.44,
+        "P/E": 20,
+        "DCF": -112,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BWB.nas": {
+        "Current": 16.97,
+        "P/E": 7,
+        "DCF": -93,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BWEN.nas": {
+        "Current": 6.02,
+        "P/E": -2,
+        "DCF": 13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "BZUN.nas": {
+        "Current": 45.71,
+        "P/E": 35,
+        "DCF": 16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CACC.nas": {
+        "Current": 384.59,
+        "P/E": 380,
+        "DCF": 1174,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CAKE.nas": {
+        "Current": 61.75,
+        "P/E": -53,
+        "DCF": -55,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CAMP.nas": {
+        "Current": 11.98,
+        "P/E": -352,
+        "DCF": -17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CAMT.nas": {
+        "Current": 31.8,
+        "P/E": 27,
+        "DCF": 0,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CAR.nas": {
+        "Current": 68.85,
+        "P/E": -100,
+        "DCF": -1137,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CASY.nas": {
+        "Current": 206.31,
+        "P/E": 148,
+        "DCF": 129,
+        "ROE": 83,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CATM.nas": {
+        "Current": 38.79,
+        "P/E": 12,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CATY.nas": {
+        "Current": 44.92,
+        "P/E": 29,
+        "DCF": -126,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CBAN.nas": {
+        "Current": 15.25,
+        "P/E": 12,
+        "DCF": 0,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CBFV.nas": {
+        "Current": 23.83,
+        "P/E": -23,
+        "DCF": 0,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CBIO.nas": {
+        "Current": 6.15,
+        "P/E": -2,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CBPO.nas": {
+        "Current": 117.31,
+        "P/E": 98,
+        "DCF": 124,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CBSH.nas": {
+        "Current": 80.72,
+        "P/E": 22,
+        "DCF": -193,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CCBG.nas": {
+        "Current": 28.73,
+        "P/E": 30,
+        "DCF": -203,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CCLP.nas": {
+        "Current": 2.21,
+        "P/E": -30,
+        "DCF": -17,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CCMP.nas": {
+        "Current": 169.15,
+        "P/E": 148,
+        "DCF": 59,
+        "ROE": 76,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CCOI.nas": {
+        "Current": 64.43,
+        "P/E": 0,
+        "DCF": 2019,
+        "ROE": 1210,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CDK.nas": {
+        "Current": 52.72,
+        "P/E": 41,
+        "DCF": 27,
+        "ROE": -17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CDNA.nas": {
+        "Current": 67.54,
+        "P/E": 0,
+        "DCF": -1,
+        "ROE": -206,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CDNS.nas": {
+        "Current": 125.74,
+        "P/E": 73,
+        "DCF": 52,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CDW.nas": {
+        "Current": 160.06,
+        "P/E": 105,
+        "DCF": 66,
+        "ROE": 75,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CECE.nas": {
+        "Current": 9.18,
+        "P/E": 7,
+        "DCF": -2,
+        "ROE": -1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CENT.nas": {
+        "Current": 52.88,
+        "P/E": 39,
+        "DCF": 153,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CENTA.nas": {
+        "Current": 47.89,
+        "P/E": 35,
+        "DCF": 37,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CENX.nas": {
+        "Current": 17.995,
+        "P/E": -175,
+        "DCF": 97,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CERN.nas": {
+        "Current": 71.26,
+        "P/E": 72,
+        "DCF": 43,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CEVA.nas": {
+        "Current": 59.65,
+        "P/E": -39,
+        "DCF": 16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CFFN.nas": {
+        "Current": 0,
+        "P/E": 0,
+        "DCF": -49,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CG.nas": {
+        "Current": 36.56,
+        "P/E": 33,
+        "DCF": -48,
+        "ROE": 40,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CGBD.nas": {
+        "Current": 13.37,
+        "P/E": 0,
+        "DCF": -38,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CGNX.nas": {
+        "Current": 81.14,
+        "P/E": 46,
+        "DCF": 27,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHCI.nas": {
+        "Current": 5.7,
+        "P/E": 4,
+        "DCF": 17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHCO.nas": {
+        "Current": 87.41,
+        "P/E": 68,
+        "DCF": -200,
+        "ROE": 68,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHDN.nas": {
+        "Current": 254.33,
+        "P/E": -741,
+        "DCF": -183,
+        "ROE": 113,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHEF.nas": {
+        "Current": 34.36,
+        "P/E": -526,
+        "DCF": 11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHKP.nas": {
+        "Current": 115.15,
+        "P/E": 93,
+        "DCF": 101,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHRS.nas": {
+        "Current": 16.25,
+        "P/E": 9,
+        "DCF": -6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CHTR.nas": {
+        "Current": 624.15,
+        "P/E": 1341,
+        "DCF": 1163,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CIDM.nas": {
+        "Current": 1.25,
+        "P/E": -5,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CIGI.nas": {
+        "Current": 103.1,
+        "P/E": 62,
+        "DCF": 36,
+        "ROE": 70,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CINF.nas": {
+        "Current": 107.61,
+        "P/E": 150,
+        "DCF": 16,
+        "ROE": 84,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CIVB.nas": {
+        "Current": 23.5,
+        "P/E": 21,
+        "DCF": 0,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CJJD.nas": {
+        "Current": 1.08,
+        "P/E": -30,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CLMT.nas": {
+        "Current": 4.96,
+        "P/E": -93,
+        "DCF": -13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CLRO.nas": {
+        "Current": 4.04,
+        "P/E": -14,
+        "DCF": -7,
+        "ROE": -3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CMBM.nas": {
+        "Current": 49.7,
+        "P/E": -16,
+        "DCF": 52,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CMCO.nas": {
+        "Current": 53.73,
+        "P/E": 14,
+        "DCF": 105,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CME.nas": {
+        "Current": 209.15,
+        "P/E": 103,
+        "DCF": -170,
+        "ROE": 77,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CMLS.nas": {
+        "Current": 10.97,
+        "P/E": -2,
+        "DCF": -47,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CMPR.nas": {
+        "Current": 104.4,
+        "P/E": -553,
+        "DCF": 220,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CMTL.nas": {
+        "Current": 28.9,
+        "P/E": -99,
+        "DCF": -44,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CNBKA.nas": {
+        "Current": 102,
+        "P/E": 72,
+        "DCF": -1388,
+        "ROE": 95,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CNOB.nas": {
+        "Current": 27,
+        "P/E": 22,
+        "DCF": -123,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CNSL.nas": {
+        "Current": 7.12,
+        "P/E": 65,
+        "DCF": -13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CNTY.nas": {
+        "Current": 10.1,
+        "P/E": -172,
+        "DCF": -17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CNXN.nas": {
+        "Current": 47.7,
+        "P/E": 23,
+        "DCF": 61,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COHR.nas": {
+        "Current": 247.9,
+        "P/E": -490,
+        "DCF": 37,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COHU.nas": {
+        "Current": 42.11,
+        "P/E": -45,
+        "DCF": 33,
+        "ROE": -25,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COLB.nas": {
+        "Current": 50.45,
+        "P/E": 29,
+        "DCF": -148,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COLL.nas": {
+        "Current": 25.44,
+        "P/E": 16,
+        "DCF": -105,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COLM.nas": {
+        "Current": 104.88,
+        "P/E": 34,
+        "DCF": 56,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COMM.nas": {
+        "Current": 16.73,
+        "P/E": -159,
+        "DCF": 25,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CORE.nas": {
+        "Current": 39.88,
+        "P/E": 27,
+        "DCF": -10,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CORT.nas": {
+        "Current": 25.69,
+        "P/E": 6,
+        "DCF": 2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COST.nas": {
+        "Current": 331.14,
+        "P/E": 243,
+        "DCF": 188,
+        "ROE": 114,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "COWN.nas": {
+        "Current": 39.5,
+        "P/E": 171,
+        "DCF": 117,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CPLP.nas": {
+        "Current": 10.17,
+        "P/E": 18,
+        "DCF": -159,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CPRT.nas": {
+        "Current": 109.95,
+        "P/E": 103,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CPSI.nas": {
+        "Current": 33.42,
+        "P/E": 33,
+        "DCF": 48,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CPTA.nas": {
+        "Current": 15.6,
+        "P/E": -557,
+        "DCF": 491,
+        "ROE": -35,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRAI.nas": {
+        "Current": 71.14,
+        "P/E": 64,
+        "DCF": 0,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CREE.nas": {
+        "Current": 110.1,
+        "P/E": -2099,
+        "DCF": -24,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRESY.nas": {
+        "Current": 4.9,
+        "P/E": 102,
+        "DCF": 2810,
+        "ROE": -4082,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CRMT.nas": {
+        "Current": 163.23,
+        "P/E": 135,
+        "DCF": -19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRNT.nas": {
+        "Current": 4.44,
+        "P/E": -4,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRTO.nas": {
+        "Current": 32.9,
+        "P/E": 13,
+        "DCF": 14,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRUS.nas": {
+        "Current": 77.21,
+        "P/E": 60,
+        "DCF": 60,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CRWS.nas": {
+        "Current": 8.06,
+        "P/E": 6,
+        "DCF": 10,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSCO.nas": {
+        "Current": 48.82,
+        "P/E": 262,
+        "DCF": 41,
+        "ROE": 25,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSGP.nas": {
+        "Current": 818.55,
+        "P/E": 685,
+        "DCF": 366,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSGS.nas": {
+        "Current": 48.83,
+        "P/E": 17,
+        "DCF": 17,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSII.nas": {
+        "Current": 41.92,
+        "P/E": -5079,
+        "DCF": -324,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSTE.nas": {
+        "Current": 13.23,
+        "P/E": 5,
+        "DCF": 31,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CSWI.nas": {
+        "Current": 138.33,
+        "P/E": 79,
+        "DCF": 68,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CSX.nas": {
+        "Current": 93.85,
+        "P/E": 62,
+        "DCF": 47,
+        "ROE": 75,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTAS.nas": {
+        "Current": 358.29,
+        "P/E": 233,
+        "DCF": 175,
+        "ROE": 144,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTBI.nas": {
+        "Current": 47.19,
+        "P/E": 31,
+        "DCF": -166,
+        "ROE": 38,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTG.nas": {
+        "Current": 9.9,
+        "P/E": 30,
+        "DCF": 39,
+        "ROE": -3,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CTIB.nas": {
+        "Current": 2.43,
+        "P/E": -135,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTRE.nas": {
+        "Current": 23.9,
+        "P/E": 22,
+        "DCF": 13,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTRN.nas": {
+        "Current": 84.46,
+        "P/E": 28,
+        "DCF": 109,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CTSH.nas": {
+        "Current": 77.77,
+        "P/E": 36,
+        "DCF": 63,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CUTR.nas": {
+        "Current": 32.68,
+        "P/E": -468,
+        "DCF": -37,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CVBF.nas": {
+        "Current": 24.885,
+        "P/E": 19,
+        "DCF": -53,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CVCO.nas": {
+        "Current": 223.93,
+        "P/E": 286,
+        "DCF": 417,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "CVCY.nas": {
+        "Current": 20.27,
+        "P/E": 16,
+        "DCF": -117,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CVGI.nas": {
+        "Current": 10.44,
+        "P/E": -26,
+        "DCF": 6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CVGW.nas": {
+        "Current": 81.05,
+        "P/E": -16,
+        "DCF": 34,
+        "ROE": 34,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CVLT.nas": {
+        "Current": 67.48,
+        "P/E": -617,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CWCO.nas": {
+        "Current": 15.22,
+        "P/E": 6,
+        "DCF": 15,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CWST.nas": {
+        "Current": 64.7,
+        "P/E": 377,
+        "DCF": -8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CYBR.nas": {
+        "Current": 145.27,
+        "P/E": -6,
+        "DCF": 7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CYTK.nas": {
+        "Current": 22.82,
+        "P/E": -220,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "CZR.nas": {
+        "Current": 100.62,
+        "P/E": -481,
+        "DCF": -285,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DCOM.nas": {
+        "Current": 33.12,
+        "P/E": 15,
+        "DCF": -117,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DENN.nas": {
+        "Current": 19.52,
+        "P/E": -1,
+        "DCF": -11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DGICA.nas": {
+        "Current": 15.03,
+        "P/E": 36,
+        "DCF": 12,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DGII.nas": {
+        "Current": 19.83,
+        "P/E": 20,
+        "DCF": -8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DIOD.nas": {
+        "Current": 83.47,
+        "P/E": 148,
+        "DCF": 40,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DISCA.nas": {
+        "Current": 71.1,
+        "P/E": 14,
+        "DCF": 102,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DISCB.nas": {
+        "Current": 74.9,
+        "P/E": 2081,
+        "DCF": 13280135,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "DISCK.nas": {
+        "Current": 59.7,
+        "P/E": 17,
+        "DCF": 88,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DISH.nas": {
+        "Current": 37.27,
+        "P/E": 11,
+        "DCF": -56,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DLHC.nas": {
+        "Current": 10.37,
+        "P/E": 12,
+        "DCF": 19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "DLTH.nas": {
+        "Current": 15.12,
+        "P/E": 18,
+        "DCF": -56,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DLTR.nas": {
+        "Current": 108.61,
+        "P/E": 121,
+        "DCF": 71,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DMRC.nas": {
+        "Current": 35.99,
+        "P/E": 0,
+        "DCF": -40,
+        "ROE": -45,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DORM.nas": {
+        "Current": 105.86,
+        "P/E": 75,
+        "DCF": 88,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DOX.nas": {
+        "Current": 79.93,
+        "P/E": 77,
+        "DCF": 51,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DSGX.nas": {
+        "Current": 61.96,
+        "P/E": 62,
+        "DCF": 39,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DSKE.nas": {
+        "Current": 6.85,
+        "P/E": 0,
+        "DCF": 53,
+        "ROE": 128,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "DSPG.nas": {
+        "Current": 16.1,
+        "P/E": -17,
+        "DCF": 10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DWSN.nas": {
+        "Current": 2.77,
+        "P/E": 0,
+        "DCF": 16,
+        "ROE": -37,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "DXCM.nas": {
+        "Current": 357.73,
+        "P/E": 1461,
+        "DCF": 77,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EA.nas": {
+        "Current": 130.49,
+        "P/E": 100,
+        "DCF": 134,
+        "ROE": 107,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EBAY.nas": {
+        "Current": 55.8,
+        "P/E": 119,
+        "DCF": 53,
+        "ROE": 67,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "EBMT.nas": {
+        "Current": 25.1,
+        "P/E": 39,
+        "DCF": -179,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EBSB.nas": {
+        "Current": 19.3,
+        "P/E": 23,
+        "DCF": -88,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ECOL.nas": {
+        "Current": 44.95,
+        "P/E": -251,
+        "DCF": -26,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ECPG.nas": {
+        "Current": 41.62,
+        "P/E": 62,
+        "DCF": 71,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "EFOI.nas": {
+        "Current": 4.84,
+        "P/E": -221,
+        "DCF": -29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EFSC.nas": {
+        "Current": 51.59,
+        "P/E": 32,
+        "DCF": -188,
+        "ROE": 43,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EGAN.nas": {
+        "Current": 10.51,
+        "P/E": 13,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EGBN.nas": {
+        "Current": 56.74,
+        "P/E": 47,
+        "DCF": -188,
+        "ROE": 47,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EGLE.nas": {
+        "Current": 39.19,
+        "P/E": -407,
+        "DCF": -429,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EGOV.nas": {
+        "Current": 33.95,
+        "P/E": 20,
+        "DCF": 14,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EHTH.nas": {
+        "Current": 64.25,
+        "P/E": 1989,
+        "DCF": -251,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EMKR.nas": {
+        "Current": 6.81,
+        "P/E": -9,
+        "DCF": -17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ENDP.nas": {
+        "Current": 8.68,
+        "P/E": 1,
+        "DCF": -48,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ENPH.nas": {
+        "Current": 164.71,
+        "P/E": 203,
+        "DCF": 68,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ENSG.nas": {
+        "Current": 90.01,
+        "P/E": 75,
+        "DCF": 105,
+        "ROE": 34,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ENTG.nas": {
+        "Current": 102.58,
+        "P/E": 74,
+        "DCF": 54,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EPAY.nas": {
+        "Current": 48.16,
+        "P/E": -143,
+        "DCF": 31,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EQIX.nas": {
+        "Current": 668,
+        "P/E": 882,
+        "DCF": -155,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ERIC.nas": {
+        "Current": 13.48,
+        "P/E": -126,
+        "DCF": 106,
+        "ROE": -13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ERIE.nas": {
+        "Current": 230.03,
+        "P/E": 141,
+        "DCF": 80,
+        "ROE": 107,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ESCA.nas": {
+        "Current": 23.31,
+        "P/E": 25,
+        "DCF": -10,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "ESEA.nas": {
+        "Current": 8.32,
+        "P/E": 2,
+        "DCF": -6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ESGR.nas": {
+        "Current": 265.95,
+        "P/E": 1598,
+        "DCF": 963,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "ESLT.nas": {
+        "Current": 139.71,
+        "P/E": 102,
+        "DCF": -86,
+        "ROE": 86,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ETSY.nas": {
+        "Current": 221.14,
+        "P/E": 441,
+        "DCF": 305,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "EVFM.nas": {
+        "Current": 2.86,
+        "P/E": -1,
+        "DCF": -200,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EVOL.nas": {
+        "Current": 3.44,
+        "P/E": -1,
+        "DCF": 3,
+        "ROE": -1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EWBC.nas": {
+        "Current": 77.95,
+        "P/E": 39,
+        "DCF": -222,
+        "ROE": 53,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXC.nas": {
+        "Current": 42.59,
+        "P/E": 19,
+        "DCF": -140,
+        "ROE": 22,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXEL.nas": {
+        "Current": 23.28,
+        "P/E": 70,
+        "DCF": 142,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "EXFO.nas": {
+        "Current": 4.27,
+        "P/E": -6,
+        "DCF": -4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXLS.nas": {
+        "Current": 88.62,
+        "P/E": 73,
+        "DCF": 47,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXPD.nas": {
+        "Current": 100.44,
+        "P/E": 60,
+        "DCF": 54,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXPE.nas": {
+        "Current": 174.59,
+        "P/E": -303,
+        "DCF": -264,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXPI.nas": {
+        "Current": 52.46,
+        "P/E": 53,
+        "DCF": 14,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXPO.nas": {
+        "Current": 98.9,
+        "P/E": 63,
+        "DCF": 42,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EXTR.nas": {
+        "Current": 9.32,
+        "P/E": -947,
+        "DCF": 7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EYE.nas": {
+        "Current": 47.81,
+        "P/E": 17,
+        "DCF": 2,
+        "ROE": 38,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "EZPW.nas": {
+        "Current": 5.59,
+        "P/E": -46,
+        "DCF": 3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FANG.nas": {
+        "Current": 82.01,
+        "P/E": -1602,
+        "DCF": -98,
+        "ROE": -221,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FARM.nas": {
+        "Current": 8.75,
+        "P/E": -260,
+        "DCF": 32,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FARO.nas": {
+        "Current": 94.79,
+        "P/E": 42,
+        "DCF": 85,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FAST.nas": {
+        "Current": 47.15,
+        "P/E": 29,
+        "DCF": 24,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FB.nas": {
+        "Current": 268.4,
+        "P/E": 475,
+        "DCF": 282,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FBIZ.nas": {
+        "Current": 27.27,
+        "P/E": 18,
+        "DCF": -219,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FBNC.nas": {
+        "Current": 48.07,
+        "P/E": 29,
+        "DCF": -188,
+        "ROE": 28,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FCBC.nas": {
+        "Current": 30.21,
+        "P/E": 22,
+        "DCF": -84,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FCCY.nas": {
+        "Current": 19.53,
+        "P/E": 19,
+        "DCF": 0,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FCEL.nas": {
+        "Current": 18.16,
+        "P/E": -1,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FDUS.nas": {
+        "Current": 15.01,
+        "P/E": 7,
+        "DCF": -27,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FEIM.nas": {
+        "Current": 11.9,
+        "P/E": -32,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FELE.nas": {
+        "Current": 79.7,
+        "P/E": 49,
+        "DCF": 78,
+        "ROE": 35,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFBC.nas": {
+        "Current": 26.4,
+        "P/E": 19,
+        "DCF": -135,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFHL.nas": {
+        "Current": 11.07,
+        "P/E": -3,
+        "DCF": 348,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFIN.nas": {
+        "Current": 50.99,
+        "P/E": 29,
+        "DCF": -35,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFIV.nas": {
+        "Current": 196.18,
+        "P/E": 75,
+        "DCF": 117,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFNW.nas": {
+        "Current": 13.74,
+        "P/E": 10,
+        "DCF": 0,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FFWM.nas": {
+        "Current": 24.85,
+        "P/E": 24,
+        "DCF": -117,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FIBK.nas": {
+        "Current": 50.82,
+        "P/E": 30,
+        "DCF": -292,
+        "ROE": 51,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FISI.nas": {
+        "Current": 32,
+        "P/E": 21,
+        "DCF": 0,
+        "ROE": 34,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FISV.nas": {
+        "Current": 124.13,
+        "P/E": 59,
+        "DCF": 68,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FITB.nas": {
+        "Current": 39.09,
+        "P/E": 9,
+        "DCF": -250,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FIVE.nas": {
+        "Current": 190.8,
+        "P/E": 88,
+        "DCF": -55,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FIZZ.nas": {
+        "Current": 50.71,
+        "P/E": 70,
+        "DCF": 67,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FLEX.nas": {
+        "Current": 18.11,
+        "P/E": 32,
+        "DCF": -48,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FLIC.nas": {
+        "Current": 21.04,
+        "P/E": 19,
+        "DCF": 0,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FLIR.nas": {
+        "Current": 55.16,
+        "P/E": 39,
+        "DCF": 27,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FLMN.nas": {
+        "Current": 4.49,
+        "P/E": 0,
+        "DCF": 11,
+        "ROE": 4,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FLNT.nas": {
+        "Current": 6.6,
+        "P/E": 5,
+        "DCF": 7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FLWS.nas": {
+        "Current": 29.36,
+        "P/E": 42,
+        "DCF": 91,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FMBH.nas": {
+        "Current": 43.45,
+        "P/E": 30,
+        "DCF": -152,
+        "ROE": 33,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FMNB.nas": {
+        "Current": 16.61,
+        "P/E": 24,
+        "DCF": -45,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FNHC.nas": {
+        "Current": 5.2,
+        "P/E": -179,
+        "DCF": -32,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FORM.nas": {
+        "Current": 45.06,
+        "P/E": 42,
+        "DCF": 35,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FORR.nas": {
+        "Current": 45.31,
+        "P/E": 30,
+        "DCF": 0,
+        "ROE": 7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FOSL.nas": {
+        "Current": 14.51,
+        "P/E": -48,
+        "DCF": -65,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FOX.nas": {
+        "Current": 40,
+        "P/E": 0,
+        "DCF": 107,
+        "ROE": 58,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "FOXA.nas": {
+        "Current": 42.78,
+        "P/E": 0,
+        "DCF": 59,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FOXF.nas": {
+        "Current": 136.53,
+        "P/E": 69,
+        "DCF": 3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FRGI.nas": {
+        "Current": 16.91,
+        "P/E": -15,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FRME.nas": {
+        "Current": 50.04,
+        "P/E": 30,
+        "DCF": -160,
+        "ROE": 35,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FRPT.nas": {
+        "Current": 155.78,
+        "P/E": -190,
+        "DCF": -149,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FSBW.nas": {
+        "Current": 73,
+        "P/E": 65,
+        "DCF": 0,
+        "ROE": 65,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FSLR.nas": {
+        "Current": 81.95,
+        "P/E": 386,
+        "DCF": -172,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FSTR.nas": {
+        "Current": 19.25,
+        "P/E": 14,
+        "DCF": 24,
+        "ROE": -17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FSV.nas": {
+        "Current": 151.78,
+        "P/E": 113,
+        "DCF": 102,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FTEK.nas": {
+        "Current": 3.78,
+        "P/E": -158,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FTFT.nas": {
+        "Current": 6.04,
+        "P/E": 17,
+        "DCF": -7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FTNT.nas": {
+        "Current": 188.35,
+        "P/E": 952,
+        "DCF": 119,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FULT.nas": {
+        "Current": 17.935,
+        "P/E": 12,
+        "DCF": -120,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "FWRD.nas": {
+        "Current": 93.03,
+        "P/E": 20,
+        "DCF": 72,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GABC.nas": {
+        "Current": 48.77,
+        "P/E": 30,
+        "DCF": -115,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GAIA.nas": {
+        "Current": 14.43,
+        "P/E": 16,
+        "DCF": -26,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GAIN.nas": {
+        "Current": 12.42,
+        "P/E": -2,
+        "DCF": -45,
+        "ROE": 18,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GASS.nas": {
+        "Current": 2.97,
+        "P/E": 8,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GBCI.nas": {
+        "Current": 66.5,
+        "P/E": 45,
+        "DCF": -122,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GBDC.nas": {
+        "Current": 14.84,
+        "P/E": 7,
+        "DCF": 2,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GBLI.nas": {
+        "Current": 28.97,
+        "P/E": -26,
+        "DCF": 44,
+        "ROE": 26,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GBT.nas": {
+        "Current": 44.02,
+        "P/E": -87,
+        "DCF": -155,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GEOS.nas": {
+        "Current": 11.01,
+        "P/E": -39,
+        "DCF": 94,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GERN.nas": {
+        "Current": 1.72,
+        "P/E": -1119,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GFN.nas": {
+        "Current": 12.27,
+        "P/E": 1,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GH.nas": {
+        "Current": 142.96,
+        "P/E": -32,
+        "DCF": -14,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GIFI.nas": {
+        "Current": 4.07,
+        "P/E": -225,
+        "DCF": -36,
+        "ROE": -49,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GILD.nas": {
+        "Current": 61.56,
+        "P/E": 1,
+        "DCF": 42,
+        "ROE": 45,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GILT.nas": {
+        "Current": 13.36,
+        "P/E": 19,
+        "DCF": 10,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GLAD.nas": {
+        "Current": 10.23,
+        "P/E": 4,
+        "DCF": 7,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GLNG.nas": {
+        "Current": 11.2,
+        "P/E": 13154,
+        "DCF": -35143,
+        "ROE": -717716,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GLPI.nas": {
+        "Current": 42.96,
+        "P/E": 31,
+        "DCF": -2,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GLRE.nas": {
+        "Current": 9.18,
+        "P/E": 1,
+        "DCF": -89,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GLUU.nas": {
+        "Current": 12.43,
+        "P/E": 33,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GMLP.nas": {
+        "Current": 3.5,
+        "P/E": 2,
+        "DCF": 17,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "GNTX.nas": {
+        "Current": 37.02,
+        "P/E": 22,
+        "DCF": 39,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GOGL.nas": {
+        "Current": 7.15,
+        "P/E": -11,
+        "DCF": 0,
+        "ROE": -1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GOOD.nas": {
+        "Current": 20.46,
+        "P/E": 46,
+        "DCF": 7,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GOOG.nas": {
+        "Current": 2061.92,
+        "P/E": 2057,
+        "DCF": 2092,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GPP.nas": {
+        "Current": 12.99,
+        "P/E": 16,
+        "DCF": 41,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "GPRE.nas": {
+        "Current": 27.7,
+        "P/E": -142,
+        "DCF": -52,
+        "ROE": -8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GPRO.nas": {
+        "Current": 10.75,
+        "P/E": -14,
+        "DCF": 11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GRBK.nas": {
+        "Current": 21.72,
+        "P/E": 21,
+        "DCF": 2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GRFS.nas": {
+        "Current": 16.08,
+        "P/E": 10,
+        "DCF": -2,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GRMN.nas": {
+        "Current": 127.46,
+        "P/E": 69,
+        "DCF": 75,
+        "ROE": 61,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GRPN.nas": {
+        "Current": 59.315,
+        "P/E": -437,
+        "DCF": -15,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GSBC.nas": {
+        "Current": 60.11,
+        "P/E": 37,
+        "DCF": -275,
+        "ROE": 50,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GSHD.nas": {
+        "Current": 140.85,
+        "P/E": 0,
+        "DCF": 76,
+        "ROE": 41,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GSIT.nas": {
+        "Current": 7.16,
+        "P/E": -229,
+        "DCF": 2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GSM.nas": {
+        "Current": 3.65,
+        "P/E": 0,
+        "DCF": -10,
+        "ROE": -7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GT.nas": {
+        "Current": 18.17,
+        "P/E": -66,
+        "DCF": -31,
+        "ROE": 4,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GURE.nas": {
+        "Current": 4.23,
+        "P/E": -7,
+        "DCF": -26,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GVP.nas": {
+        "Current": 2,
+        "P/E": -127,
+        "DCF": 75,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GWGH.nas": {
+        "Current": 7.43,
+        "P/E": 8,
+        "DCF": -199,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GWPH.nas": {
+        "Current": 215.22,
+        "P/E": -5665,
+        "DCF": -16863,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "GWRS.nas": {
+        "Current": 17.99,
+        "P/E": 0,
+        "DCF": -9,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HA.nas": {
+        "Current": 27.85,
+        "P/E": -12,
+        "DCF": -84,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HAFC.nas": {
+        "Current": 21.64,
+        "P/E": 15,
+        "DCF": -140,
+        "ROE": 18,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HAIN.nas": {
+        "Current": 43.99,
+        "P/E": 69,
+        "DCF": -11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HALL.nas": {
+        "Current": 3.97,
+        "P/E": -101,
+        "DCF": -110,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HALO.nas": {
+        "Current": 44.37,
+        "P/E": 159,
+        "DCF": 33,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HAS.nas": {
+        "Current": 94.89,
+        "P/E": 55,
+        "DCF": 107,
+        "ROE": 100,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "HAYN.nas": {
+        "Current": 32.95,
+        "P/E": -106,
+        "DCF": 34,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HBAN.nas": {
+        "Current": 16.7,
+        "P/E": 4,
+        "DCF": -89,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HBIO.nas": {
+        "Current": 6.42,
+        "P/E": -22,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HCAP.nas": {
+        "Current": 8.26,
+        "P/E": -15,
+        "DCF": 24,
+        "ROE": 7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HCCI.nas": {
+        "Current": 29.67,
+        "P/E": 60,
+        "DCF": 3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HCKT.nas": {
+        "Current": 17.42,
+        "P/E": 3,
+        "DCF": 0,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HCSG.nas": {
+        "Current": 29.5,
+        "P/E": 37,
+        "DCF": 46,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "HDSN.nas": {
+        "Current": 1.6,
+        "P/E": -4,
+        "DCF": 20,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HEAR.nas": {
+        "Current": 26.89,
+        "P/E": 24,
+        "DCF": 66,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HEES.nas": {
+        "Current": 36.76,
+        "P/E": -26,
+        "DCF": 83,
+        "ROE": 54,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "HELE.nas": {
+        "Current": 227.16,
+        "P/E": 226,
+        "DCF": 279,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HFWA.nas": {
+        "Current": 30.64,
+        "P/E": 17,
+        "DCF": -113,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HGEN.nas": {
+        "Current": 16.07,
+        "P/E": -4,
+        "DCF": -25,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HIMX.nas": {
+        "Current": 12.46,
+        "P/E": 6,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HLIO.nas": {
+        "Current": 74.27,
+        "P/E": 46,
+        "DCF": 5,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HLNE.nas": {
+        "Current": 87.1,
+        "P/E": 0,
+        "DCF": 62,
+        "ROE": 27,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HMST.nas": {
+        "Current": 48.8,
+        "P/E": 35,
+        "DCF": -111,
+        "ROE": 25,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HOFT.nas": {
+        "Current": 39.26,
+        "P/E": -15,
+        "DCF": -12,
+        "ROE": 52,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HOLI.nas": {
+        "Current": 14.21,
+        "P/E": 12,
+        "DCF": 55,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "HOLX.nas": {
+        "Current": 70.78,
+        "P/E": 174,
+        "DCF": 25,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HOMB.nas": {
+        "Current": 28.33,
+        "P/E": 14,
+        "DCF": -51,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HOPE.nas": {
+        "Current": 16.23,
+        "P/E": 8,
+        "DCF": -95,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HQY.nas": {
+        "Current": 79.17,
+        "P/E": 8,
+        "DCF": 16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HROW.nas": {
+        "Current": 8.22,
+        "P/E": -8,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HRZN.nas": {
+        "Current": 13.89,
+        "P/E": 3,
+        "DCF": -22,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HSIC.nas": {
+        "Current": 67.19,
+        "P/E": 61,
+        "DCF": 67,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HSII.nas": {
+        "Current": 38.29,
+        "P/E": -44,
+        "DCF": 4,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HSKA.nas": {
+        "Current": 186.98,
+        "P/E": -300,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HSON.nas": {
+        "Current": 16.74,
+        "P/E": -16,
+        "DCF": -23,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HST.nas": {
+        "Current": 17.23,
+        "P/E": -33,
+        "DCF": 33,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "HSTM.nas": {
+        "Current": 24.13,
+        "P/E": 36,
+        "DCF": 6,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HTBI.nas": {
+        "Current": 25.17,
+        "P/E": 28,
+        "DCF": -287,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HTBK.nas": {
+        "Current": 10.74,
+        "P/E": 8,
+        "DCF": -34,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HTHT.nas": {
+        "Current": 56.86,
+        "P/E": 28,
+        "DCF": -124,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HTLD.nas": {
+        "Current": 19.76,
+        "P/E": 18,
+        "DCF": -7,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HTLF.nas": {
+        "Current": 52.92,
+        "P/E": 40,
+        "DCF": -307,
+        "ROE": 52,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HUBG.nas": {
+        "Current": 68.12,
+        "P/E": 22,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HURN.nas": {
+        "Current": 55.41,
+        "P/E": -33,
+        "DCF": 91,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HWC.nas": {
+        "Current": 45.11,
+        "P/E": -6,
+        "DCF": -276,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HWCC.nas": {
+        "Current": 3.72,
+        "P/E": -4,
+        "DCF": 15,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "HZNP.nas": {
+        "Current": 91.78,
+        "P/E": 197,
+        "DCF": 74,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IAC.nas": {
+        "Current": 240.85,
+        "P/E": 0,
+        "DCF": 88,
+        "ROE": 273,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IART.nas": {
+        "Current": 68.1,
+        "P/E": 155,
+        "DCF": 11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IBCP.nas": {
+        "Current": 24.28,
+        "P/E": 30,
+        "DCF": -129,
+        "ROE": 25,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "IBKR.nas": {
+        "Current": 78.88,
+        "P/E": 37,
+        "DCF": 464,
+        "ROE": 66,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IBOC.nas": {
+        "Current": 51.6,
+        "P/E": 30,
+        "DCF": -69,
+        "ROE": 41,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IBTX.nas": {
+        "Current": 79.09,
+        "P/E": 61,
+        "DCF": -256,
+        "ROE": 58,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ICBK.nas": {
+        "Current": 26.1,
+        "P/E": 6,
+        "DCF": 0,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ICFI.nas": {
+        "Current": 92.65,
+        "P/E": 48,
+        "DCF": 99,
+        "ROE": 41,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ICLR.nas": {
+        "Current": 182.28,
+        "P/E": 116,
+        "DCF": 166,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ICON.nas": {
+        "Current": 2.72,
+        "P/E": -19,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ICUI.nas": {
+        "Current": 203.88,
+        "P/E": 335,
+        "DCF": 142,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IDCC.nas": {
+        "Current": 66.62,
+        "P/E": 58,
+        "DCF": 26,
+        "ROE": 76,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IDXX.nas": {
+        "Current": 497.75,
+        "P/E": 398,
+        "DCF": 140,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IEA.nas": {
+        "Current": 16.2,
+        "P/E": -1,
+        "DCF": 6,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IIIN.nas": {
+        "Current": 38.73,
+        "P/E": 40,
+        "DCF": 32,
+        "ROE": 18,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IIVI.nas": {
+        "Current": 71.46,
+        "P/E": 63,
+        "DCF": 122,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ILMN.nas": {
+        "Current": 405.12,
+        "P/E": 273,
+        "DCF": 161,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IMBI.nas": {
+        "Current": 8.26,
+        "P/E": -1692,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IMKTA.nas": {
+        "Current": 62.86,
+        "P/E": 103,
+        "DCF": -10,
+        "ROE": 125,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "IMMR.nas": {
+        "Current": 11.09,
+        "P/E": 20,
+        "DCF": -24,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IMOS.nas": {
+        "Current": 26.52,
+        "P/E": 0,
+        "DCF": -10,
+        "ROE": 608,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INCY.nas": {
+        "Current": 79.01,
+        "P/E": -582,
+        "DCF": 86,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INDB.nas": {
+        "Current": 98.62,
+        "P/E": 43,
+        "DCF": -288,
+        "ROE": 43,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INFI.nas": {
+        "Current": 3.12,
+        "P/E": -24,
+        "DCF": -204,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INFN.nas": {
+        "Current": 9.85,
+        "P/E": -30,
+        "DCF": -15,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INGN.nas": {
+        "Current": 51.62,
+        "P/E": -18,
+        "DCF": 20,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INOD.nas": {
+        "Current": 8.31,
+        "P/E": -178,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INOV.nas": {
+        "Current": 27.61,
+        "P/E": 22,
+        "DCF": 7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INTC.nas": {
+        "Current": 62.9,
+        "P/E": 50,
+        "DCF": 58,
+        "ROE": 42,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "INTU.nas": {
+        "Current": 395.95,
+        "P/E": 269,
+        "DCF": 182,
+        "ROE": 154,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IONS.nas": {
+        "Current": 52.99,
+        "P/E": -3831,
+        "DCF": 717,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IOSP.nas": {
+        "Current": 105.42,
+        "P/E": 19,
+        "DCF": 52,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IPAR.nas": {
+        "Current": 75.75,
+        "P/E": 37,
+        "DCF": 32,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IPGP.nas": {
+        "Current": 210.81,
+        "P/E": 234,
+        "DCF": 357,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "IPHI.nas": {
+        "Current": 162.99,
+        "P/E": -355,
+        "DCF": 64,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IQ.nas": {
+        "Current": 26.44,
+        "P/E": 12,
+        "DCF": -144,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IRBT.nas": {
+        "Current": 119.33,
+        "P/E": 178,
+        "DCF": 183,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "IRCP.nas": {
+        "Current": 10.44,
+        "P/E": 180,
+        "DCF": -2371,
+        "ROE": 1781,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "IRDM.nas": {
+        "Current": 41.46,
+        "P/E": -4,
+        "DCF": 15,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IRIX.nas": {
+        "Current": 7.6,
+        "P/E": -186,
+        "DCF": -10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "IRWD.nas": {
+        "Current": 11.315,
+        "P/E": 65,
+        "DCF": 264,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "ISBC.nas": {
+        "Current": 15.01,
+        "P/E": 15,
+        "DCF": -77,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ISNS.nas": {
+        "Current": 4.44,
+        "P/E": 2,
+        "DCF": 9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ISRG.nas": {
+        "Current": 733.99,
+        "P/E": 380,
+        "DCF": 168,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ITIC.nas": {
+        "Current": 171.6,
+        "P/E": 186,
+        "DCF": 0,
+        "ROE": 103,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ITRI.nas": {
+        "Current": 94.62,
+        "P/E": -121,
+        "DCF": 10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ITRN.nas": {
+        "Current": 23.59,
+        "P/E": 11,
+        "DCF": 25,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JACK.nas": {
+        "Current": 105.49,
+        "P/E": 140,
+        "DCF": 62,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JAZZ.nas": {
+        "Current": 167.52,
+        "P/E": 81,
+        "DCF": 132,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JBHT.nas": {
+        "Current": 162.83,
+        "P/E": 127,
+        "DCF": 76,
+        "ROE": 156,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JBLU.nas": {
+        "Current": 20.435,
+        "P/E": -6,
+        "DCF": -31,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JCOM.nas": {
+        "Current": 119.93,
+        "P/E": 72,
+        "DCF": 113,
+        "ROE": 41,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JD.nas": {
+        "Current": 84.02,
+        "P/E": 34,
+        "DCF": 31,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JJSF.nas": {
+        "Current": 166.3,
+        "P/E": 4,
+        "DCF": 53,
+        "ROE": 52,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JKHY.nas": {
+        "Current": 150.69,
+        "P/E": 108,
+        "DCF": 56,
+        "ROE": 65,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JOBS.nas": {
+        "Current": 64.11,
+        "P/E": 38,
+        "DCF": 324,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JOUT.nas": {
+        "Current": 146.22,
+        "P/E": 114,
+        "DCF": 174,
+        "ROE": 85,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "JYNT.nas": {
+        "Current": 46.78,
+        "P/E": 178,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KALU.nas": {
+        "Current": 125.46,
+        "P/E": 24,
+        "DCF": 78,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KBAL.nas": {
+        "Current": 14.43,
+        "P/E": 11,
+        "DCF": 19,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "KDP.nas": {
+        "Current": 33.37,
+        "P/E": 18,
+        "DCF": 6,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KELYA.nas": {
+        "Current": 22.53,
+        "P/E": -27,
+        "DCF": 74,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "KHC.nas": {
+        "Current": 38.11,
+        "P/E": 2,
+        "DCF": -5,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KIRK.nas": {
+        "Current": 24.9,
+        "P/E": -18,
+        "DCF": 69,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KLAC.nas": {
+        "Current": 294.27,
+        "P/E": 174,
+        "DCF": 149,
+        "ROE": 230,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KLIC.nas": {
+        "Current": 46.61,
+        "P/E": 59,
+        "DCF": 49,
+        "ROE": 22,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "KMDA.nas": {
+        "Current": 6.2,
+        "P/E": 3,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KNSL.nas": {
+        "Current": 173.71,
+        "P/E": 0,
+        "DCF": 163,
+        "ROE": 57,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KRNT.nas": {
+        "Current": 104.93,
+        "P/E": -143,
+        "DCF": 47,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KRNY.nas": {
+        "Current": 13.2,
+        "P/E": 25,
+        "DCF": -61,
+        "ROE": 4,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KTOS.nas": {
+        "Current": 26.52,
+        "P/E": 114,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "KVHI.nas": {
+        "Current": 13.39,
+        "P/E": -180,
+        "DCF": -57,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LAKE.nas": {
+        "Current": 30.16,
+        "P/E": 297,
+        "DCF": 73,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LAMR.nas": {
+        "Current": 95.66,
+        "P/E": 34,
+        "DCF": 22,
+        "ROE": 41,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LANC.nas": {
+        "Current": 185.49,
+        "P/E": 91,
+        "DCF": 41,
+        "ROE": 57,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LAND.nas": {
+        "Current": 19.31,
+        "P/E": -43,
+        "DCF": -19,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LAWS.nas": {
+        "Current": 60.08,
+        "P/E": 103,
+        "DCF": 14,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LBAI.nas": {
+        "Current": 18.37,
+        "P/E": 12,
+        "DCF": -105,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LBRDA.nas": {
+        "Current": 148.94,
+        "P/E": 9,
+        "DCF": -247,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LBTYA.nas": {
+        "Current": 25.7,
+        "P/E": -2,
+        "DCF": -226,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LCNB.nas": {
+        "Current": 19.96,
+        "P/E": 12,
+        "DCF": 0,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LCUT.nas": {
+        "Current": 14.92,
+        "P/E": -3,
+        "DCF": 10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LE.nas": {
+        "Current": 35.49,
+        "P/E": 18,
+        "DCF": -31,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LECO.nas": {
+        "Current": 123.54,
+        "P/E": 83,
+        "DCF": 83,
+        "ROE": 72,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LFUS.nas": {
+        "Current": 268.74,
+        "P/E": 163,
+        "DCF": 142,
+        "ROE": 106,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LFVN.nas": {
+        "Current": 9.36,
+        "P/E": 20,
+        "DCF": 17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LGIH.nas": {
+        "Current": 138.59,
+        "P/E": 141,
+        "DCF": -64,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LGND.nas": {
+        "Current": 164.78,
+        "P/E": -63,
+        "DCF": -158,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LHCG.nas": {
+        "Current": 195,
+        "P/E": 120,
+        "DCF": 305,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LILAK.nas": {
+        "Current": 14.55,
+        "P/E": -15681,
+        "DCF": 37137,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LINC.nas": {
+        "Current": 6.47,
+        "P/E": 87,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LIND.nas": {
+        "Current": 20.76,
+        "P/E": -204,
+        "DCF": -160,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LIQT.nas": {
+        "Current": 10.41,
+        "P/E": -489,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LITE.nas": {
+        "Current": 88.72,
+        "P/E": 287,
+        "DCF": 110,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LIVE.nas": {
+        "Current": 26.44,
+        "P/E": 14,
+        "DCF": 50,
+        "ROE": 45,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LIVN.nas": {
+        "Current": 78.01,
+        "P/E": -1172,
+        "DCF": -235,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LKFN.nas": {
+        "Current": 76.25,
+        "P/E": 46,
+        "DCF": -134,
+        "ROE": 47,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LKQ.nas": {
+        "Current": 42.985,
+        "P/E": 72,
+        "DCF": 191,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LLNW.nas": {
+        "Current": 3.44,
+        "P/E": -16,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LMAT.nas": {
+        "Current": 48.1,
+        "P/E": 20,
+        "DCF": 4,
+        "ROE": 7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LMB.nas": {
+        "Current": 12.39,
+        "P/E": 46,
+        "DCF": -30,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LMNR.nas": {
+        "Current": 19.01,
+        "P/E": -39,
+        "DCF": -24,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LMNX.nas": {
+        "Current": 32.76,
+        "P/E": 15,
+        "DCF": -1,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LMRK.nas": {
+        "Current": 12.71,
+        "P/E": 20,
+        "DCF": -9,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "LMST.nas": {
+        "Current": 16.88,
+        "P/E": 8,
+        "DCF": -134,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LNDC.nas": {
+        "Current": 12.09,
+        "P/E": -50,
+        "DCF": -37,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LNT.nas": {
+        "Current": 51.12,
+        "P/E": 38,
+        "DCF": -17,
+        "ROE": 31,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LNTH.nas": {
+        "Current": 19.65,
+        "P/E": -2,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LORL.nas": {
+        "Current": 48.74,
+        "P/E": 90,
+        "DCF": -16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LPLA.nas": {
+        "Current": 143.41,
+        "P/E": 74,
+        "DCF": 121,
+        "ROE": 63,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LRCX.nas": {
+        "Current": 524.82,
+        "P/E": 455,
+        "DCF": 434,
+        "ROE": 349,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LSCC.nas": {
+        "Current": 45.01,
+        "P/E": 35,
+        "DCF": 10,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LSTR.nas": {
+        "Current": 164.3,
+        "P/E": 106,
+        "DCF": 85,
+        "ROE": 84,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LSXMA.nas": {
+        "Current": 45.55,
+        "P/E": 0,
+        "DCF": -74,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LSXMK.nas": {
+        "Current": 45.34,
+        "P/E": 0,
+        "DCF": -16,
+        "ROE": 4,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LTRX.nas": {
+        "Current": 4.66,
+        "P/E": -18,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LULU.nas": {
+        "Current": 306.08,
+        "P/E": 210,
+        "DCF": 84,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LWAY.nas": {
+        "Current": 6.67,
+        "P/E": 13,
+        "DCF": 2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LXRX.nas": {
+        "Current": 6.87,
+        "P/E": -5,
+        "DCF": 87,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "LYTS.nas": {
+        "Current": 10.42,
+        "P/E": 13,
+        "DCF": 24,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MACK.nas": {
+        "Current": 7.1,
+        "P/E": 0,
+        "DCF": -4,
+        "ROE": 10,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MANH.nas": {
+        "Current": 122.67,
+        "P/E": 53,
+        "DCF": 48,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MANT.nas": {
+        "Current": 82.02,
+        "P/E": 50,
+        "DCF": 44,
+        "ROE": 37,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MAR.nas": {
+        "Current": 150.2,
+        "P/E": -12,
+        "DCF": -36,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MARA.nas": {
+        "Current": 40.7,
+        "P/E": -68,
+        "DCF": -3,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MASI.nas": {
+        "Current": 230.4,
+        "P/E": 134,
+        "DCF": 52,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MAT.nas": {
+        "Current": 20.975,
+        "P/E": 8,
+        "DCF": -3,
+        "ROE": -3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MATW.nas": {
+        "Current": 42.14,
+        "P/E": -22,
+        "DCF": -3,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MBUU.nas": {
+        "Current": 89.04,
+        "P/E": 61,
+        "DCF": 64,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MBWM.nas": {
+        "Current": 34.24,
+        "P/E": 28,
+        "DCF": -178,
+        "ROE": 34,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MCBC.nas": {
+        "Current": 10.58,
+        "P/E": 10,
+        "DCF": -33,
+        "ROE": 10,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MCFT.nas": {
+        "Current": 31.25,
+        "P/E": -15,
+        "DCF": 19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MCHP.nas": {
+        "Current": 147.45,
+        "P/E": 144,
+        "DCF": 63,
+        "ROE": 37,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MCHX.nas": {
+        "Current": 3,
+        "P/E": -74,
+        "DCF": -3,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MCRI.nas": {
+        "Current": 69.14,
+        "P/E": 32,
+        "DCF": -69,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDCA.nas": {
+        "Current": 3.42,
+        "P/E": -16,
+        "DCF": -8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDGL.nas": {
+        "Current": 117.84,
+        "P/E": -17,
+        "DCF": -30,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDLZ.nas": {
+        "Current": 56.87,
+        "P/E": 50,
+        "DCF": 12,
+        "ROE": 32,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDRX.nas": {
+        "Current": 15.62,
+        "P/E": 887,
+        "DCF": -13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDWD.nas": {
+        "Current": 5.62,
+        "P/E": -44,
+        "DCF": -175,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MDXG.nas": {
+        "Current": 9.16,
+        "P/E": -28,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MEIP.nas": {
+        "Current": 3.83,
+        "P/E": -27,
+        "DCF": -5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MELI.nas": {
+        "Current": 1550.15,
+        "P/E": -40,
+        "DCF": 119,
+        "ROE": 18,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MEOH.nas": {
+        "Current": 42.64,
+        "P/E": -60,
+        "DCF": 58,
+        "ROE": 60,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MERC.nas": {
+        "Current": 15.88,
+        "P/E": -2,
+        "DCF": -26,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MESO.nas": {
+        "Current": 9.33,
+        "P/E": -475,
+        "DCF": -76,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MFIN.nas": {
+        "Current": 7.56,
+        "P/E": -52,
+        "DCF": 0,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MFNC.nas": {
+        "Current": 14.64,
+        "P/E": 16,
+        "DCF": -103,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MGEE.nas": {
+        "Current": 72.15,
+        "P/E": 46,
+        "DCF": -47,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MGI.nas": {
+        "Current": 7.67,
+        "P/E": -3,
+        "DCF": -51,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MGIC.nas": {
+        "Current": 17.05,
+        "P/E": 12,
+        "DCF": 19,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MGLN.nas": {
+        "Current": 93.19,
+        "P/E": 415,
+        "DCF": 75,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MGPI.nas": {
+        "Current": 66.62,
+        "P/E": 58,
+        "DCF": -2,
+        "ROE": 49,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MGRC.nas": {
+        "Current": 81.02,
+        "P/E": 56,
+        "DCF": 0,
+        "ROE": 65,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MHLD.nas": {
+        "Current": 2.99,
+        "P/E": 4,
+        "DCF": -183,
+        "ROE": -3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MIDD.nas": {
+        "Current": 169.75,
+        "P/E": 69,
+        "DCF": 50,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MIK.nas": {
+        "Current": 21.86,
+        "P/E": 12,
+        "DCF": -9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MIME.nas": {
+        "Current": 43.36,
+        "P/E": 521,
+        "DCF": 113,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MITK.nas": {
+        "Current": 15.295,
+        "P/E": 19,
+        "DCF": 13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MKSI.nas": {
+        "Current": 166.16,
+        "P/E": 136,
+        "DCF": 149,
+        "ROE": 95,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MKTX.nas": {
+        "Current": 518.97,
+        "P/E": 379,
+        "DCF": 174,
+        "ROE": 102,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MLCO.nas": {
+        "Current": 20.83,
+        "P/E": -49,
+        "DCF": 0,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MLHR.nas": {
+        "Current": 42.45,
+        "P/E": -11,
+        "DCF": 411,
+        "ROE": 258,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MMLP.nas": {
+        "Current": 2.75,
+        "P/E": -3,
+        "DCF": -3,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MMSI.nas": {
+        "Current": 59.595,
+        "P/E": -13,
+        "DCF": 28,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MNRO.nas": {
+        "Current": 71.15,
+        "P/E": 18,
+        "DCF": 21,
+        "ROE": 51,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MNST.nas": {
+        "Current": 88.94,
+        "P/E": 97,
+        "DCF": 45,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MNTX.nas": {
+        "Current": 8.29,
+        "P/E": -129,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MOFG.nas": {
+        "Current": 32.93,
+        "P/E": 5,
+        "DCF": 0,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MOMO.nas": {
+        "Current": 16.68,
+        "P/E": 62,
+        "DCF": 259,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MORN.nas": {
+        "Current": 244.16,
+        "P/E": 166,
+        "DCF": 134,
+        "ROE": 99,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MPAA.nas": {
+        "Current": 24.88,
+        "P/E": 221,
+        "DCF": 123,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MPWR.nas": {
+        "Current": 331,
+        "P/E": 346,
+        "DCF": 156,
+        "ROE": 123,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MRCC.nas": {
+        "Current": 10.15,
+        "P/E": 0,
+        "DCF": 76,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MRCY.nas": {
+        "Current": 66.25,
+        "P/E": 71,
+        "DCF": 22,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MRTN.nas": {
+        "Current": 17.17,
+        "P/E": 13,
+        "DCF": 1,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MRVL.nas": {
+        "Current": 47.16,
+        "P/E": -37,
+        "DCF": 50,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MSBI.nas": {
+        "Current": 29.2,
+        "P/E": 0,
+        "DCF": 84,
+        "ROE": 24,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MSEX.nas": {
+        "Current": 78.01,
+        "P/E": 40,
+        "DCF": -74,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MSFT.nas": {
+        "Current": 235.75,
+        "P/E": 249,
+        "DCF": 138,
+        "ROE": 102,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MSTR.nas": {
+        "Current": 784,
+        "P/E": -86,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MTCH.nas": {
+        "Current": 153.38,
+        "P/E": 18,
+        "DCF": 30,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MTEX.nas": {
+        "Current": 18.185,
+        "P/E": 90,
+        "DCF": 25,
+        "ROE": 17,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MTLS.nas": {
+        "Current": 42.71,
+        "P/E": 293,
+        "DCF": 50,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "MTRX.nas": {
+        "Current": 15.69,
+        "P/E": -29,
+        "DCF": 21,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MTSC.nas": {
+        "Current": 58.32,
+        "P/E": -298,
+        "DCF": -40,
+        "ROE": -5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MU.nas": {
+        "Current": 87.77,
+        "P/E": 59,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MXIM.nas": {
+        "Current": 87.98,
+        "P/E": 98,
+        "DCF": 69,
+        "ROE": 43,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MYGN.nas": {
+        "Current": 31.04,
+        "P/E": -157,
+        "DCF": -12,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "MYRG.nas": {
+        "Current": 73.59,
+        "P/E": 57,
+        "DCF": 17,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NATI.nas": {
+        "Current": 42.75,
+        "P/E": 39,
+        "DCF": 15,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NBIX.nas": {
+        "Current": 97.06,
+        "P/E": 2425,
+        "DCF": 111,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NBLX.nas": {
+        "Current": 15.46,
+        "P/E": 0,
+        "DCF": -1,
+        "ROE": 11,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NBTB.nas": {
+        "Current": 42.37,
+        "P/E": 27,
+        "DCF": -165,
+        "ROE": 27,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NCBS.nas": {
+        "Current": 85.27,
+        "P/E": 63,
+        "DCF": -255,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NCMI.nas": {
+        "Current": 5.99,
+        "P/E": -30,
+        "DCF": 3,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NCTY.nas": {
+        "Current": 60.62,
+        "P/E": -4,
+        "DCF": -2319,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NDAQ.nas": {
+        "Current": 144.42,
+        "P/E": 140,
+        "DCF": 45,
+        "ROE": 48,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NDLS.nas": {
+        "Current": 11.96,
+        "P/E": -1308,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NDSN.nas": {
+        "Current": 201.71,
+        "P/E": 107,
+        "DCF": 141,
+        "ROE": 112,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NEOG.nas": {
+        "Current": 84.79,
+        "P/E": 55,
+        "DCF": 23,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NESR.nas": {
+        "Current": 13,
+        "P/E": 37,
+        "DCF": 30,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NEWT.nas": {
+        "Current": 27.12,
+        "P/E": 8,
+        "DCF": -1,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NFBK.nas": {
+        "Current": 16.19,
+        "P/E": 14,
+        "DCF": -73,
+        "ROE": 10,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NFLX.nas": {
+        "Current": 518.02,
+        "P/E": 2795,
+        "DCF": 308,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NICE.nas": {
+        "Current": 228.9,
+        "P/E": 115,
+        "DCF": 103,
+        "ROE": 46,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NICK.nas": {
+        "Current": 10.75,
+        "P/E": 13,
+        "DCF": 4,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NKTR.nas": {
+        "Current": 22.82,
+        "P/E": -10,
+        "DCF": -16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NMFC.nas": {
+        "Current": 13.11,
+        "P/E": 6,
+        "DCF": -109,
+        "ROE": 15,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NMIH.nas": {
+        "Current": 24.64,
+        "P/E": 30,
+        "DCF": 39,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NNBR.nas": {
+        "Current": 7.82,
+        "P/E": -211,
+        "DCF": -24,
+        "ROE": -6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NOVT.nas": {
+        "Current": 129.94,
+        "P/E": 45,
+        "DCF": 25,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NRC.nas": {
+        "Current": 52.56,
+        "P/E": 61,
+        "DCF": 26,
+        "ROE": 20,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NSIT.nas": {
+        "Current": 97.03,
+        "P/E": 51,
+        "DCF": 69,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NSSC.nas": {
+        "Current": 34.195,
+        "P/E": 7,
+        "DCF": 5,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTAP.nas": {
+        "Current": 67.56,
+        "P/E": 77,
+        "DCF": 52,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTCT.nas": {
+        "Current": 29.47,
+        "P/E": 20,
+        "DCF": 18,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTGR.nas": {
+        "Current": 43,
+        "P/E": 297,
+        "DCF": 696,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NTIC.nas": {
+        "Current": 16.2,
+        "P/E": -12,
+        "DCF": 21,
+        "ROE": 7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTRS.nas": {
+        "Current": 102.38,
+        "P/E": 66,
+        "DCF": -640,
+        "ROE": 77,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTUS.nas": {
+        "Current": 26.57,
+        "P/E": -20,
+        "DCF": 29,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NTWK.nas": {
+        "Current": 4.68,
+        "P/E": 17,
+        "DCF": 38,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NUAN.nas": {
+        "Current": 44.25,
+        "P/E": -2,
+        "DCF": 8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NURO.nas": {
+        "Current": 3.7,
+        "P/E": -73,
+        "DCF": -11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NVCR.nas": {
+        "Current": 138.29,
+        "P/E": 481,
+        "DCF": 38,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NVDA.nas": {
+        "Current": 514.24,
+        "P/E": 443,
+        "DCF": 249,
+        "ROE": 277,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NVEE.nas": {
+        "Current": 91.09,
+        "P/E": 54,
+        "DCF": 46,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NVMI.nas": {
+        "Current": 83.66,
+        "P/E": 44,
+        "DCF": 11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NWBI.nas": {
+        "Current": 15.33,
+        "P/E": 9,
+        "DCF": -75,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NWE.nas": {
+        "Current": 63.12,
+        "P/E": 35,
+        "DCF": -99,
+        "ROE": 45,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NWL.nas": {
+        "Current": 25.4,
+        "P/E": -36,
+        "DCF": 11,
+        "ROE": 1,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NWPX.nas": {
+        "Current": 34.81,
+        "P/E": 64,
+        "DCF": 55,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "NWSA.nas": {
+        "Current": 26.21,
+        "P/E": -670,
+        "DCF": 164,
+        "ROE": -131,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NXGN.nas": {
+        "Current": 20,
+        "P/E": 8,
+        "DCF": 13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NXPI.nas": {
+        "Current": 183.47,
+        "P/E": 7,
+        "DCF": 141,
+        "ROE": 60,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "NYMT.nas": {
+        "Current": 4.685,
+        "P/E": -6,
+        "DCF": 0,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OCFC.nas": {
+        "Current": 24.95,
+        "P/E": 15,
+        "DCF": -110,
+        "ROE": 23,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OCSI.nas": {
+        "Current": 8.66,
+        "P/E": 2,
+        "DCF": -16,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OCSL.nas": {
+        "Current": 6.27,
+        "P/E": 4,
+        "DCF": 4,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ODFL.nas": {
+        "Current": 233.81,
+        "P/E": 138,
+        "DCF": 135,
+        "ROE": 94,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ODP.nas": {
+        "Current": 40.02,
+        "P/E": -323,
+        "DCF": 99,
+        "ROE": 29,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OESX.nas": {
+        "Current": 8.73,
+        "P/E": 6,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OFIX.nas": {
+        "Current": 46.76,
+        "P/E": 24,
+        "DCF": 47,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OFS.nas": {
+        "Current": 8.9,
+        "P/E": 2,
+        "DCF": 71,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "OLED.nas": {
+        "Current": 221.94,
+        "P/E": 451,
+        "DCF": 188,
+        "ROE": 140,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OLLI.nas": {
+        "Current": 89.8,
+        "P/E": 134,
+        "DCF": 104,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "OMAB.nas": {
+        "Current": 50.63,
+        "P/E": 34,
+        "DCF": -126,
+        "ROE": 397,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OMCL.nas": {
+        "Current": 135.18,
+        "P/E": 121,
+        "DCF": 34,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OMP.nas": {
+        "Current": 19.88,
+        "P/E": 0,
+        "DCF": -39,
+        "ROE": 75,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ON.nas": {
+        "Current": 38.49,
+        "P/E": 10,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ONB.nas": {
+        "Current": 20.945,
+        "P/E": 16,
+        "DCF": -98,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ONCT.nas": {
+        "Current": 7.57,
+        "P/E": -1,
+        "DCF": -1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OPBK.nas": {
+        "Current": 11.15,
+        "P/E": 9,
+        "DCF": 0,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OPI.nas": {
+        "Current": 29.5,
+        "P/E": 5,
+        "DCF": 21,
+        "ROE": 22,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OPRX.nas": {
+        "Current": 45.29,
+        "P/E": -255,
+        "DCF": -39,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "ORLY.nas": {
+        "Current": 482.64,
+        "P/E": 442,
+        "DCF": 446,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OSBC.nas": {
+        "Current": 13.25,
+        "P/E": 10,
+        "DCF": -70,
+        "ROE": 10,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OSIS.nas": {
+        "Current": 97.89,
+        "P/E": 108,
+        "DCF": 52,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OSTK.nas": {
+        "Current": 71.08,
+        "P/E": 1191,
+        "DCF": 3539,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "OSUR.nas": {
+        "Current": 11.27,
+        "P/E": -11,
+        "DCF": -7,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OTEX.nas": {
+        "Current": 47.61,
+        "P/E": 8,
+        "DCF": 44,
+        "ROE": 22,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OTIC.nas": {
+        "Current": 2.81,
+        "P/E": -7,
+        "DCF": -22,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "OXSQ.nas": {
+        "Current": 4.29,
+        "P/E": -6,
+        "DCF": 10,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "OZK.nas": {
+        "Current": 45.47,
+        "P/E": 26,
+        "DCF": -82,
+        "ROE": 52,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PAA.nas": {
+        "Current": 0,
+        "P/E": 0,
+        "DCF": -12,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PAAS.nas": {
+        "Current": 32.07,
+        "P/E": 92,
+        "DCF": 30,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PACW.nas": {
+        "Current": 40.49,
+        "P/E": -120,
+        "DCF": -127,
+        "ROE": 16,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PAGP.nas": {
+        "Current": 9.82,
+        "P/E": -21,
+        "DCF": -35,
+        "ROE": 2,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PAHC.nas": {
+        "Current": 24.59,
+        "P/E": 18,
+        "DCF": -5,
+        "ROE": 52,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PATK.nas": {
+        "Current": 89.72,
+        "P/E": 52,
+        "DCF": 38,
+        "ROE": 70,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PAYX.nas": {
+        "Current": 95.25,
+        "P/E": 53,
+        "DCF": 37,
+        "ROE": 42,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PBCT.nas": {
+        "Current": 18.45,
+        "P/E": 7,
+        "DCF": -80,
+        "ROE": 21,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PCAR.nas": {
+        "Current": 96.95,
+        "P/E": 83,
+        "DCF": 80,
+        "ROE": 149,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PCH.nas": {
+        "Current": 53.99,
+        "P/E": 86,
+        "DCF": 54,
+        "ROE": 36,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PCOM.nas": {
+        "Current": 15.93,
+        "P/E": -16,
+        "DCF": -28,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PCRX.nas": {
+        "Current": 73.47,
+        "P/E": 3732,
+        "DCF": 86,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PCTI.nas": {
+        "Current": 7.92,
+        "P/E": 5,
+        "DCF": 8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PCTY.nas": {
+        "Current": 183.06,
+        "P/E": 257,
+        "DCF": 19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PCYG.nas": {
+        "Current": 6.56,
+        "P/E": 12,
+        "DCF": 8,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PDCO.nas": {
+        "Current": 31.78,
+        "P/E": -92,
+        "DCF": -75,
+        "ROE": 9,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PEBO.nas": {
+        "Current": 36.39,
+        "P/E": 21,
+        "DCF": -140,
+        "ROE": 33,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PEGA.nas": {
+        "Current": 123.4,
+        "P/E": -71,
+        "DCF": -16,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PENN.nas": {
+        "Current": 130.47,
+        "P/E": -7776,
+        "DCF": 9349,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PEP.nas": {
+        "Current": 133.04,
+        "P/E": 97,
+        "DCF": 12,
+        "ROE": 85,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PETS.nas": {
+        "Current": 35.76,
+        "P/E": 26,
+        "DCF": 37,
+        "ROE": 30,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFBC.nas": {
+        "Current": 66.59,
+        "P/E": 55,
+        "DCF": -152,
+        "ROE": 61,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFBI.nas": {
+        "Current": 18.18,
+        "P/E": 11,
+        "DCF": -89,
+        "ROE": 12,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFG.nas": {
+        "Current": 61.55,
+        "P/E": 42,
+        "DCF": -777,
+        "ROE": 98,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFIE.nas": {
+        "Current": 1.32,
+        "P/E": -17,
+        "DCF": 1,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFMT.nas": {
+        "Current": 1.91,
+        "P/E": -18,
+        "DCF": 4,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PFSW.nas": {
+        "Current": 7.44,
+        "P/E": -34,
+        "DCF": -11,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PGC.nas": {
+        "Current": 31.09,
+        "P/E": 11,
+        "DCF": 0,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PKBK.nas": {
+        "Current": 21.73,
+        "P/E": 34,
+        "DCF": 0,
+        "ROE": 83,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PKOH.nas": {
+        "Current": 39.9,
+        "P/E": -4,
+        "DCF": -32,
+        "ROE": 39,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLAB.nas": {
+        "Current": 12.005,
+        "P/E": 9,
+        "DCF": 18,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLAY.nas": {
+        "Current": 46.52,
+        "P/E": -44,
+        "DCF": -71,
+        "ROE": 7,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLCE.nas": {
+        "Current": 83.66,
+        "P/E": -86,
+        "DCF": -87,
+        "ROE": 6,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLUS.nas": {
+        "Current": 105.47,
+        "P/E": 64,
+        "DCF": -23,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLXP.nas": {
+        "Current": 7.98,
+        "P/E": -136,
+        "DCF": -64,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PLXS.nas": {
+        "Current": 90.98,
+        "P/E": 78,
+        "DCF": 19,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PMD.nas": {
+        "Current": 7.15,
+        "P/E": -19,
+        "DCF": -30,
+        "ROE": 20,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PNFP.nas": {
+        "Current": 91.8,
+        "P/E": 113,
+        "DCF": -130,
+        "ROE": 227,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PNNT.nas": {
+        "Current": 6,
+        "P/E": 4,
+        "DCF": -32,
+        "ROE": 5,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PODD.nas": {
+        "Current": 261.88,
+        "P/E": 1146,
+        "DCF": -1171,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "POOL.nas": {
+        "Current": 342.44,
+        "P/E": 299,
+        "DCF": 202,
+        "ROE": 234,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "POWI.nas": {
+        "Current": 82.53,
+        "P/E": 45,
+        "DCF": 73,
+        "ROE": 28,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "POWL.nas": {
+        "Current": 36.12,
+        "P/E": 290,
+        "DCF": 67,
+        "ROE": 14,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PPBI.nas": {
+        "Current": 46.65,
+        "P/E": 13,
+        "DCF": -135,
+        "ROE": 27,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PPC.nas": {
+        "Current": 25.4,
+        "P/E": 7,
+        "DCF": 33,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PPSI.nas": {
+        "Current": 6.02,
+        "P/E": -74,
+        "DCF": -13,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRAA.nas": {
+        "Current": 38.4,
+        "P/E": 97,
+        "DCF": 15,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRAH.nas": {
+        "Current": 146.65,
+        "P/E": 145,
+        "DCF": 61,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRFT.nas": {
+        "Current": 60.72,
+        "P/E": 31,
+        "DCF": 35,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRGS.nas": {
+        "Current": 45.45,
+        "P/E": 71,
+        "DCF": 38,
+        "ROE": 13,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRIM.nas": {
+        "Current": 41.12,
+        "P/E": 40,
+        "DCF": 71,
+        "ROE": 19,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PROV.nas": {
+        "Current": 17.22,
+        "P/E": 8,
+        "DCF": -119,
+        "ROE": 3,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRPL.nas": {
+        "Current": 33.4,
+        "P/E": 48,
+        "DCF": 12,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PRTS.nas": {
+        "Current": 15.52,
+        "P/E": -2,
+        "DCF": 9,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PSEC.nas": {
+        "Current": 7.49,
+        "P/E": 12,
+        "DCF": 2,
+        "ROE": 8,
+        "Exchange": "NASDAQ",
+        "Quality": "Okay"
+    },
+    "PSMT.nas": {
+        "Current": 98.81,
+        "P/E": 76,
+        "DCF": 85,
+        "ROE": 50,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PSNL.nas": {
+        "Current": 27.02,
+        "P/E": -5,
+        "DCF": -2,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    },
+    "PTC.nas": {
+        "Current": 132.19,
+        "P/E": 472,
+        "DCF": 60,
+        "ROE": 0,
+        "Exchange": "NASDAQ",
+        "Quality": "Bad"
+    }
+}

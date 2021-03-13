@@ -1,5 +1,5 @@
 import json
-
+import random
 
 print_bool = False
 
@@ -31,22 +31,23 @@ def data_update(symbol, stonk):
         json.dump(stonks, outfile, indent=4)
 
 
-def add_good_symbol(symbol):
+def add_good_symbol(symbol, quality):
     skip_symbol = False
     if symbol:
         with open("good_symbols.txt", "r") as file:
-            good_symbols_list = file.readlines()
-        for line in good_symbols_list:
-            if symbol in line:
-                skip_symbol = True
-                break
+            good_symbols = file.readlines()
         if not skip_symbol:
+            good_symbols_list = [item.split(" - ")[0] for item in good_symbols if symbol not in item.split(" - ")[0]]
             good_symbols_list.append(symbol)
+            good_symbols_quality = [item.split(" - ")[1] for item in good_symbols if symbol not in item.split(" - ")[0]]
+            good_symbols_quality.append(quality)
             good_symbols_list = [item.replace("\n", "") for item in good_symbols_list]
             good_symbols_list = [item for item in good_symbols_list if item != ""]
+            good_symbols_quality = [item.replace("\n", "") for item in good_symbols_quality]
+            good_symbols_quality = [item for item in good_symbols_quality if item != ""]
             with open("good_symbols.txt", "w") as file:
-                for good_symbol in good_symbols_list:
-                    file.write(good_symbol + "\n")
+                for x, good_symbol in enumerate(good_symbols_list):
+                    file.write(good_symbol + " - " + good_symbols_quality[x] + "\n")
 
 
 def remove_symbol(removed_symbol=None, update_list=False, e=""):
@@ -70,7 +71,7 @@ def remove_symbol(removed_symbol=None, update_list=False, e=""):
                 file.write(symbol + " : " + old_removed_reasons[i] + "\n")
     if update_list:
         for file_name in ["tsx_list.txt", "xnas_list.txt", "xnyse_list.txt"]:
-            print(f"Updating List : {file_name}")
+            # print(f"Updating List : {file_name}")
             with open(file_name, "r") as file:
                 old_list = file.readlines()
             old_list = [item.replace("\n", "") for item in old_list if item.replace("\n", "") != ""]
@@ -78,10 +79,19 @@ def remove_symbol(removed_symbol=None, update_list=False, e=""):
                 for item in old_list:
                     if item not in old_removed_symbols:
                         file.write(item + "\n")
-            print(f"{file_name} : List Updated")
+            # print(f"{file_name} : List Updated")
+        print("Lists Updated")
 
 
-def get_symbols():
+def get_good_symbols():
+    with open("good_symbols.txt", "r") as file:
+        good_symbols = file.readlines()
+    good_symbols = [symbol.replace("\n", "") for symbol in good_symbols]
+    good_symbols = [symbol.split(" - ")[0] for symbol in good_symbols]
+    return good_symbols
+
+
+def get_symbols(rand_value):
     remove_symbol(update_list=True)
     with open("removed_symbols.txt", "r") as file:
         old_removed_symbols = file.readlines()
@@ -105,4 +115,18 @@ def get_symbols():
                 xnas_symbols = [line for line in lines if line not in old_removed_symbols]
             if "xnyse" in file_name_prefix:
                 xnyse_symbols = [line for line in lines if line not in old_removed_symbols]
-    return xtse_symbols, xnas_symbols, xnyse_symbols
+    master_list = xtse_symbols + xnas_symbols + xnyse_symbols
+    print(len(master_list))
+    number = rand_value
+    if number != 0:
+        print(f"Choosing {number} random symbols from Master List")
+        chosen_numbers = []
+        new_symbols = []
+        while len(chosen_numbers) < number:
+            rand_int = random.randint(0, len(master_list) - 1)
+            if number not in chosen_numbers:
+                chosen_numbers.append(rand_int)
+                new_symbols.append(master_list[rand_int])
+        master_list = new_symbols
+    print(f"Master List is {len(master_list)} symbols")
+    return master_list, xtse_symbols, xnas_symbols, xnyse_symbols

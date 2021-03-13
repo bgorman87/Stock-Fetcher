@@ -105,7 +105,7 @@ def get_morningstar_roe(local_symbol):
 
 
 def get_yahoo_stat(local_symbol, stat_type=None):
-    rand_int = random.randint(2, 5)
+    rand_int = random.randint(5, 10)
     time.sleep(rand_int)
 
     current_eps_link = "https://ca.finance.yahoo.com/quote/{}?p={}"
@@ -133,7 +133,7 @@ def get_yahoo_stat(local_symbol, stat_type=None):
     html_content = ""
 
     try:
-        html_content = requests.get(link).text
+        html_content = requests.get(link, timeout=(2, 2)).text
     except requests.exceptions.RequestException as reqE:
         print(reqE)
         error = True
