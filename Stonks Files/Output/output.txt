@@ -1,0 +1,12 @@
+
+---------------------------------------
+Timer Info for iteration 1
+Master List: 1.83s
+Analyze Full: 8381.52s
+Update Spreadsheet: 0.0s
+Analyze Good: 1074.44s
+Update Spreadsheet 2: 0.23s
+Update Good Spreadsheets: 9443.07s
+Analyze Removed: 4483.63s
+Total Run Time: 23384.72s
+---------------------------------------
