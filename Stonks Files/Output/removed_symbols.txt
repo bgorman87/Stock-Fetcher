@@ -18,7 +18,6 @@ MTBCP.nas : Growth Estimate Not Found For: MTBCP.nas - https://ca.finance.yahoo.
 GAINN.nas : Growth Estimate Not Found For: GAINN.nas - https://ca.finance.yahoo.com/quote/GAINN/analysis?p=GAINN
 BICK.nas : Growth Estimate Not Found For: BICK.nas - https://ca.finance.yahoo.com/quote/BICK/analysis?p=BICK
 MAACW.nas : Growth Estimate Not Found For: MAACW.nas - https://ca.finance.yahoo.com/quote/MAACW/analysis?p=MAACW
-TPX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TPX.nyse
 YAC.nyse : Growth Estimate Not Found For: YAC.nyse - https://ca.finance.yahoo.com/quote/YAC/analysis?p=YAC
 ZID.to : Growth Estimate Not Found For: ZID.to - https://ca.finance.yahoo.com/quote/ZID.TO/analysis?p=ZID.TO
 XP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: XP.nas
@@ -65,7 +64,6 @@ IACA.nyse : Growth Estimate Not Found For: IACA.nyse - https://ca.finance.yahoo.
 SPN.nyse : Growth Estimate Not Found For: SPN.nyse - https://ca.finance.yahoo.com/quote/SPN/analysis?p=SPN
 NYMX.nas : Growth Estimate Not Found For: NYMX.nas - https://ca.finance.yahoo.com/quote/NYMX/analysis?p=NYMX
 TLG.to : Growth Estimate Not Found For: TLG.to - https://ca.finance.yahoo.com/quote/TLG.TO/analysis?p=TLG.TO
-MTEM.nas : Growth Estimate Not Found For: MTEM.nas - https://ca.finance.yahoo.com/quote/MTEM/analysis?p=MTEM
 VAB.to : Growth Estimate Not Found For: VAB.to - https://ca.finance.yahoo.com/quote/VAB.TO/analysis?p=VAB.TO
 CHI.nas : Growth Estimate Not Found For: CHI.nas - https://ca.finance.yahoo.com/quote/CHI/analysis?p=CHI
 AFMD.nas : Growth Estimate Not Found For: AFMD.nas - https://ca.finance.yahoo.com/quote/AFMD/analysis?p=AFMD
@@ -135,7 +133,6 @@ HZD.to : Growth Estimate Not Found For: HZD.to - https://ca.finance.yahoo.com/qu
 SCD.nyse : Growth Estimate Not Found For: SCD.nyse - https://ca.finance.yahoo.com/quote/SCD/analysis?p=SCD
 VEC.nyse : Growth Estimate Not Found For: VEC.nyse - https://ca.finance.yahoo.com/quote/VEC/analysis?p=VEC
 RPDH.to : Growth Estimate Not Found For: RPDH.to - https://ca.finance.yahoo.com/quote/RPDH.TO/analysis?p=RPDH.TO
-AVO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AVO.nas
 CRU.nyse : Growth Estimate Not Found For: CRU.nyse - https://ca.finance.yahoo.com/quote/CRU/analysis?p=CRU
 FIIIU.nas : Growth Estimate Not Found For: FIIIU.nas - https://ca.finance.yahoo.com/quote/FIIIU/analysis?p=FIIIU
 DXGE.nas : Growth Estimate Not Found For: DXGE.nas - https://ca.finance.yahoo.com/quote/DXGE/analysis?p=DXGE
@@ -170,7 +167,6 @@ APY.to : Growth Estimate Not Found For: APY.to - https://ca.finance.yahoo.com/qu
 AQA.to : Growth Estimate Not Found For: AQA.to - https://ca.finance.yahoo.com/quote/AQA.TO/analysis?p=AQA.TO
 AR.to : Growth Estimate Not Found For: AR.to - https://ca.finance.yahoo.com/quote/AR.TO/analysis?p=AR.TO
 ARB.to : Growth Estimate Not Found For: ARB.to - https://ca.finance.yahoo.com/quote/ARB.TO/analysis?p=ARB.TO
-ARG.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ARG.to
 ARIS.to : Growth Estimate Not Found For: ARIS.to - https://ca.finance.yahoo.com/quote/ARIS.TO/analysis?p=ARIS.TO
 ASM.to : Growth Estimate Not Found For: ASM.to - https://ca.finance.yahoo.com/quote/ASM.TO/analysis?p=ASM.TO
 ASND.to : Growth Estimate Not Found For: ASND.to - https://ca.finance.yahoo.com/quote/ASND.TO/analysis?p=ASND.TO
@@ -295,7 +291,6 @@ FTXO.nas : Growth Estimate Not Found For: FTXO.nas - https://ca.finance.yahoo.co
 HAD.to : Growth Estimate Not Found For: HAD.to - https://ca.finance.yahoo.com/quote/HAD.TO/analysis?p=HAD.TO
 FRBA.nas : Growth Estimate Not Found For: FRBA.nas - https://ca.finance.yahoo.com/quote/FRBA/analysis?p=FRBA
 EXPC.nas : Growth Estimate Not Found For: EXPC.nas - https://ca.finance.yahoo.com/quote/EXPC/analysis?p=EXPC
-CSR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CSR.nyse
 TPU.to : Growth Estimate Not Found For: TPU.to - https://ca.finance.yahoo.com/quote/TPU.TO/analysis?p=TPU.TO
 MNT.to : Growth Estimate Not Found For: MNT.to - https://ca.finance.yahoo.com/quote/MNT.TO/analysis?p=MNT.TO
 LPSN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LPSN.nas
@@ -361,7 +356,6 @@ ISTR.nas : Growth Estimate Not Found For: ISTR.nas - https://ca.finance.yahoo.co
 AWRE.nas : Growth Estimate Not Found For: AWRE.nas - https://ca.finance.yahoo.com/quote/AWRE/analysis?p=AWRE
 IGD.nyse : Growth Estimate Not Found For: IGD.nyse - https://ca.finance.yahoo.com/quote/IGD/analysis?p=IGD
 STWOU.nas : Growth Estimate Not Found For: STWOU.nas - https://ca.finance.yahoo.com/quote/STWOU/analysis?p=STWOU
-OVV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OVV.nyse
 ICLN.nas : Growth Estimate Not Found For: ICLN.nas - https://ca.finance.yahoo.com/quote/ICLN/analysis?p=ICLN
 ROOT.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ROOT.to
 BSCT.nas : Growth Estimate Not Found For: BSCT.nas - https://ca.finance.yahoo.com/quote/BSCT/analysis?p=BSCT
@@ -372,7 +366,6 @@ MRC.to : Growth Estimate Not Found For: MRC.to - https://ca.finance.yahoo.com/qu
 ITAC.nas : Growth Estimate Not Found For: ITAC.nas - https://ca.finance.yahoo.com/quote/ITAC/analysis?p=ITAC
 QBTL.to : Growth Estimate Not Found For: QBTL.to - https://ca.finance.yahoo.com/quote/QBTL.TO/analysis?p=QBTL.TO
 PLTR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PLTR.nyse
-STRR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STRR.nas
 ZEO.to : Growth Estimate Not Found For: ZEO.to - https://ca.finance.yahoo.com/quote/ZEO.TO/analysis?p=ZEO.TO
 CAPAW.nas : Growth Estimate Not Found For: CAPAW.nas - https://ca.finance.yahoo.com/quote/CAPAW/analysis?p=CAPAW
 XCUR.nas : Growth Estimate Not Found For: XCUR.nas - https://ca.finance.yahoo.com/quote/XCUR/analysis?p=XCUR
@@ -410,7 +403,6 @@ ACCD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACCD.nas
 OPEN.nas : Growth Estimate Not Found For: OPEN.nas - https://ca.finance.yahoo.com/quote/OPEN/analysis?p=OPEN
 TRE.nyse : Growth Estimate Not Found For: TRE.nyse - https://ca.finance.yahoo.com/quote/TRE/analysis?p=TRE
 SNRHW.nas : Growth Estimate Not Found For: SNRHW.nas - https://ca.finance.yahoo.com/quote/SNRHW/analysis?p=SNRHW
-GTN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GTN.nyse
 CTAC.nyse : Growth Estimate Not Found For: CTAC.nyse - https://ca.finance.yahoo.com/quote/CTAC/analysis?p=CTAC
 DLR.to : Growth Estimate Not Found For: DLR.to - https://ca.finance.yahoo.com/quote/DLR.TO/analysis?p=DLR.TO
 FLAC.nas : Growth Estimate Not Found For: FLAC.nas - https://ca.finance.yahoo.com/quote/FLAC/analysis?p=FLAC
@@ -472,13 +464,11 @@ AFGD.nyse : Growth Estimate Not Found For: AFGD.nyse - https://ca.finance.yahoo.
 ELOX.nas : Growth Estimate Not Found For: ELOX.nas - https://ca.finance.yahoo.com/quote/ELOX/analysis?p=ELOX
 VTHR.nas : Growth Estimate Not Found For: VTHR.nas - https://ca.finance.yahoo.com/quote/VTHR/analysis?p=VTHR
 KEQU.nas : Growth Estimate Not Found For: KEQU.nas - https://ca.finance.yahoo.com/quote/KEQU/analysis?p=KEQU
-OTIS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OTIS.nyse
 ESG.to : Growth Estimate Not Found For: ESG.to - https://ca.finance.yahoo.com/quote/ESG.TO/analysis?p=ESG.TO
 VCSH.nas : Growth Estimate Not Found For: VCSH.nas - https://ca.finance.yahoo.com/quote/VCSH/analysis?p=VCSH
 XMM.to : Growth Estimate Not Found For: XMM.to - https://ca.finance.yahoo.com/quote/XMM.TO/analysis?p=XMM.TO
 KBWR.nas : Growth Estimate Not Found For: KBWR.nas - https://ca.finance.yahoo.com/quote/KBWR/analysis?p=KBWR
 ZSML.to : Growth Estimate Not Found For: ZSML.to - https://ca.finance.yahoo.com/quote/ZSML.TO/analysis?p=ZSML.TO
-MRBK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MRBK.nas
 PSCH.nas : Growth Estimate Not Found For: PSCH.nas - https://ca.finance.yahoo.com/quote/PSCH/analysis?p=PSCH
 FCRR.to : Growth Estimate Not Found For: FCRR.to - https://ca.finance.yahoo.com/quote/FCRR.TO/analysis?p=FCRR.TO
 ZNTE.nas : Growth Estimate Not Found For: ZNTE.nas - https://ca.finance.yahoo.com/quote/ZNTE/analysis?p=ZNTE
@@ -545,7 +535,6 @@ GHSI.nas : Growth Estimate Not Found For: GHSI.nas - https://ca.finance.yahoo.co
 PANL.nas : Growth Estimate Not Found For: PANL.nas - https://ca.finance.yahoo.com/quote/PANL/analysis?p=PANL
 HBD.to : Growth Estimate Not Found For: HBD.to - https://ca.finance.yahoo.com/quote/HBD.TO/analysis?p=HBD.TO
 NFH.nyse : Growth Estimate Not Found For: NFH.nyse - https://ca.finance.yahoo.com/quote/NFH/analysis?p=NFH
-RGP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RGP.nas
 NEPT.nas : Growth Estimate Not Found For: NEPT.nas - https://ca.finance.yahoo.com/quote/NEPT/analysis?p=NEPT
 IGLB.to : Growth Estimate Not Found For: IGLB.to - https://ca.finance.yahoo.com/quote/IGLB.TO/analysis?p=IGLB.TO
 SQZ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SQZ.nyse
@@ -583,7 +572,6 @@ WLLW.to : Growth Estimate Not Found For: WLLW.to - https://ca.finance.yahoo.com/
 GTHX.nas : Growth Estimate Not Found For: GTHX.nas - https://ca.finance.yahoo.com/quote/GTHX/analysis?p=GTHX
 VITL.nas : Growth Estimate Not Found For: VITL.nas - https://ca.finance.yahoo.com/quote/VITL/analysis?p=VITL
 FTHY.nyse : Growth Estimate Not Found For: FTHY.nyse - https://ca.finance.yahoo.com/quote/FTHY/analysis?p=FTHY
-CYD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CYD.nyse
 PRTG.nas : Growth Estimate Not Found For: PRTG.nas - https://ca.finance.yahoo.com/quote/PRTG/analysis?p=PRTG
 NID.nyse : Growth Estimate Not Found For: NID.nyse - https://ca.finance.yahoo.com/quote/NID/analysis?p=NID
 ABGI.nas : Growth Estimate Not Found For: ABGI.nas - https://ca.finance.yahoo.com/quote/ABGI/analysis?p=ABGI
@@ -669,7 +657,6 @@ EFAS.nas : Growth Estimate Not Found For: EFAS.nas - https://ca.finance.yahoo.co
 PASG.nas : Growth Estimate Not Found For: PASG.nas - https://ca.finance.yahoo.com/quote/PASG/analysis?p=PASG
 NVEI.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NVEI.to
 GPRK.nyse : Growth Estimate Not Found For: GPRK.nyse - https://ca.finance.yahoo.com/quote/GPRK/analysis?p=GPRK
-RKT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RKT.nyse
 NEOS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NEOS.nas
 CTSO.nas : Growth Estimate Not Found For: CTSO.nas - https://ca.finance.yahoo.com/quote/CTSO/analysis?p=CTSO
 GDL.nyse : Growth Estimate Not Found For: GDL.nyse - https://ca.finance.yahoo.com/quote/GDL/analysis?p=GDL
@@ -735,7 +722,6 @@ GNE.nyse : Growth Estimate Not Found For: GNE.nyse - https://ca.finance.yahoo.co
 OTLK.nas : Growth Estimate Not Found For: OTLK.nas - https://ca.finance.yahoo.com/quote/OTLK/analysis?p=OTLK
 JWEL.to : Growth Estimate Not Found For: JWEL.to - https://ca.finance.yahoo.com/quote/JWEL.TO/analysis?p=JWEL.TO
 MD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MD.nyse
-NLSN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NLSN.nyse
 MAV.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MAV.to
 AKO.nyse : Growth Estimate Not Found For: AKO.nyse - https://ca.finance.yahoo.com/quote/AKO/analysis?p=AKO
 VRM.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VRM.nas
@@ -920,7 +906,6 @@ HXF.to : Growth Estimate Not Found For: HXF.to - https://ca.finance.yahoo.com/qu
 ZGYH.nas : Growth Estimate Not Found For: ZGYH.nas - https://ca.finance.yahoo.com/quote/ZGYH/analysis?p=ZGYH
 LITB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LITB.nyse
 WCC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WCC.nyse
-GTT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GTT.nyse
 FCRD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FCRD.nas
 NRE.nyse : Growth Estimate Not Found For: NRE.nyse - https://ca.finance.yahoo.com/quote/NRE/analysis?p=NRE
 BRLI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BRLI.nas
@@ -928,7 +913,6 @@ ZS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ZS.nas
 HBLK.to : Growth Estimate Not Found For: HBLK.to - https://ca.finance.yahoo.com/quote/HBLK.TO/analysis?p=HBLK.TO
 ZLE.to : Growth Estimate Not Found For: ZLE.to - https://ca.finance.yahoo.com/quote/ZLE.TO/analysis?p=ZLE.TO
 VRE.to : Growth Estimate Not Found For: VRE.to - https://ca.finance.yahoo.com/quote/VRE.TO/analysis?p=VRE.TO
-OAS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OAS.nas
 INDY.nas : Growth Estimate Not Found For: INDY.nas - https://ca.finance.yahoo.com/quote/INDY/analysis?p=INDY
 VSC.to : Growth Estimate Not Found For: VSC.to - https://ca.finance.yahoo.com/quote/VSC.TO/analysis?p=VSC.TO
 VRIG.nas : Growth Estimate Not Found For: VRIG.nas - https://ca.finance.yahoo.com/quote/VRIG/analysis?p=VRIG
@@ -964,7 +948,6 @@ MVT.nyse : Growth Estimate Not Found For: MVT.nyse - https://ca.finance.yahoo.co
 RYAM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RYAM.nyse
 XFF.to : Growth Estimate Not Found For: XFF.to - https://ca.finance.yahoo.com/quote/XFF.TO/analysis?p=XFF.TO
 PYN.nyse : Growth Estimate Not Found For: PYN.nyse - https://ca.finance.yahoo.com/quote/PYN/analysis?p=PYN
-DHC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DHC.nas
 ORGO.nas : Growth Estimate Not Found For: ORGO.nas - https://ca.finance.yahoo.com/quote/ORGO/analysis?p=ORGO
 CLBK.nas : Growth Estimate Not Found For: CLBK.nas - https://ca.finance.yahoo.com/quote/CLBK/analysis?p=CLBK
 XUT.to : Growth Estimate Not Found For: XUT.to - https://ca.finance.yahoo.com/quote/XUT.TO/analysis?p=XUT.TO
@@ -990,9 +973,7 @@ BIGC.nas : Growth Estimate Not Found For: BIGC.nas - https://ca.finance.yahoo.co
 LGV.nyse : Growth Estimate Not Found For: LGV.nyse - https://ca.finance.yahoo.com/quote/LGV/analysis?p=LGV
 BIVI.nas : Growth Estimate Not Found For: BIVI.nas - https://ca.finance.yahoo.com/quote/BIVI/analysis?p=BIVI
 LAC.to : Growth Estimate Not Found For: LAC.to - https://ca.finance.yahoo.com/quote/LAC.TO/analysis?p=LAC.TO
-VIACA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VIACA.nas
 SRTS.nas : Growth Estimate Not Found For: SRTS.nas - https://ca.finance.yahoo.com/quote/SRTS/analysis?p=SRTS
-AENZ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AENZ.nyse
 HXE.to : Growth Estimate Not Found For: HXE.to - https://ca.finance.yahoo.com/quote/HXE.TO/analysis?p=HXE.TO
 UVE.nyse : Growth Estimate Not Found For: UVE.nyse - https://ca.finance.yahoo.com/quote/UVE/analysis?p=UVE
 IIA.nyse : Growth Estimate Not Found For: IIA.nyse - https://ca.finance.yahoo.com/quote/IIA/analysis?p=IIA
@@ -1022,7 +1003,6 @@ PSCE.nas : Growth Estimate Not Found For: PSCE.nas - https://ca.finance.yahoo.co
 WXM.to : Growth Estimate Not Found For: WXM.to - https://ca.finance.yahoo.com/quote/WXM.TO/analysis?p=WXM.TO
 PFX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PFX.nas
 ATAX.nas : Growth Estimate Not Found For: ATAX.nas - https://ca.finance.yahoo.com/quote/ATAX/analysis?p=ATAX
-SB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SB.nyse
 SRSAU.nas : Growth Estimate Not Found For: SRSAU.nas - https://ca.finance.yahoo.com/quote/SRSAU/analysis?p=SRSAU
 ATNF.nas : Growth Estimate Not Found For: ATNF.nas - https://ca.finance.yahoo.com/quote/ATNF/analysis?p=ATNF
 BTAQW.nas : Growth Estimate Not Found For: BTAQW.nas - https://ca.finance.yahoo.com/quote/BTAQW/analysis?p=BTAQW
@@ -1137,7 +1117,6 @@ VLON.nas : Growth Estimate Not Found For: VLON.nas - https://ca.finance.yahoo.co
 EUR.to : Growth Estimate Not Found For: EUR.to - https://ca.finance.yahoo.com/quote/EUR.TO/analysis?p=EUR.TO
 ALACW.nas : Growth Estimate Not Found For: ALACW.nas - https://ca.finance.yahoo.com/quote/ALACW/analysis?p=ALACW
 GRTS.nas : Growth Estimate Not Found For: GRTS.nas - https://ca.finance.yahoo.com/quote/GRTS/analysis?p=GRTS
-TFC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TFC.nyse
 SPG.to : Growth Estimate Not Found For: SPG.to - https://ca.finance.yahoo.com/quote/SPG.TO/analysis?p=SPG.TO
 QURE.nas : Growth Estimate Not Found For: QURE.nas - https://ca.finance.yahoo.com/quote/QURE/analysis?p=QURE
 HRI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HRI.nyse
@@ -1215,7 +1194,6 @@ PPGHW.nas : Growth Estimate Not Found For: PPGHW.nas - https://ca.finance.yahoo.
 TERM.to : Growth Estimate Not Found For: TERM.to - https://ca.finance.yahoo.com/quote/TERM.TO/analysis?p=TERM.TO
 LCAPU.nas : Growth Estimate Not Found For: LCAPU.nas - https://ca.finance.yahoo.com/quote/LCAPU/analysis?p=LCAPU
 TDOC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TDOC.nyse
-NLOK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NLOK.nas
 CUBE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CUBE.nyse
 BOKFL.nas : Growth Estimate Not Found For: BOKFL.nas - https://ca.finance.yahoo.com/quote/BOKFL/analysis?p=BOKFL
 FREEW.nas : Growth Estimate Not Found For: FREEW.nas - https://ca.finance.yahoo.com/quote/FREEW/analysis?p=FREEW
@@ -1305,7 +1283,6 @@ DUKB.nyse : Growth Estimate Not Found For: DUKB.nyse - https://ca.finance.yahoo.
 IFFT.nyse : Growth Estimate Not Found For: IFFT.nyse - https://ca.finance.yahoo.com/quote/IFFT/analysis?p=IFFT
 TSI.nyse : Growth Estimate Not Found For: TSI.nyse - https://ca.finance.yahoo.com/quote/TSI/analysis?p=TSI
 NEWA.nas : Growth Estimate Not Found For: NEWA.nas - https://ca.finance.yahoo.com/quote/NEWA/analysis?p=NEWA
-PIPR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PIPR.nyse
 SRV.nyse : Growth Estimate Not Found For: SRV.nyse - https://ca.finance.yahoo.com/quote/SRV/analysis?p=SRV
 AAIC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AAIC.nyse
 CTA.nyse : Growth Estimate Not Found For: CTA.nyse - https://ca.finance.yahoo.com/quote/CTA/analysis?p=CTA
@@ -1343,7 +1320,6 @@ SPKEP.nas : Growth Estimate Not Found For: SPKEP.nas - https://ca.finance.yahoo.
 FCNCP.nas : Growth Estimate Not Found For: FCNCP.nas - https://ca.finance.yahoo.com/quote/FCNCP/analysis?p=FCNCP
 SANA.nas : Growth Estimate Not Found For: SANA.nas - https://ca.finance.yahoo.com/quote/SANA/analysis?p=SANA
 INSW.nyse : Growth Estimate Not Found For: INSW.nyse - https://ca.finance.yahoo.com/quote/INSW/analysis?p=INSW
-HMPT.nas : Growth Estimate Not Found For: HMPT.nas - https://ca.finance.yahoo.com/quote/HMPT/analysis?p=HMPT
 VPN.nas : Growth Estimate Not Found For: VPN.nas - https://ca.finance.yahoo.com/quote/VPN/analysis?p=VPN
 PCF.nyse : Growth Estimate Not Found For: PCF.nyse - https://ca.finance.yahoo.com/quote/PCF/analysis?p=PCF
 MFT.to : Growth Estimate Not Found For: MFT.to - https://ca.finance.yahoo.com/quote/MFT.TO/analysis?p=MFT.TO
@@ -1386,7 +1362,6 @@ FORA.nas : Growth Estimate Not Found For: FORA.nas - https://ca.finance.yahoo.co
 SUMO.nas : Growth Estimate Not Found For: SUMO.nas - https://ca.finance.yahoo.com/quote/SUMO/analysis?p=SUMO
 DHHCU.nas : Growth Estimate Not Found For: DHHCU.nas - https://ca.finance.yahoo.com/quote/DHHCU/analysis?p=DHHCU
 FLDM.to : Growth Estimate Not Found For: FLDM.to - https://ca.finance.yahoo.com/quote/FLDM.TO/analysis?p=FLDM.TO
-ATC.nyse : Growth Estimate Not Found For: ATC.nyse - https://ca.finance.yahoo.com/quote/ATC/analysis?p=ATC
 LATNU.nas : Growth Estimate Not Found For: LATNU.nas - https://ca.finance.yahoo.com/quote/LATNU/analysis?p=LATNU
 PCYO.nas : Growth Estimate Not Found For: PCYO.nas - https://ca.finance.yahoo.com/quote/PCYO/analysis?p=PCYO
 HBANN.nas : Growth Estimate Not Found For: HBANN.nas - https://ca.finance.yahoo.com/quote/HBANN/analysis?p=HBANN
@@ -1401,7 +1376,6 @@ VGCX.to : Growth Estimate Not Found For: VGCX.to - https://ca.finance.yahoo.com/
 JW.nyse : Growth Estimate Not Found For: JW.nyse - https://ca.finance.yahoo.com/quote/JW/analysis?p=JW
 BNTC.nas : Growth Estimate Not Found For: BNTC.nas - https://ca.finance.yahoo.com/quote/BNTC/analysis?p=BNTC
 AWF.nyse : Growth Estimate Not Found For: AWF.nyse - https://ca.finance.yahoo.com/quote/AWF/analysis?p=AWF
-CSCW.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CSCW.nas
 APLE.nyse : Growth Estimate Not Found For: APLE.nyse - https://ca.finance.yahoo.com/quote/APLE/analysis?p=APLE
 TVE.to : Growth Estimate Not Found For: TVE.to - https://ca.finance.yahoo.com/quote/TVE.TO/analysis?p=TVE.TO
 PMX.nyse : Growth Estimate Not Found For: PMX.nyse - https://ca.finance.yahoo.com/quote/PMX/analysis?p=PMX
@@ -1447,7 +1421,6 @@ MOZ.to : Growth Estimate Not Found For: MOZ.to - https://ca.finance.yahoo.com/qu
 METXW.nas : Growth Estimate Not Found For: METXW.nas - https://ca.finance.yahoo.com/quote/METXW/analysis?p=METXW
 ERO.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ERO.to
 RCA.nyse : Growth Estimate Not Found For: RCA.nyse - https://ca.finance.yahoo.com/quote/RCA/analysis?p=RCA
-APG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: APG.nyse
 BSA.nyse : Growth Estimate Not Found For: BSA.nyse - https://ca.finance.yahoo.com/quote/BSA/analysis?p=BSA
 HOG.to : Growth Estimate Not Found For: HOG.to - https://ca.finance.yahoo.com/quote/HOG.TO/analysis?p=HOG.TO
 VII.nas : Growth Estimate Not Found For: VII.nas - https://ca.finance.yahoo.com/quote/VII/analysis?p=VII
@@ -1487,7 +1460,6 @@ FEO.nyse : Growth Estimate Not Found For: FEO.nyse - https://ca.finance.yahoo.co
 QQEW.nas : Growth Estimate Not Found For: QQEW.nas - https://ca.finance.yahoo.com/quote/QQEW/analysis?p=QQEW
 LMRKP.nas : Growth Estimate Not Found For: LMRKP.nas - https://ca.finance.yahoo.com/quote/LMRKP/analysis?p=LMRKP
 PACE.nyse : Growth Estimate Not Found For: PACE.nyse - https://ca.finance.yahoo.com/quote/PACE/analysis?p=PACE
-LUMO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LUMO.nas
 ZWB.to : Growth Estimate Not Found For: ZWB.to - https://ca.finance.yahoo.com/quote/ZWB.TO/analysis?p=ZWB.TO
 VAPO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VAPO.nyse
 DXYN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DXYN.nas
@@ -1502,7 +1474,6 @@ GECCN.nas : Growth Estimate Not Found For: GECCN.nas - https://ca.finance.yahoo.
 RIGL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RIGL.nas
 SCAD.to : Growth Estimate Not Found For: SCAD.to - https://ca.finance.yahoo.com/quote/SCAD.TO/analysis?p=SCAD.TO
 FCVT.nas : Growth Estimate Not Found For: FCVT.nas - https://ca.finance.yahoo.com/quote/FCVT/analysis?p=FCVT
-BKR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BKR.nyse
 MNSB.nas : Growth Estimate Not Found For: MNSB.nas - https://ca.finance.yahoo.com/quote/MNSB/analysis?p=MNSB
 GALT.nas : Growth Estimate Not Found For: GALT.nas - https://ca.finance.yahoo.com/quote/GALT/analysis?p=GALT
 RAAC.nas : Growth Estimate Not Found For: RAAC.nas - https://ca.finance.yahoo.com/quote/RAAC/analysis?p=RAAC
@@ -1552,7 +1523,6 @@ EACPU.nas : Growth Estimate Not Found For: EACPU.nas - https://ca.finance.yahoo.
 VINC.nas : Growth Estimate Not Found For: VINC.nas - https://ca.finance.yahoo.com/quote/VINC/analysis?p=VINC
 NEV.nyse : Growth Estimate Not Found For: NEV.nyse - https://ca.finance.yahoo.com/quote/NEV/analysis?p=NEV
 PMM.nyse : Growth Estimate Not Found For: PMM.nyse - https://ca.finance.yahoo.com/quote/PMM/analysis?p=PMM
-DHX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DHX.nyse
 BWSN.nyse : Growth Estimate Not Found For: BWSN.nyse - https://ca.finance.yahoo.com/quote/BWSN/analysis?p=BWSN
 NLSP.nas : Growth Estimate Not Found For: NLSP.nas - https://ca.finance.yahoo.com/quote/NLSP/analysis?p=NLSP
 MDIA.nas : Growth Estimate Not Found For: MDIA.nas - https://ca.finance.yahoo.com/quote/MDIA/analysis?p=MDIA
@@ -1588,7 +1558,6 @@ QINF.to : Growth Estimate Not Found For: QINF.to - https://ca.finance.yahoo.com/
 BRLIW.nas : Growth Estimate Not Found For: BRLIW.nas - https://ca.finance.yahoo.com/quote/BRLIW/analysis?p=BRLIW
 XIN.nyse : Growth Estimate Not Found For: XIN.nyse - https://ca.finance.yahoo.com/quote/XIN/analysis?p=XIN
 PFAE.to : Growth Estimate Not Found For: PFAE.to - https://ca.finance.yahoo.com/quote/PFAE.TO/analysis?p=PFAE.TO
-FRG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FRG.nas
 CFAC.nas : Growth Estimate Not Found For: CFAC.nas - https://ca.finance.yahoo.com/quote/CFAC/analysis?p=CFAC
 NUM.nyse : Growth Estimate Not Found For: NUM.nyse - https://ca.finance.yahoo.com/quote/NUM/analysis?p=NUM
 PINC.to : Growth Estimate Not Found For: PINC.to - https://ca.finance.yahoo.com/quote/PINC.TO/analysis?p=PINC.TO
@@ -1619,7 +1588,6 @@ CRH.to : Growth Estimate Not Found For: CRH.to - https://ca.finance.yahoo.com/qu
 CRP.to : Growth Estimate Not Found For: CRP.to - https://ca.finance.yahoo.com/quote/CRP.TO/analysis?p=CRP.TO
 CRRX.to : Growth Estimate Not Found For: CRRX.to - https://ca.finance.yahoo.com/quote/CRRX.TO/analysis?p=CRRX.TO
 CRWN.to : Growth Estimate Not Found For: CRWN.to - https://ca.finance.yahoo.com/quote/CRWN.TO/analysis?p=CRWN.TO
-CS.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CS.to
 CSD.to : Growth Estimate Not Found For: CSD.to - https://ca.finance.yahoo.com/quote/CSD.TO/analysis?p=CSD.TO
 CTX.to : Growth Estimate Not Found For: CTX.to - https://ca.finance.yahoo.com/quote/CTX.TO/analysis?p=CTX.TO
 CUD.to : Growth Estimate Not Found For: CUD.to - https://ca.finance.yahoo.com/quote/CUD.TO/analysis?p=CUD.TO
@@ -1808,7 +1776,6 @@ GOOS.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GOOS.to
 GRN.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GRN.to
 GSC.to : Growth Estimate Not Found For: GSC.to - https://ca.finance.yahoo.com/quote/GSC.TO/analysis?p=GSC.TO
 GSV.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GSV.to
-GSY.to : Growth Estimate Not Found For: GSY.to - https://ca.finance.yahoo.com/quote/GSY.TO/analysis?p=GSY.TO
 GTMS.to : Growth Estimate Not Found For: GTMS.to - https://ca.finance.yahoo.com/quote/GTMS.TO/analysis?p=GTMS.TO
 GURU.to : Growth Estimate Not Found For: GURU.to - https://ca.finance.yahoo.com/quote/GURU.TO/analysis?p=GURU.TO
 GVC.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GVC.to
@@ -1904,7 +1871,6 @@ IFRF.to : Growth Estimate Not Found For: IFRF.to - https://ca.finance.yahoo.com/
 IGAF.to : Growth Estimate Not Found For: IGAF.to - https://ca.finance.yahoo.com/quote/IGAF.TO/analysis?p=IGAF.TO
 IGB.to : Growth Estimate Not Found For: IGB.to - https://ca.finance.yahoo.com/quote/IGB.TO/analysis?p=IGB.TO
 ILV.to : Growth Estimate Not Found For: ILV.to - https://ca.finance.yahoo.com/quote/ILV.TO/analysis?p=ILV.TO
-IMG.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IMG.to
 IMP.to : Growth Estimate Not Found For: IMP.to - https://ca.finance.yahoo.com/quote/IMP.TO/analysis?p=IMP.TO
 INOC.to : Growth Estimate Not Found For: INOC.to - https://ca.finance.yahoo.com/quote/INOC.TO/analysis?p=INOC.TO
 INQ.to : Growth Estimate Not Found For: INQ.to - https://ca.finance.yahoo.com/quote/INQ.TO/analysis?p=INQ.TO
@@ -2180,7 +2146,6 @@ TCN.to : Growth Estimate Not Found For: TCN.to - https://ca.finance.yahoo.com/qu
 TCSB.to : Growth Estimate Not Found For: TCSB.to - https://ca.finance.yahoo.com/quote/TCSB.TO/analysis?p=TCSB.TO
 TDB.to : Growth Estimate Not Found For: TDB.to - https://ca.finance.yahoo.com/quote/TDB.TO/analysis?p=TDB.TO
 TEC.to : Growth Estimate Not Found For: TEC.to - https://ca.finance.yahoo.com/quote/TEC.TO/analysis?p=TEC.TO
-TEV.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TEV.to
 TF.to : Growth Estimate Not Found For: TF.to - https://ca.finance.yahoo.com/quote/TF.TO/analysis?p=TF.TO
 TGED.to : Growth Estimate Not Found For: TGED.to - https://ca.finance.yahoo.com/quote/TGED.TO/analysis?p=TGED.TO
 TGFI.to : Growth Estimate Not Found For: TGFI.to - https://ca.finance.yahoo.com/quote/TGFI.TO/analysis?p=TGFI.TO
@@ -2545,7 +2510,6 @@ ALLT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ALLT.nas
 ALNA.nas : Growth Estimate Not Found For: ALNA.nas - https://ca.finance.yahoo.com/quote/ALNA/analysis?p=ALNA
 ALRS.nas : Growth Estimate Not Found For: ALRS.nas - https://ca.finance.yahoo.com/quote/ALRS/analysis?p=ALRS
 ALSK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ALSK.nas
-ALTO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ALTO.nas
 ALTUU.nas : Growth Estimate Not Found For: ALTUU.nas - https://ca.finance.yahoo.com/quote/ALTUU/analysis?p=ALTUU
 ALTY.nas : Growth Estimate Not Found For: ALTY.nas - https://ca.finance.yahoo.com/quote/ALTY/analysis?p=ALTY
 ALVR.nas : Growth Estimate Not Found For: ALVR.nas - https://ca.finance.yahoo.com/quote/ALVR/analysis?p=ALVR
@@ -2619,7 +2583,6 @@ ARYD.nas : Growth Estimate Not Found For: ARYD.nas - https://ca.finance.yahoo.co
 ASAXU.nas : Growth Estimate Not Found For: ASAXU.nas - https://ca.finance.yahoo.com/quote/ASAXU/analysis?p=ASAXU
 ASET.nas : Growth Estimate Not Found For: ASET.nas - https://ca.finance.yahoo.com/quote/ASET/analysis?p=ASET
 ASMB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ASMB.nas
-ASO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ASO.nas
 ASRVP.nas : Growth Estimate Not Found For: ASRVP.nas - https://ca.finance.yahoo.com/quote/ASRVP/analysis?p=ASRVP
 ASTC.nas : Growth Estimate Not Found For: ASTC.nas - https://ca.finance.yahoo.com/quote/ASTC/analysis?p=ASTC
 ATCX.nas : Growth Estimate Not Found For: ATCX.nas - https://ca.finance.yahoo.com/quote/ATCX/analysis?p=ATCX
@@ -2703,7 +2666,6 @@ BHFAP.nas : Growth Estimate Not Found For: BHFAP.nas - https://ca.finance.yahoo.
 BHSE.nas : Growth Estimate Not Found For: BHSE.nas - https://ca.finance.yahoo.com/quote/BHSE/analysis?p=BHSE
 BHTG.nas : Growth Estimate Not Found For: BHTG.nas - https://ca.finance.yahoo.com/quote/BHTG/analysis?p=BHTG
 BIB.nas : Growth Estimate Not Found For: BIB.nas - https://ca.finance.yahoo.com/quote/BIB/analysis?p=BIB
-BIDU.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BIDU.nas
 BIOL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BIOL.nas
 BIOTU.nas : Growth Estimate Not Found For: BIOTU.nas - https://ca.finance.yahoo.com/quote/BIOTU/analysis?p=BIOTU
 BKEPP.nas : Growth Estimate Not Found For: BKEPP.nas - https://ca.finance.yahoo.com/quote/BKEPP/analysis?p=BKEPP
@@ -2784,7 +2746,6 @@ BSMT.nas : Growth Estimate Not Found For: BSMT.nas - https://ca.finance.yahoo.co
 BSMU.nas : Growth Estimate Not Found For: BSMU.nas - https://ca.finance.yahoo.com/quote/BSMU/analysis?p=BSMU
 BSQR.nas : Growth Estimate Not Found For: BSQR.nas - https://ca.finance.yahoo.com/quote/BSQR/analysis?p=BSQR
 BSVN.nas : Growth Estimate Not Found For: BSVN.nas - https://ca.finance.yahoo.com/quote/BSVN/analysis?p=BSVN
-BSY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BSY.nas
 BTAI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BTAI.nas
 BTAQ.nas : Growth Estimate Not Found For: BTAQ.nas - https://ca.finance.yahoo.com/quote/BTAQ/analysis?p=BTAQ
 BTAQU.nas : Growth Estimate Not Found For: BTAQU.nas - https://ca.finance.yahoo.com/quote/BTAQU/analysis?p=BTAQU
@@ -2845,7 +2806,6 @@ CDXC.nas : Growth Estimate Not Found For: CDXC.nas - https://ca.finance.yahoo.co
 CDXS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CDXS.nas
 CDZI.nas : Growth Estimate Not Found For: CDZI.nas - https://ca.finance.yahoo.com/quote/CDZI/analysis?p=CDZI
 CELC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CELC.nas
-CELH.nas : Growth Estimate Not Found For: CELH.nas - https://ca.finance.yahoo.com/quote/CELH/analysis?p=CELH
 CEMI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CEMI.nas
 CENHU.nas : Growth Estimate Not Found For: CENHU.nas - https://ca.finance.yahoo.com/quote/CENHU/analysis?p=CENHU
 CERC.nas : Growth Estimate Not Found For: CERC.nas - https://ca.finance.yahoo.com/quote/CERC/analysis?p=CERC
@@ -2876,7 +2836,6 @@ CGROW.nas : Growth Estimate Not Found For: CGROW.nas - https://ca.finance.yahoo.
 CHB.nas : Growth Estimate Not Found For: CHB.nas - https://ca.finance.yahoo.com/quote/CHB/analysis?p=CHB
 CHEK.nas : Growth Estimate Not Found For: CHEK.nas - https://ca.finance.yahoo.com/quote/CHEK/analysis?p=CHEK
 CHFS.nas : Growth Estimate Not Found For: CHFS.nas - https://ca.finance.yahoo.com/quote/CHFS/analysis?p=CHFS
-CHK.nas : Growth Estimate Not Found For: CHK.nas - https://ca.finance.yahoo.com/quote/CHK/analysis?p=CHK
 CHKEW.nas : Growth Estimate Not Found For: CHKEW.nas - https://ca.finance.yahoo.com/quote/CHKEW/analysis?p=CHKEW
 CHKEZ.nas : Growth Estimate Not Found For: CHKEZ.nas - https://ca.finance.yahoo.com/quote/CHKEZ/analysis?p=CHKEZ
 CHMA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CHMA.nas
@@ -3000,7 +2959,6 @@ CUENW.nas : Growth Estimate Not Found For: CUENW.nas - https://ca.finance.yahoo.
 CURIW.nas : Growth Estimate Not Found For: CURIW.nas - https://ca.finance.yahoo.com/quote/CURIW/analysis?p=CURIW
 CVAC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CVAC.nas
 CVET.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CVET.nas
-CVLG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CVLG.nas
 CVLY.nas : Growth Estimate Not Found For: CVLY.nas - https://ca.finance.yahoo.com/quote/CVLY/analysis?p=CVLY
 CVV.nas : Growth Estimate Not Found For: CVV.nas - https://ca.finance.yahoo.com/quote/CVV/analysis?p=CVV
 CWBC.nas : Growth Estimate Not Found For: CWBC.nas - https://ca.finance.yahoo.com/quote/CWBC/analysis?p=CWBC
@@ -3095,7 +3053,6 @@ DYAI.nas : Growth Estimate Not Found For: DYAI.nas - https://ca.finance.yahoo.co
 DYN.nas : Growth Estimate Not Found For: DYN.nas - https://ca.finance.yahoo.com/quote/DYN/analysis?p=DYN
 DYNT.nas : Growth Estimate Not Found For: DYNT.nas - https://ca.finance.yahoo.com/quote/DYNT/analysis?p=DYNT
 EAC.nas : Growth Estimate Not Found For: EAC.nas - https://ca.finance.yahoo.com/quote/EAC/analysis?p=EAC
-EAR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EAR.nas
 EARS.nas : Growth Estimate Not Found For: EARS.nas - https://ca.finance.yahoo.com/quote/EARS/analysis?p=EARS
 EAST.nas : Growth Estimate Not Found For: EAST.nas - https://ca.finance.yahoo.com/quote/EAST/analysis?p=EAST
 EBC.nas : Growth Estimate Not Found For: EBC.nas - https://ca.finance.yahoo.com/quote/EBC/analysis?p=EBC
@@ -3338,7 +3295,6 @@ GDYNW.nas : Growth Estimate Not Found For: GDYNW.nas - https://ca.finance.yahoo.
 GECC.nas : Growth Estimate Not Found For: GECC.nas - https://ca.finance.yahoo.com/quote/GECC/analysis?p=GECC
 GECCL.nas : Growth Estimate Not Found For: GECCL.nas - https://ca.finance.yahoo.com/quote/GECCL/analysis?p=GECCL
 GECCM.nas : Growth Estimate Not Found For: GECCM.nas - https://ca.finance.yahoo.com/quote/GECCM/analysis?p=GECCM
-GEG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GEG.nas
 GENC.nas : Growth Estimate Not Found For: GENC.nas - https://ca.finance.yahoo.com/quote/GENC/analysis?p=GENC
 GENE.nas : Growth Estimate Not Found For: GENE.nas - https://ca.finance.yahoo.com/quote/GENE/analysis?p=GENE
 GEVO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GEVO.nas
@@ -3357,9 +3313,7 @@ GLAQW.nas : Growth Estimate Not Found For: GLAQW.nas - https://ca.finance.yahoo.
 GLBS.nas : Growth Estimate Not Found For: GLBS.nas - https://ca.finance.yahoo.com/quote/GLBS/analysis?p=GLBS
 GLDI.nas : Growth Estimate Not Found For: GLDI.nas - https://ca.finance.yahoo.com/quote/GLDI/analysis?p=GLDI
 GLG.nas : Growth Estimate Not Found For: GLG.nas - https://ca.finance.yahoo.com/quote/GLG/analysis?p=GLG
-GLPG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GLPG.nas
 GLYC.nas : Growth Estimate Not Found For: GLYC.nas - https://ca.finance.yahoo.com/quote/GLYC/analysis?p=GLYC
-GMAB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GMAB.nas
 GMBL.nas : Growth Estimate Not Found For: GMBL.nas - https://ca.finance.yahoo.com/quote/GMBL/analysis?p=GMBL
 GMBLW.nas : Growth Estimate Not Found For: GMBLW.nas - https://ca.finance.yahoo.com/quote/GMBLW/analysis?p=GMBLW
 GMDA.nas : Growth Estimate Not Found For: GMDA.nas - https://ca.finance.yahoo.com/quote/GMDA/analysis?p=GMDA
@@ -3376,10 +3330,8 @@ GNOM.nas : Growth Estimate Not Found For: GNOM.nas - https://ca.finance.yahoo.co
 GNPX.nas : Growth Estimate Not Found For: GNPX.nas - https://ca.finance.yahoo.com/quote/GNPX/analysis?p=GNPX
 GNRS.nas : Growth Estimate Not Found For: GNRS.nas - https://ca.finance.yahoo.com/quote/GNRS/analysis?p=GNRS
 GNRSU.nas : Growth Estimate Not Found For: GNRSU.nas - https://ca.finance.yahoo.com/quote/GNRSU/analysis?p=GNRSU
-GNSS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GNSS.nas
 GNTY.nas : Growth Estimate Not Found For: GNTY.nas - https://ca.finance.yahoo.com/quote/GNTY/analysis?p=GNTY
 GNUS.nas : Growth Estimate Not Found For: GNUS.nas - https://ca.finance.yahoo.com/quote/GNUS/analysis?p=GNUS
-GO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GO.nas
 GOCO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GOCO.nas
 GOEV.nas : Growth Estimate Not Found For: GOEV.nas - https://ca.finance.yahoo.com/quote/GOEV/analysis?p=GOEV
 GOEVW.nas : Growth Estimate Not Found For: GOEVW.nas - https://ca.finance.yahoo.com/quote/GOEVW/analysis?p=GOEVW
@@ -3434,7 +3386,6 @@ HBANP.nas : Growth Estimate Not Found For: HBANP.nas - https://ca.finance.yahoo.
 HBCP.nas : Growth Estimate Not Found For: HBCP.nas - https://ca.finance.yahoo.com/quote/HBCP/analysis?p=HBCP
 HBMD.nas : Growth Estimate Not Found For: HBMD.nas - https://ca.finance.yahoo.com/quote/HBMD/analysis?p=HBMD
 HBNC.nas : Growth Estimate Not Found For: HBNC.nas - https://ca.finance.yahoo.com/quote/HBNC/analysis?p=HBNC
-HBP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HBP.nas
 HBT.nas : Growth Estimate Not Found For: HBT.nas - https://ca.finance.yahoo.com/quote/HBT/analysis?p=HBT
 HCAQ.nas : Growth Estimate Not Found For: HCAQ.nas - https://ca.finance.yahoo.com/quote/HCAQ/analysis?p=HCAQ
 HCAR.nas : Growth Estimate Not Found For: HCAR.nas - https://ca.finance.yahoo.com/quote/HCAR/analysis?p=HCAR
@@ -3445,7 +3396,6 @@ HCCCU.nas : Growth Estimate Not Found For: HCCCU.nas - https://ca.finance.yahoo.
 HCDI.nas : Growth Estimate Not Found For: HCDI.nas - https://ca.finance.yahoo.com/quote/HCDI/analysis?p=HCDI
 HCICU.nas : Growth Estimate Not Found For: HCICU.nas - https://ca.finance.yahoo.com/quote/HCICU/analysis?p=HCICU
 HCIIU.nas : Growth Estimate Not Found For: HCIIU.nas - https://ca.finance.yahoo.com/quote/HCIIU/analysis?p=HCIIU
-HCM.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HCM.nas
 HECCU.nas : Growth Estimate Not Found For: HECCU.nas - https://ca.finance.yahoo.com/quote/HECCU/analysis?p=HECCU
 HECCW.nas : Growth Estimate Not Found For: HECCW.nas - https://ca.finance.yahoo.com/quote/HECCW/analysis?p=HECCW
 HEPA.nas : Growth Estimate Not Found For: HEPA.nas - https://ca.finance.yahoo.com/quote/HEPA/analysis?p=HEPA
@@ -3457,7 +3407,6 @@ HFBL.nas : Growth Estimate Not Found For: HFBL.nas - https://ca.finance.yahoo.co
 HFFG.nas : Growth Estimate Not Found For: HFFG.nas - https://ca.finance.yahoo.com/quote/HFFG/analysis?p=HFFG
 HGBL.nas : Growth Estimate Not Found For: HGBL.nas - https://ca.finance.yahoo.com/quote/HGBL/analysis?p=HGBL
 HGSH.nas : Growth Estimate Not Found For: HGSH.nas - https://ca.finance.yahoo.com/quote/HGSH/analysis?p=HGSH
-HHR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HHR.nas
 HIFS.nas : Growth Estimate Not Found For: HIFS.nas - https://ca.finance.yahoo.com/quote/HIFS/analysis?p=HIFS
 HIHO.nas : Growth Estimate Not Found For: HIHO.nas - https://ca.finance.yahoo.com/quote/HIHO/analysis?p=HIHO
 HIIIU.nas : Growth Estimate Not Found For: HIIIU.nas - https://ca.finance.yahoo.com/quote/HIIIU/analysis?p=HIIIU
@@ -3553,7 +3502,6 @@ IGOV.nas : Growth Estimate Not Found For: IGOV.nas - https://ca.finance.yahoo.co
 IGSB.nas : Growth Estimate Not Found For: IGSB.nas - https://ca.finance.yahoo.com/quote/IGSB/analysis?p=IGSB
 IHRT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IHRT.nas
 IHYF.nas : Growth Estimate Not Found For: IHYF.nas - https://ca.finance.yahoo.com/quote/IHYF/analysis?p=IHYF
-III.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: III.nas
 IIIIU.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IIIIU.nas
 IIN.nas : Growth Estimate Not Found For: IIN.nas - https://ca.finance.yahoo.com/quote/IIN/analysis?p=IIN
 IIVIP.nas : Growth Estimate Not Found For: IIVIP.nas - https://ca.finance.yahoo.com/quote/IIVIP/analysis?p=IIVIP
@@ -3683,7 +3631,6 @@ KRON.nas : Growth Estimate Not Found For: KRON.nas - https://ca.finance.yahoo.co
 KROS.nas : Growth Estimate Not Found For: KROS.nas - https://ca.finance.yahoo.com/quote/KROS/analysis?p=KROS
 KRTX.nas : Growth Estimate Not Found For: KRTX.nas - https://ca.finance.yahoo.com/quote/KRTX/analysis?p=KRTX
 KSMTW.nas : Growth Estimate Not Found For: KSMTW.nas - https://ca.finance.yahoo.com/quote/KSMTW/analysis?p=KSMTW
-KSPN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KSPN.nas
 KTCC.nas : Growth Estimate Not Found For: KTCC.nas - https://ca.finance.yahoo.com/quote/KTCC/analysis?p=KTCC
 KURA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KURA.nas
 KVSA.nas : Growth Estimate Not Found For: KVSA.nas - https://ca.finance.yahoo.com/quote/KVSA/analysis?p=KVSA
@@ -3800,7 +3747,6 @@ MBOT.nas : Growth Estimate Not Found For: MBOT.nas - https://ca.finance.yahoo.co
 MBRX.nas : Growth Estimate Not Found For: MBRX.nas - https://ca.finance.yahoo.com/quote/MBRX/analysis?p=MBRX
 MCBS.nas : Growth Estimate Not Found For: MCBS.nas - https://ca.finance.yahoo.com/quote/MCBS/analysis?p=MCBS
 MCEF.nas : Growth Estimate Not Found For: MCEF.nas - https://ca.finance.yahoo.com/quote/MCEF/analysis?p=MCEF
-MCFE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MCFE.nas
 MCHI.nas : Growth Estimate Not Found For: MCHI.nas - https://ca.finance.yahoo.com/quote/MCHI/analysis?p=MCHI
 MCMJW.nas : Growth Estimate Not Found For: MCMJW.nas - https://ca.finance.yahoo.com/quote/MCMJW/analysis?p=MCMJW
 MCRB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MCRB.nas
@@ -3814,7 +3760,6 @@ MDWT.nas : Growth Estimate Not Found For: MDWT.nas - https://ca.finance.yahoo.co
 MEDS.nas : Growth Estimate Not Found For: MEDS.nas - https://ca.finance.yahoo.com/quote/MEDS/analysis?p=MEDS
 MESA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MESA.nas
 MFH.nas : Growth Estimate Not Found For: MFH.nas - https://ca.finance.yahoo.com/quote/MFH/analysis?p=MFH
-MGNI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MGNI.nas
 MGNX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MGNX.nas
 MGTA.nas : Growth Estimate Not Found For: MGTA.nas - https://ca.finance.yahoo.com/quote/MGTA/analysis?p=MGTA
 MGTX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MGTX.nas
@@ -3840,7 +3785,6 @@ MNKD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MNKD.nas
 MNOV.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MNOV.nas
 MNSBP.nas : Growth Estimate Not Found For: MNSBP.nas - https://ca.finance.yahoo.com/quote/MNSBP/analysis?p=MNSBP
 MNTK.nas : Growth Estimate Not Found For: MNTK.nas - https://ca.finance.yahoo.com/quote/MNTK/analysis?p=MNTK
-MODV.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MODV.nas
 MOGO.nas : Growth Estimate Not Found For: MOGO.nas - https://ca.finance.yahoo.com/quote/MOGO/analysis?p=MOGO
 MOHO.nas : Growth Estimate Not Found For: MOHO.nas - https://ca.finance.yahoo.com/quote/MOHO/analysis?p=MOHO
 MOR.nas : Growth Estimate Not Found For: MOR.nas - https://ca.finance.yahoo.com/quote/MOR/analysis?p=MOR
@@ -3984,12 +3928,10 @@ ONEQ.nas : Growth Estimate Not Found For: ONEQ.nas - https://ca.finance.yahoo.co
 ONEW.nas : Growth Estimate Not Found For: ONEW.nas - https://ca.finance.yahoo.com/quote/ONEW/analysis?p=ONEW
 ONTX.nas : Growth Estimate Not Found For: ONTX.nas - https://ca.finance.yahoo.com/quote/ONTX/analysis?p=ONTX
 ONTXW.nas : Growth Estimate Not Found For: ONTXW.nas - https://ca.finance.yahoo.com/quote/ONTXW/analysis?p=ONTXW
-OPCH.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OPCH.nas
 OPGN.nas : Growth Estimate Not Found For: OPGN.nas - https://ca.finance.yahoo.com/quote/OPGN/analysis?p=OPGN
 OPHC.nas : Growth Estimate Not Found For: OPHC.nas - https://ca.finance.yahoo.com/quote/OPHC/analysis?p=OPHC
 OPINI.nas : Growth Estimate Not Found For: OPINI.nas - https://ca.finance.yahoo.com/quote/OPINI/analysis?p=OPINI
 OPINL.nas : Growth Estimate Not Found For: OPINL.nas - https://ca.finance.yahoo.com/quote/OPINL/analysis?p=OPINL
-OPK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OPK.nas
 OPNT.nas : Growth Estimate Not Found For: OPNT.nas - https://ca.finance.yahoo.com/quote/OPNT/analysis?p=OPNT
 OPOF.nas : Growth Estimate Not Found For: OPOF.nas - https://ca.finance.yahoo.com/quote/OPOF/analysis?p=OPOF
 OPRA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OPRA.nas
@@ -4011,7 +3953,6 @@ OTEL.nas : Growth Estimate Not Found For: OTEL.nas - https://ca.finance.yahoo.co
 OTLKW.nas : Growth Estimate Not Found For: OTLKW.nas - https://ca.finance.yahoo.com/quote/OTLKW/analysis?p=OTLKW
 OTRA.nas : Growth Estimate Not Found For: OTRA.nas - https://ca.finance.yahoo.com/quote/OTRA/analysis?p=OTRA
 OTRAU.nas : Growth Estimate Not Found For: OTRAU.nas - https://ca.finance.yahoo.com/quote/OTRAU/analysis?p=OTRAU
-OTRK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OTRK.nas
 OTRKP.nas : Growth Estimate Not Found For: OTRKP.nas - https://ca.finance.yahoo.com/quote/OTRKP/analysis?p=OTRKP
 OVID.nas : Growth Estimate Not Found For: OVID.nas - https://ca.finance.yahoo.com/quote/OVID/analysis?p=OVID
 OVLY.nas : Growth Estimate Not Found For: OVLY.nas - https://ca.finance.yahoo.com/quote/OVLY/analysis?p=OVLY
@@ -4022,7 +3963,6 @@ OXSQZ.nas : Growth Estimate Not Found For: OXSQZ.nas - https://ca.finance.yahoo.
 OZON.nas : Growth Estimate Not Found For: OZON.nas - https://ca.finance.yahoo.com/quote/OZON/analysis?p=OZON
 PACB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PACB.nas
 PACXW.nas : Growth Estimate Not Found For: PACXW.nas - https://ca.finance.yahoo.com/quote/PACXW/analysis?p=PACXW
-PAE.nas : Growth Estimate Not Found For: PAE.nas - https://ca.finance.yahoo.com/quote/PAE/analysis?p=PAE
 PAIC.nas : Growth Estimate Not Found For: PAIC.nas - https://ca.finance.yahoo.com/quote/PAIC/analysis?p=PAIC
 PAICU.nas : Growth Estimate Not Found For: PAICU.nas - https://ca.finance.yahoo.com/quote/PAICU/analysis?p=PAICU
 PAICW.nas : Growth Estimate Not Found For: PAICW.nas - https://ca.finance.yahoo.com/quote/PAICW/analysis?p=PAICW
@@ -4032,7 +3972,6 @@ PAQCU.nas : Growth Estimate Not Found For: PAQCU.nas - https://ca.finance.yahoo.
 PATI.nas : Growth Estimate Not Found For: PATI.nas - https://ca.finance.yahoo.com/quote/PATI/analysis?p=PATI
 PAVMW.nas : Growth Estimate Not Found For: PAVMW.nas - https://ca.finance.yahoo.com/quote/PAVMW/analysis?p=PAVMW
 PAVMZ.nas : Growth Estimate Not Found For: PAVMZ.nas - https://ca.finance.yahoo.com/quote/PAVMZ/analysis?p=PAVMZ
-PAX.nas : Growth Estimate Not Found For: PAX.nas - https://ca.finance.yahoo.com/quote/PAX/analysis?p=PAX
 PAYA.nas : Growth Estimate Not Found For: PAYA.nas - https://ca.finance.yahoo.com/quote/PAYA/analysis?p=PAYA
 PAYS.nas : Growth Estimate Not Found For: PAYS.nas - https://ca.finance.yahoo.com/quote/PAYS/analysis?p=PAYS
 PBCTP.nas : Growth Estimate Not Found For: PBCTP.nas - https://ca.finance.yahoo.com/quote/PBCTP/analysis?p=PBCTP
@@ -4051,7 +3990,6 @@ PESI.nas : Growth Estimate Not Found For: PESI.nas - https://ca.finance.yahoo.co
 PETQ.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PETQ.nas
 PEY.nas : Growth Estimate Not Found For: PEY.nas - https://ca.finance.yahoo.com/quote/PEY/analysis?p=PEY
 PEZ.nas : Growth Estimate Not Found For: PEZ.nas - https://ca.finance.yahoo.com/quote/PEZ/analysis?p=PEZ
-PFC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PFC.nas
 PFF.nas : Growth Estimate Not Found For: PFF.nas - https://ca.finance.yahoo.com/quote/PFF/analysis?p=PFF
 PFHD.nas : Growth Estimate Not Found For: PFHD.nas - https://ca.finance.yahoo.com/quote/PFHD/analysis?p=PFHD
 PFI.nas : Growth Estimate Not Found For: PFI.nas - https://ca.finance.yahoo.com/quote/PFI/analysis?p=PFI
@@ -4112,7 +4050,6 @@ PPIH.nas : Growth Estimate Not Found For: PPIH.nas - https://ca.finance.yahoo.co
 PPTA.nas : Growth Estimate Not Found For: PPTA.nas - https://ca.finance.yahoo.com/quote/PPTA/analysis?p=PPTA
 PRAX.nas : Growth Estimate Not Found For: PRAX.nas - https://ca.finance.yahoo.com/quote/PRAX/analysis?p=PRAX
 PRCHW.nas : Growth Estimate Not Found For: PRCHW.nas - https://ca.finance.yahoo.com/quote/PRCHW/analysis?p=PRCHW
-PRDO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PRDO.nas
 PRFX.nas : Growth Estimate Not Found For: PRFX.nas - https://ca.finance.yahoo.com/quote/PRFX/analysis?p=PRFX
 PRFZ.nas : Growth Estimate Not Found For: PRFZ.nas - https://ca.finance.yahoo.com/quote/PRFZ/analysis?p=PRFZ
 PRLD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PRLD.nas
@@ -4149,7 +4086,6 @@ PTICW.nas : Growth Estimate Not Found For: PTICW.nas - https://ca.finance.yahoo.
 PTMN.nas : Growth Estimate Not Found For: PTMN.nas - https://ca.finance.yahoo.com/quote/PTMN/analysis?p=PTMN
 PTRS.nas : Growth Estimate Not Found For: PTRS.nas - https://ca.finance.yahoo.com/quote/PTRS/analysis?p=PTRS
 PTVCA.nas : Growth Estimate Not Found For: PTVCA.nas - https://ca.finance.yahoo.com/quote/PTVCA/analysis?p=PTVCA
-PTVE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PTVE.nas
 PUBM.nas : Growth Estimate Not Found For: PUBM.nas - https://ca.finance.yahoo.com/quote/PUBM/analysis?p=PUBM
 PUCKU.nas : Growth Estimate Not Found For: PUCKU.nas - https://ca.finance.yahoo.com/quote/PUCKU/analysis?p=PUCKU
 PUI.nas : Growth Estimate Not Found For: PUI.nas - https://ca.finance.yahoo.com/quote/PUI/analysis?p=PUI
@@ -4213,7 +4149,6 @@ REKR.nas : Growth Estimate Not Found For: REKR.nas - https://ca.finance.yahoo.co
 RELI.nas : Growth Estimate Not Found For: RELI.nas - https://ca.finance.yahoo.com/quote/RELI/analysis?p=RELI
 RESN.nas : Growth Estimate Not Found For: RESN.nas - https://ca.finance.yahoo.com/quote/RESN/analysis?p=RESN
 RETA.nas : Growth Estimate Not Found For: RETA.nas - https://ca.finance.yahoo.com/quote/RETA/analysis?p=RETA
-REYN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: REYN.nas
 RFAP.nas : Growth Estimate Not Found For: RFAP.nas - https://ca.finance.yahoo.com/quote/RFAP/analysis?p=RFAP
 RFDI.nas : Growth Estimate Not Found For: RFDI.nas - https://ca.finance.yahoo.com/quote/RFDI/analysis?p=RFDI
 RFEU.nas : Growth Estimate Not Found For: RFEU.nas - https://ca.finance.yahoo.com/quote/RFEU/analysis?p=RFEU
@@ -4258,13 +4193,11 @@ RPD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RPD.nas
 RPRX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RPRX.nas
 RPTX.nas : Growth Estimate Not Found For: RPTX.nas - https://ca.finance.yahoo.com/quote/RPTX/analysis?p=RPTX
 RRBI.nas : Growth Estimate Not Found For: RRBI.nas - https://ca.finance.yahoo.com/quote/RRBI/analysis?p=RRBI
-RRR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RRR.nas
 RSSS.nas : Growth Estimate Not Found For: RSSS.nas - https://ca.finance.yahoo.com/quote/RSSS/analysis?p=RSSS
 RSVA.nas : Growth Estimate Not Found For: RSVA.nas - https://ca.finance.yahoo.com/quote/RSVA/analysis?p=RSVA
 RSVAU.nas : Growth Estimate Not Found For: RSVAU.nas - https://ca.finance.yahoo.com/quote/RSVAU/analysis?p=RSVAU
 RSVAW.nas : Growth Estimate Not Found For: RSVAW.nas - https://ca.finance.yahoo.com/quote/RSVAW/analysis?p=RSVAW
 RTH.nas : Growth Estimate Not Found For: RTH.nas - https://ca.finance.yahoo.com/quote/RTH/analysis?p=RTH
-RTLR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RTLR.nas
 RUBY.nas : Growth Estimate Not Found For: RUBY.nas - https://ca.finance.yahoo.com/quote/RUBY/analysis?p=RUBY
 RUHN.nas : Growth Estimate Not Found For: RUHN.nas - https://ca.finance.yahoo.com/quote/RUHN/analysis?p=RUHN
 RVMD.nas : Growth Estimate Not Found For: RVMD.nas - https://ca.finance.yahoo.com/quote/RVMD/analysis?p=RVMD
@@ -4328,7 +4261,6 @@ SHIPZ.nas : Growth Estimate Not Found For: SHIPZ.nas - https://ca.finance.yahoo.
 SHLD.nas : Growth Estimate Not Found For: SHLD.nas - https://ca.finance.yahoo.com/quote/SHLD/analysis?p=SHLD
 SHV.nas : Growth Estimate Not Found For: SHV.nas - https://ca.finance.yahoo.com/quote/SHV/analysis?p=SHV
 SHY.nas : Growth Estimate Not Found For: SHY.nas - https://ca.finance.yahoo.com/quote/SHY/analysis?p=SHY
-SHYF.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SHYF.nas
 SIBN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SIBN.nas
 SIC.nas : Growth Estimate Not Found For: SIC.nas - https://ca.finance.yahoo.com/quote/SIC/analysis?p=SIC
 SIEB.nas : Growth Estimate Not Found For: SIEB.nas - https://ca.finance.yahoo.com/quote/SIEB/analysis?p=SIEB
@@ -4364,7 +4296,6 @@ SNCA.nas : Growth Estimate Not Found For: SNCA.nas - https://ca.finance.yahoo.co
 SNDL.nas : Growth Estimate Not Found For: SNDL.nas - https://ca.finance.yahoo.com/quote/SNDL/analysis?p=SNDL
 SNDX.nas : Growth Estimate Not Found For: SNDX.nas - https://ca.finance.yahoo.com/quote/SNDX/analysis?p=SNDX
 SNES.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SNES.nas
-SNEX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SNEX.nas
 SNFCA.nas : Growth Estimate Not Found For: SNFCA.nas - https://ca.finance.yahoo.com/quote/SNFCA/analysis?p=SNFCA
 SNGX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SNGX.nas
 SNGXW.nas : Growth Estimate Not Found For: SNGXW.nas - https://ca.finance.yahoo.com/quote/SNGXW/analysis?p=SNGXW
@@ -4408,7 +4339,6 @@ SSPK.nas : Growth Estimate Not Found For: SSPK.nas - https://ca.finance.yahoo.co
 SSPKW.nas : Growth Estimate Not Found For: SSPKW.nas - https://ca.finance.yahoo.com/quote/SSPKW/analysis?p=SSPKW
 SSSS.nas : Growth Estimate Not Found For: SSSS.nas - https://ca.finance.yahoo.com/quote/SSSS/analysis?p=SSSS
 STAF.nas : Growth Estimate Not Found For: STAF.nas - https://ca.finance.yahoo.com/quote/STAF/analysis?p=STAF
-STCN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STCN.nas
 STEP.nas : Growth Estimate Not Found For: STEP.nas - https://ca.finance.yahoo.com/quote/STEP/analysis?p=STEP
 STIM.nas : Growth Estimate Not Found For: STIM.nas - https://ca.finance.yahoo.com/quote/STIM/analysis?p=STIM
 STND.nas : Growth Estimate Not Found For: STND.nas - https://ca.finance.yahoo.com/quote/STND/analysis?p=STND
@@ -4426,7 +4356,6 @@ SV.nas : Growth Estimate Not Found For: SV.nas - https://ca.finance.yahoo.com/qu
 SVAC.nas : Growth Estimate Not Found For: SVAC.nas - https://ca.finance.yahoo.com/quote/SVAC/analysis?p=SVAC
 SVACU.nas : Growth Estimate Not Found For: SVACU.nas - https://ca.finance.yahoo.com/quote/SVACU/analysis?p=SVACU
 SVACW.nas : Growth Estimate Not Found For: SVACW.nas - https://ca.finance.yahoo.com/quote/SVACW/analysis?p=SVACW
-SVC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SVC.nas
 SVFAW.nas : Growth Estimate Not Found For: SVFAW.nas - https://ca.finance.yahoo.com/quote/SVFAW/analysis?p=SVFAW
 SVMK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SVMK.nas
 SVOKU.nas : Growth Estimate Not Found For: SVOKU.nas - https://ca.finance.yahoo.com/quote/SVOKU/analysis?p=SVOKU
@@ -4436,7 +4365,6 @@ SVSVU.nas : Growth Estimate Not Found For: SVSVU.nas - https://ca.finance.yahoo.
 SVSVW.nas : Growth Estimate Not Found For: SVSVW.nas - https://ca.finance.yahoo.com/quote/SVSVW/analysis?p=SVSVW
 SVVC.nas : Growth Estimate Not Found For: SVVC.nas - https://ca.finance.yahoo.com/quote/SVVC/analysis?p=SVVC
 SWAV.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SWAV.nas
-SWBI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SWBI.nas
 SWET.nas : Growth Estimate Not Found For: SWET.nas - https://ca.finance.yahoo.com/quote/SWET/analysis?p=SWET
 SXTC.nas : Growth Estimate Not Found For: SXTC.nas - https://ca.finance.yahoo.com/quote/SXTC/analysis?p=SXTC
 SY.nas : Growth Estimate Not Found For: SY.nas - https://ca.finance.yahoo.com/quote/SY/analysis?p=SY
@@ -4476,7 +4404,6 @@ TENB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TENB.nas
 TENX.nas : Growth Estimate Not Found For: TENX.nas - https://ca.finance.yahoo.com/quote/TENX/analysis?p=TENX
 TERN.nas : Growth Estimate Not Found For: TERN.nas - https://ca.finance.yahoo.com/quote/TERN/analysis?p=TERN
 TGTX.nas : Growth Estimate Not Found For: TGTX.nas - https://ca.finance.yahoo.com/quote/TGTX/analysis?p=TGTX
-TH.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TH.nas
 THBR.nas : Growth Estimate Not Found For: THBR.nas - https://ca.finance.yahoo.com/quote/THBR/analysis?p=THBR
 THBRU.nas : Growth Estimate Not Found For: THBRU.nas - https://ca.finance.yahoo.com/quote/THBRU/analysis?p=THBRU
 THBRW.nas : Growth Estimate Not Found For: THBRW.nas - https://ca.finance.yahoo.com/quote/THBRW/analysis?p=THBRW
@@ -4497,7 +4424,6 @@ TLC.nas : Growth Estimate Not Found For: TLC.nas - https://ca.finance.yahoo.com/
 TLMD.nas : Growth Estimate Not Found For: TLMD.nas - https://ca.finance.yahoo.com/quote/TLMD/analysis?p=TLMD
 TLMDW.nas : Growth Estimate Not Found For: TLMDW.nas - https://ca.finance.yahoo.com/quote/TLMDW/analysis?p=TLMDW
 TLND.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TLND.nas
-TLRY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TLRY.nas
 TLS.nas : Growth Estimate Not Found For: TLS.nas - https://ca.finance.yahoo.com/quote/TLS/analysis?p=TLS
 TLSA.nas : Growth Estimate Not Found For: TLSA.nas - https://ca.finance.yahoo.com/quote/TLSA/analysis?p=TLSA
 TLT.nas : Growth Estimate Not Found For: TLT.nas - https://ca.finance.yahoo.com/quote/TLT/analysis?p=TLT
@@ -4537,8 +4463,6 @@ TUR.nas : Growth Estimate Not Found For: TUR.nas - https://ca.finance.yahoo.com/
 TUSA.nas : Growth Estimate Not Found For: TUSA.nas - https://ca.finance.yahoo.com/quote/TUSA/analysis?p=TUSA
 TUSK.nas : Growth Estimate Not Found For: TUSK.nas - https://ca.finance.yahoo.com/quote/TUSK/analysis?p=TUSK
 TVAC.nas : Growth Estimate Not Found For: TVAC.nas - https://ca.finance.yahoo.com/quote/TVAC/analysis?p=TVAC
-TVTX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TVTX.nas
-TVTY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TVTY.nas
 TWCT.nas : Growth Estimate Not Found For: TWCT.nas - https://ca.finance.yahoo.com/quote/TWCT/analysis?p=TWCT
 TWLVU.nas : Growth Estimate Not Found For: TWLVU.nas - https://ca.finance.yahoo.com/quote/TWLVU/analysis?p=TWLVU
 TWNKW.nas : Growth Estimate Not Found For: TWNKW.nas - https://ca.finance.yahoo.com/quote/TWNKW/analysis?p=TWNKW
@@ -4610,7 +4534,6 @@ VFF.nas : Growth Estimate Not Found For: VFF.nas - https://ca.finance.yahoo.com/
 VGIT.nas : Growth Estimate Not Found For: VGIT.nas - https://ca.finance.yahoo.com/quote/VGIT/analysis?p=VGIT
 VGLT.nas : Growth Estimate Not Found For: VGLT.nas - https://ca.finance.yahoo.com/quote/VGLT/analysis?p=VGLT
 VGSH.nas : Growth Estimate Not Found For: VGSH.nas - https://ca.finance.yahoo.com/quote/VGSH/analysis?p=VGSH
-VIAC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VIAC.nas
 VIE.nas : Growth Estimate Not Found For: VIE.nas - https://ca.finance.yahoo.com/quote/VIE/analysis?p=VIE
 VIGI.nas : Growth Estimate Not Found For: VIGI.nas - https://ca.finance.yahoo.com/quote/VIGI/analysis?p=VIGI
 VIH.nas : Growth Estimate Not Found For: VIH.nas - https://ca.finance.yahoo.com/quote/VIH/analysis?p=VIH
@@ -4619,7 +4542,6 @@ VIHAW.nas : Growth Estimate Not Found For: VIHAW.nas - https://ca.finance.yahoo.
 VIIAU.nas : Growth Estimate Not Found For: VIIAU.nas - https://ca.finance.yahoo.com/quote/VIIAU/analysis?p=VIIAU
 VIIAW.nas : Growth Estimate Not Found For: VIIAW.nas - https://ca.finance.yahoo.com/quote/VIIAW/analysis?p=VIIAW
 VINCW.nas : Growth Estimate Not Found For: VINCW.nas - https://ca.finance.yahoo.com/quote/VINCW/analysis?p=VINCW
-VINP.nas : Growth Estimate Not Found For: VINP.nas - https://ca.finance.yahoo.com/quote/VINP/analysis?p=VINP
 VIOT.nas : Growth Estimate Not Found For: VIOT.nas - https://ca.finance.yahoo.com/quote/VIOT/analysis?p=VIOT
 VIRC.nas : Growth Estimate Not Found For: VIRC.nas - https://ca.finance.yahoo.com/quote/VIRC/analysis?p=VIRC
 VIRI.nas : Growth Estimate Not Found For: VIRI.nas - https://ca.finance.yahoo.com/quote/VIRI/analysis?p=VIRI
@@ -4665,7 +4587,6 @@ VTIQ.nas : Growth Estimate Not Found For: VTIQ.nas - https://ca.finance.yahoo.co
 VTIQU.nas : Growth Estimate Not Found For: VTIQU.nas - https://ca.finance.yahoo.com/quote/VTIQU/analysis?p=VTIQU
 VTIQW.nas : Growth Estimate Not Found For: VTIQW.nas - https://ca.finance.yahoo.com/quote/VTIQW/analysis?p=VTIQW
 VTNR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VTNR.nas
-VTRS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VTRS.nas
 VTRU.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VTRU.nas
 VTVT.nas : Growth Estimate Not Found For: VTVT.nas - https://ca.finance.yahoo.com/quote/VTVT/analysis?p=VTVT
 VTWG.nas : Growth Estimate Not Found For: VTWG.nas - https://ca.finance.yahoo.com/quote/VTWG/analysis?p=VTWG
@@ -4698,7 +4619,6 @@ WISA.nas : Growth Estimate Not Found For: WISA.nas - https://ca.finance.yahoo.co
 WISH.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WISH.nas
 WKEY.nas : Growth Estimate Not Found For: WKEY.nas - https://ca.finance.yahoo.com/quote/WKEY/analysis?p=WKEY
 WKHS.nas : Growth Estimate Not Found For: WKHS.nas - https://ca.finance.yahoo.com/quote/WKHS/analysis?p=WKHS
-WMG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WMG.nas
 WNW.nas : Growth Estimate Not Found For: WNW.nas - https://ca.finance.yahoo.com/quote/WNW/analysis?p=WNW
 WOOD.nas : Growth Estimate Not Found For: WOOD.nas - https://ca.finance.yahoo.com/quote/WOOD/analysis?p=WOOD
 WOOF.nas : Growth Estimate Not Found For: WOOF.nas - https://ca.finance.yahoo.com/quote/WOOF/analysis?p=WOOF
@@ -4714,11 +4634,9 @@ WTRH.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WTRH.nas
 WVE.nas : Growth Estimate Not Found For: WVE.nas - https://ca.finance.yahoo.com/quote/WVE/analysis?p=WVE
 WVVI.nas : Growth Estimate Not Found For: WVVI.nas - https://ca.finance.yahoo.com/quote/WVVI/analysis?p=WVVI
 WVVIP.nas : Growth Estimate Not Found For: WVVIP.nas - https://ca.finance.yahoo.com/quote/WVVIP/analysis?p=WVVIP
-WWR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WWR.nas
 XAIR.nas : Growth Estimate Not Found For: XAIR.nas - https://ca.finance.yahoo.com/quote/XAIR/analysis?p=XAIR
 XBIO.nas : Growth Estimate Not Found For: XBIO.nas - https://ca.finance.yahoo.com/quote/XBIO/analysis?p=XBIO
 XBIOW.nas : Growth Estimate Not Found For: XBIOW.nas - https://ca.finance.yahoo.com/quote/XBIOW/analysis?p=XBIOW
-XELB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: XELB.nas
 XERS.nas : Growth Estimate Not Found For: XERS.nas - https://ca.finance.yahoo.com/quote/XERS/analysis?p=XERS
 XLRN.nas : Growth Estimate Not Found For: XLRN.nas - https://ca.finance.yahoo.com/quote/XLRN/analysis?p=XLRN
 XM.nas : Growth Estimate Not Found For: XM.nas - https://ca.finance.yahoo.com/quote/XM/analysis?p=XM
@@ -4728,7 +4646,6 @@ XOG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: XOG.nas
 XPEL.nas : Growth Estimate Not Found For: XPEL.nas - https://ca.finance.yahoo.com/quote/XPEL/analysis?p=XPEL
 XT.nas : Growth Estimate Not Found For: XT.nas - https://ca.finance.yahoo.com/quote/XT/analysis?p=XT
 XTLB.nas : Growth Estimate Not Found For: XTLB.nas - https://ca.finance.yahoo.com/quote/XTLB/analysis?p=XTLB
-YELL.nas : Growth Estimate Not Found For: YELL.nas - https://ca.finance.yahoo.com/quote/YELL/analysis?p=YELL
 YGMZ.nas : Growth Estimate Not Found For: YGMZ.nas - https://ca.finance.yahoo.com/quote/YGMZ/analysis?p=YGMZ
 YI.nas : Growth Estimate Not Found For: YI.nas - https://ca.finance.yahoo.com/quote/YI/analysis?p=YI
 YJ.nas : Growth Estimate Not Found For: YJ.nas - https://ca.finance.yahoo.com/quote/YJ/analysis?p=YJ
@@ -4769,16 +4686,13 @@ ZYNE.nas : Growth Estimate Not Found For: ZYNE.nas - https://ca.finance.yahoo.co
 ZYXI : Growth Estimate Not Found For: ZYXI - https://ca.finance.yahoo.com/quote/ZYXI/analysis?p=ZYXI
 AAC.nyse : Growth Estimate Not Found For: AAC.nyse - https://ca.finance.yahoo.com/quote/AAC/analysis?p=AAC
 AAI.nyse : Growth Estimate Not Found For: AAI.nyse - https://ca.finance.yahoo.com/quote/AAI/analysis?p=AAI
-ABB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ABB.nyse
 ABG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ABG.nyse
 ACB.nyse : Growth Estimate Not Found For: ACB.nyse - https://ca.finance.yahoo.com/quote/ACB/analysis?p=ACB
 ACEL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACEL.nyse
 ACH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACH.nyse
-ACI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACI.nyse
 ACIC.nyse : Growth Estimate Not Found For: ACIC.nyse - https://ca.finance.yahoo.com/quote/ACIC/analysis?p=ACIC
 ACND.nyse : Growth Estimate Not Found For: ACND.nyse - https://ca.finance.yahoo.com/quote/ACND/analysis?p=ACND
 ACP.nyse : Growth Estimate Not Found For: ACP.nyse - https://ca.finance.yahoo.com/quote/ACP/analysis?p=ACP
-ACR.nyse : Growth Estimate Not Found For: ACR.nyse - https://ca.finance.yahoo.com/quote/ACR/analysis?p=ACR
 ACV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACV.nyse
 ADCT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ADCT.nyse
 ADE.nyse : Growth Estimate Not Found For: ADE.nyse - https://ca.finance.yahoo.com/quote/ADE/analysis?p=ADE
@@ -4791,7 +4705,6 @@ AFGB.nyse : Growth Estimate Not Found For: AFGB.nyse - https://ca.finance.yahoo.
 AFGC.nyse : Growth Estimate Not Found For: AFGC.nyse - https://ca.finance.yahoo.com/quote/AFGC/analysis?p=AFGC
 AFI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AFI.nyse
 AFT.nyse : Growth Estimate Not Found For: AFT.nyse - https://ca.finance.yahoo.com/quote/AFT/analysis?p=AFT
-AG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AG.nyse
 AGA.nyse : Growth Estimate Not Found For: AGA.nyse - https://ca.finance.yahoo.com/quote/AGA/analysis?p=AGA
 AGCB.nyse : Growth Estimate Not Found For: AGCB.nyse - https://ca.finance.yahoo.com/quote/AGCB/analysis?p=AGCB
 AGD.nyse : Growth Estimate Not Found For: AGD.nyse - https://ca.finance.yahoo.com/quote/AGD/analysis?p=AGD
@@ -4844,15 +4757,12 @@ ASPN.nyse : Growth Estimate Not Found For: ASPN.nyse - https://ca.finance.yahoo.
 ASZ.nyse : Growth Estimate Not Found For: ASZ.nyse - https://ca.finance.yahoo.com/quote/ASZ/analysis?p=ASZ
 ATA.nyse : Growth Estimate Not Found For: ATA.nyse - https://ca.finance.yahoo.com/quote/ATA/analysis?p=ATA
 ATAC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ATAC.nyse
-ATCO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ATCO.nyse
-ATI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ATI.nyse
 ATKR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ATKR.nyse
 ATM.nyse : Growth Estimate Not Found For: ATM.nyse - https://ca.finance.yahoo.com/quote/ATM/analysis?p=ATM
 AUS.nyse : Growth Estimate Not Found For: AUS.nyse - https://ca.finance.yahoo.com/quote/AUS/analysis?p=AUS
 AVAN.nyse : Growth Estimate Not Found For: AVAN.nyse - https://ca.finance.yahoo.com/quote/AVAN/analysis?p=AVAN
 AVK.nyse : Growth Estimate Not Found For: AVK.nyse - https://ca.finance.yahoo.com/quote/AVK/analysis?p=AVK
 AVLR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AVLR.nyse
-AVNT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AVNT.nyse
 AVTR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AVTR.nyse
 AVYA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AVYA.nyse
 AWP.nyse : Growth Estimate Not Found For: AWP.nyse - https://ca.finance.yahoo.com/quote/AWP/analysis?p=AWP
@@ -4866,14 +4776,12 @@ BAF.nyse : Growth Estimate Not Found For: BAF.nyse - https://ca.finance.yahoo.co
 BALY.nyse : Growth Estimate Not Found For: BALY.nyse - https://ca.finance.yahoo.com/quote/BALY/analysis?p=BALY
 BAMI.nyse : Growth Estimate Not Found For: BAMI.nyse - https://ca.finance.yahoo.com/quote/BAMI/analysis?p=BAMI
 BAN.nyse : Growth Estimate Not Found For: BAN.nyse - https://ca.finance.yahoo.com/quote/BAN/analysis?p=BAN
-BBAR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BBAR.nyse
 BBDO.nyse : Growth Estimate Not Found For: BBDO.nyse - https://ca.finance.yahoo.com/quote/BBDO/analysis?p=BBDO
 BBF.nyse : Growth Estimate Not Found For: BBF.nyse - https://ca.finance.yahoo.com/quote/BBF/analysis?p=BBF
 BBK.nyse : Growth Estimate Not Found For: BBK.nyse - https://ca.finance.yahoo.com/quote/BBK/analysis?p=BBK
 BBN.nyse : Growth Estimate Not Found For: BBN.nyse - https://ca.finance.yahoo.com/quote/BBN/analysis?p=BBN
 BBW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BBW.nyse
 BCAT.nyse : Growth Estimate Not Found For: BCAT.nyse - https://ca.finance.yahoo.com/quote/BCAT/analysis?p=BCAT
-BCEI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BCEI.nyse
 BCX.nyse : Growth Estimate Not Found For: BCX.nyse - https://ca.finance.yahoo.com/quote/BCX/analysis?p=BCX
 BDXB.nyse : Growth Estimate Not Found For: BDXB.nyse - https://ca.finance.yahoo.com/quote/BDXB/analysis?p=BDXB
 BEKE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BEKE.nyse
@@ -4922,7 +4830,6 @@ BTZ.nyse : Growth Estimate Not Found For: BTZ.nyse - https://ca.finance.yahoo.co
 BUI.nyse : Growth Estimate Not Found For: BUI.nyse - https://ca.finance.yahoo.com/quote/BUI/analysis?p=BUI
 BURL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BURL.nyse
 BV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BV.nyse
-BVH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BVH.nyse
 BWG.nyse : Growth Estimate Not Found For: BWG.nyse - https://ca.finance.yahoo.com/quote/BWG/analysis?p=BWG
 BYM.nyse : Growth Estimate Not Found For: BYM.nyse - https://ca.finance.yahoo.com/quote/BYM/analysis?p=BYM
 BZM.nyse : Growth Estimate Not Found For: BZM.nyse - https://ca.finance.yahoo.com/quote/BZM/analysis?p=BZM
@@ -4930,14 +4837,12 @@ CAAP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CAAP.nyse
 CACI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CACI.nyse
 CADE.nyse : Growth Estimate Not Found For: CADE.nyse - https://ca.finance.yahoo.com/quote/CADE/analysis?p=CADE
 CAF.nyse : Growth Estimate Not Found For: CAF.nyse - https://ca.finance.yahoo.com/quote/CAF/analysis?p=CAF
-CARR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CARR.nyse
 CBAH.nyse : Growth Estimate Not Found For: CBAH.nyse - https://ca.finance.yahoo.com/quote/CBAH/analysis?p=CBAH
 CBB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CBB.nyse
 CBH.nyse : Growth Estimate Not Found For: CBH.nyse - https://ca.finance.yahoo.com/quote/CBH/analysis?p=CBH
 CBRE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CBRE.nyse
 CCAC.nyse : Growth Estimate Not Found For: CCAC.nyse - https://ca.finance.yahoo.com/quote/CCAC/analysis?p=CCAC
 CCL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CCL.nyse
-CCS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CCS.nyse
 CCV.nyse : Growth Estimate Not Found For: CCV.nyse - https://ca.finance.yahoo.com/quote/CCV/analysis?p=CCV
 CDE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CDE.nyse
 CEE.nyse : Growth Estimate Not Found For: CEE.nyse - https://ca.finance.yahoo.com/quote/CEE/analysis?p=CEE
@@ -4959,7 +4864,6 @@ CLDR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLDR.nyse
 CLII.nyse : Growth Estimate Not Found For: CLII.nyse - https://ca.finance.yahoo.com/quote/CLII/analysis?p=CLII
 CLNC.nyse : Growth Estimate Not Found For: CLNC.nyse - https://ca.finance.yahoo.com/quote/CLNC/analysis?p=CLNC
 CLPR.nyse : Growth Estimate Not Found For: CLPR.nyse - https://ca.finance.yahoo.com/quote/CLPR/analysis?p=CLPR
-CLR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLR.nyse
 CLVT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLVT.nyse
 CLW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLW.nyse
 CMCM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CMCM.nyse
@@ -4972,16 +4876,12 @@ CNNE.nyse : Growth Estimate Not Found For: CNNE.nyse - https://ca.finance.yahoo.
 CNX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CNX.nyse
 COD.nyse : Growth Estimate Not Found For: COD.nyse - https://ca.finance.yahoo.com/quote/COD/analysis?p=COD
 COE.nyse : Growth Estimate Not Found For: COE.nyse - https://ca.finance.yahoo.com/quote/COE/analysis?p=COE
-CPAC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CPAC.nyse
 CPE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CPE.nyse
 CPS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CPS.nyse
 CPU.nyse : Growth Estimate Not Found For: CPU.nyse - https://ca.finance.yahoo.com/quote/CPU/analysis?p=CPU
-HIBB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HIBB.nas
-ROCK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ROCK.nas
 CRHC.nyse : Growth Estimate Not Found For: CRHC.nyse - https://ca.finance.yahoo.com/quote/CRHC/analysis?p=CRHC
 CRL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CRL.nyse
 CRT.nyse : Growth Estimate Not Found For: CRT.nyse - https://ca.finance.yahoo.com/quote/CRT/analysis?p=CRT
-CRY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CRY.nyse
 CSLT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CSLT.nyse
 CSPR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CSPR.nyse
 CST.nyse : Growth Estimate Not Found For: CST.nyse - https://ca.finance.yahoo.com/quote/CST/analysis?p=CST
@@ -5008,7 +4908,6 @@ DDF.nyse : Growth Estimate Not Found For: DDF.nyse - https://ca.finance.yahoo.co
 DDT.nyse : Growth Estimate Not Found For: DDT.nyse - https://ca.finance.yahoo.com/quote/DDT/analysis?p=DDT
 DEA.nyse : Growth Estimate Not Found For: DEA.nyse - https://ca.finance.yahoo.com/quote/DEA/analysis?p=DEA
 DELL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DELL.nyse
-DEN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DEN.nyse
 DESP.nyse : Growth Estimate Not Found For: DESP.nyse - https://ca.finance.yahoo.com/quote/DESP/analysis?p=DESP
 DFN.nyse : Growth Estimate Not Found For: DFN.nyse - https://ca.finance.yahoo.com/quote/DFN/analysis?p=DFN
 DFNS.nyse : Growth Estimate Not Found For: DFNS.nyse - https://ca.finance.yahoo.com/quote/DFNS/analysis?p=DFNS
@@ -5079,7 +4978,6 @@ EOI.nyse : Growth Estimate Not Found For: EOI.nyse - https://ca.finance.yahoo.co
 EOS.nyse : Growth Estimate Not Found For: EOS.nyse - https://ca.finance.yahoo.com/quote/EOS/analysis?p=EOS
 EOT.nyse : Growth Estimate Not Found For: EOT.nyse - https://ca.finance.yahoo.com/quote/EOT/analysis?p=EOT
 EP.nyse : Growth Estimate Not Found For: EP.nyse - https://ca.finance.yahoo.com/quote/EP/analysis?p=EP
-EPAC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EPAC.nyse
 EPAM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EPAM.nyse
 EPWR.nyse : Growth Estimate Not Found For: EPWR.nyse - https://ca.finance.yahoo.com/quote/EPWR/analysis?p=EPWR
 EQD.nyse : Growth Estimate Not Found For: EQD.nyse - https://ca.finance.yahoo.com/quote/EQD/analysis?p=EQD
@@ -5094,7 +4992,6 @@ ETWO.nyse : Growth Estimate Not Found For: ETWO.nyse - https://ca.finance.yahoo.
 ETX.nyse : Growth Estimate Not Found For: ETX.nyse - https://ca.finance.yahoo.com/quote/ETX/analysis?p=ETX
 ETY.nyse : Growth Estimate Not Found For: ETY.nyse - https://ca.finance.yahoo.com/quote/ETY/analysis?p=ETY
 EV.nyse : Growth Estimate Not Found For: EV.nyse - https://ca.finance.yahoo.com/quote/EV/analysis?p=EV
-EVA.nyse : Growth Estimate Not Found For: EVA.nyse - https://ca.finance.yahoo.com/quote/EVA/analysis?p=EVA
 EVF.nyse : Growth Estimate Not Found For: EVF.nyse - https://ca.finance.yahoo.com/quote/EVF/analysis?p=EVF
 EVT.nyse : Growth Estimate Not Found For: EVT.nyse - https://ca.finance.yahoo.com/quote/EVT/analysis?p=EVT
 EXD.nyse : Growth Estimate Not Found For: EXD.nyse - https://ca.finance.yahoo.com/quote/EXD/analysis?p=EXD
@@ -5114,7 +5011,6 @@ FEI.nyse : Growth Estimate Not Found For: FEI.nyse - https://ca.finance.yahoo.co
 FENG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FENG.nyse
 FFC.nyse : Growth Estimate Not Found For: FFC.nyse - https://ca.finance.yahoo.com/quote/FFC/analysis?p=FFC
 FGNA.nyse : Growth Estimate Not Found For: FGNA.nyse - https://ca.finance.yahoo.com/quote/FGNA/analysis?p=FGNA
-FHI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FHI.nyse
 FI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FI.nyse
 FIF.nyse : Growth Estimate Not Found For: FIF.nyse - https://ca.finance.yahoo.com/quote/FIF/analysis?p=FIF
 FLC.nyse : Growth Estimate Not Found For: FLC.nyse - https://ca.finance.yahoo.com/quote/FLC/analysis?p=FLC
@@ -5135,7 +5031,6 @@ FSD.nyse : Growth Estimate Not Found For: FSD.nyse - https://ca.finance.yahoo.co
 FSKR.nyse : Growth Estimate Not Found For: FSKR.nyse - https://ca.finance.yahoo.com/quote/FSKR/analysis?p=FSKR
 FSLY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FSLY.nyse
 FSM.nyse : Growth Estimate Not Found For: FSM.nyse - https://ca.finance.yahoo.com/quote/FSM/analysis?p=FSM
-FSR.nyse : Growth Estimate Not Found For: FSR.nyse - https://ca.finance.yahoo.com/quote/FSR/analysis?p=FSR
 FT.nyse : Growth Estimate Not Found For: FT.nyse - https://ca.finance.yahoo.com/quote/FT/analysis?p=FT
 FTE.nyse : Growth Estimate Not Found For: FTE.nyse - https://ca.finance.yahoo.com/quote/FTE/analysis?p=FTE
 FTS.nyse : Growth Estimate Not Found For: FTS.nyse - https://ca.finance.yahoo.com/quote/FTS/analysis?p=FTS
@@ -5150,7 +5045,6 @@ GB.nyse : Growth Estimate Not Found For: GB.nyse - https://ca.finance.yahoo.com/
 GBAB.nyse : Growth Estimate Not Found For: GBAB.nyse - https://ca.finance.yahoo.com/quote/GBAB/analysis?p=GBAB
 GCI.nyse : Growth Estimate Not Found For: GCI.nyse - https://ca.finance.yahoo.com/quote/GCI/analysis?p=GCI
 GCP.nyse : Growth Estimate Not Found For: GCP.nyse - https://ca.finance.yahoo.com/quote/GCP/analysis?p=GCP
-GD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GD.nyse
 GDDY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GDDY.nyse
 GDO.nyse : Growth Estimate Not Found For: GDO.nyse - https://ca.finance.yahoo.com/quote/GDO/analysis?p=GDO
 GDV.nyse : Growth Estimate Not Found For: GDV.nyse - https://ca.finance.yahoo.com/quote/GDV/analysis?p=GDV
@@ -5219,7 +5113,6 @@ HTY.nyse : Growth Estimate Not Found For: HTY.nyse - https://ca.finance.yahoo.co
 HUBS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HUBS.nyse
 HUG.nyse : Growth Estimate Not Found For: HUG.nyse - https://ca.finance.yahoo.com/quote/HUG/analysis?p=HUG
 HUYA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HUYA.nyse
-HWM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HWM.nyse
 HYB.nyse : Growth Estimate Not Found For: HYB.nyse - https://ca.finance.yahoo.com/quote/HYB/analysis?p=HYB
 HYI.nyse : Growth Estimate Not Found For: HYI.nyse - https://ca.finance.yahoo.com/quote/HYI/analysis?p=HYI
 HYLN.nyse : Growth Estimate Not Found For: HYLN.nyse - https://ca.finance.yahoo.com/quote/HYLN/analysis?p=HYLN
@@ -5232,7 +5125,6 @@ IBE.nyse : Growth Estimate Not Found For: IBE.nyse - https://ca.finance.yahoo.co
 ICD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ICD.nyse
 IDE.nyse : Growth Estimate Not Found For: IDE.nyse - https://ca.finance.yahoo.com/quote/IDE/analysis?p=IDE
 IFN.nyse : Growth Estimate Not Found For: IFN.nyse - https://ca.finance.yahoo.com/quote/IFN/analysis?p=IFN
-IFS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IFS.nyse
 IGA.nyse : Growth Estimate Not Found For: IGA.nyse - https://ca.finance.yahoo.com/quote/IGA/analysis?p=IGA
 IGI.nyse : Growth Estimate Not Found For: IGI.nyse - https://ca.finance.yahoo.com/quote/IGI/analysis?p=IGI
 IGR.nyse : Growth Estimate Not Found For: IGR.nyse - https://ca.finance.yahoo.com/quote/IGR/analysis?p=IGR
@@ -5260,7 +5152,6 @@ ITCB.nyse : Growth Estimate Not Found For: ITCB.nyse - https://ca.finance.yahoo.
 IVA.nyse : Growth Estimate Not Found For: IVA.nyse - https://ca.finance.yahoo.com/quote/IVA/analysis?p=IVA
 IVAN.nyse : Growth Estimate Not Found For: IVAN.nyse - https://ca.finance.yahoo.com/quote/IVAN/analysis?p=IVAN
 IVH.nyse : Growth Estimate Not Found For: IVH.nyse - https://ca.finance.yahoo.com/quote/IVH/analysis?p=IVH
-J.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: J.nyse
 JAX.nyse : Growth Estimate Not Found For: JAX.nyse - https://ca.finance.yahoo.com/quote/JAX/analysis?p=JAX
 JBK.nyse : Growth Estimate Not Found For: JBK.nyse - https://ca.finance.yahoo.com/quote/JBK/analysis?p=JBK
 JCE.nyse : Growth Estimate Not Found For: JCE.nyse - https://ca.finance.yahoo.com/quote/JCE/analysis?p=JCE
@@ -5292,7 +5183,6 @@ KCA.nyse : Growth Estimate Not Found For: KCA.nyse - https://ca.finance.yahoo.co
 KEYS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KEYS.nyse
 KF.nyse : Growth Estimate Not Found For: KF.nyse - https://ca.finance.yahoo.com/quote/KF/analysis?p=KF
 KFS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KFS.nyse
-KGC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KGC.nyse
 KIO.nyse : Growth Estimate Not Found For: KIO.nyse - https://ca.finance.yahoo.com/quote/KIO/analysis?p=KIO
 KL.nyse : Growth Estimate Not Found For: KL.nyse - https://ca.finance.yahoo.com/quote/KL/analysis?p=KL
 KSM.nyse : Growth Estimate Not Found For: KSM.nyse - https://ca.finance.yahoo.com/quote/KSM/analysis?p=KSM
@@ -5307,7 +5197,6 @@ LDI.nyse : Growth Estimate Not Found For: LDI.nyse - https://ca.finance.yahoo.co
 LDP.nyse : Growth Estimate Not Found For: LDP.nyse - https://ca.finance.yahoo.com/quote/LDP/analysis?p=LDP
 LEAF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LEAF.nyse
 LEO.nyse : Growth Estimate Not Found For: LEO.nyse - https://ca.finance.yahoo.com/quote/LEO/analysis?p=LEO
-LFT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LFT.nyse
 LGI.nyse : Growth Estimate Not Found For: LGI.nyse - https://ca.finance.yahoo.com/quote/LGI/analysis?p=LGI
 LGVW.nyse : Growth Estimate Not Found For: LGVW.nyse - https://ca.finance.yahoo.com/quote/LGVW/analysis?p=LGVW
 LINX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LINX.nyse
@@ -5322,7 +5211,6 @@ LOMA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LOMA.nyse
 LPI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LPI.nyse
 LSPD.nyse : Growth Estimate Not Found For: LSPD.nyse - https://ca.finance.yahoo.com/quote/LSPD/analysis?p=LSPD
 LU.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LU.nyse
-LUMN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LUMN.nyse
 LYG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LYG.nyse
 MAV.nyse : Growth Estimate Not Found For: MAV.nyse - https://ca.finance.yahoo.com/quote/MAV/analysis?p=MAV
 MAX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MAX.nyse
@@ -5334,7 +5222,6 @@ MDH.nyse : Growth Estimate Not Found For: MDH.nyse - https://ca.finance.yahoo.co
 MDLA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MDLA.nyse
 MDLQ.nyse : Growth Estimate Not Found For: MDLQ.nyse - https://ca.finance.yahoo.com/quote/MDLQ/analysis?p=MDLQ
 MDLX.nyse : Growth Estimate Not Found For: MDLX.nyse - https://ca.finance.yahoo.com/quote/MDLX/analysis?p=MDLX
-MEG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MEG.nyse
 MEN.nyse : Growth Estimate Not Found For: MEN.nyse - https://ca.finance.yahoo.com/quote/MEN/analysis?p=MEN
 MER.nyse : Growth Estimate Not Found For: MER.nyse - https://ca.finance.yahoo.com/quote/MER/analysis?p=MER
 MFD.nyse : Growth Estimate Not Found For: MFD.nyse - https://ca.finance.yahoo.com/quote/MFD/analysis?p=MFD
@@ -5345,7 +5232,6 @@ MFV.nyse : Growth Estimate Not Found For: MFV.nyse - https://ca.finance.yahoo.co
 MGF.nyse : Growth Estimate Not Found For: MGF.nyse - https://ca.finance.yahoo.com/quote/MGF/analysis?p=MGF
 MGR.nyse : Growth Estimate Not Found For: MGR.nyse - https://ca.finance.yahoo.com/quote/MGR/analysis?p=MGR
 MGRB.nyse : Growth Estimate Not Found For: MGRB.nyse - https://ca.finance.yahoo.com/quote/MGRB/analysis?p=MGRB
-MGY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MGY.nyse
 MH.nyse : Growth Estimate Not Found For: MH.nyse - https://ca.finance.yahoo.com/quote/MH/analysis?p=MH
 MHD.nyse : Growth Estimate Not Found For: MHD.nyse - https://ca.finance.yahoo.com/quote/MHD/analysis?p=MHD
 MHE.nyse : Growth Estimate Not Found For: MHE.nyse - https://ca.finance.yahoo.com/quote/MHE/analysis?p=MHE
@@ -5366,7 +5252,6 @@ MNSO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MNSO.nyse
 MODN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MODN.nyse
 MOG.nyse : Growth Estimate Not Found For: MOG.nyse - https://ca.finance.yahoo.com/quote/MOG/analysis?p=MOG
 MOGU.nyse : Growth Estimate Not Found For: MOGU.nyse - https://ca.finance.yahoo.com/quote/MOGU/analysis?p=MOGU
-MOH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MOH.nyse
 MOT.nyse : Growth Estimate Not Found For: MOT.nyse - https://ca.finance.yahoo.com/quote/MOT/analysis?p=MOT
 MOTV.nyse : Growth Estimate Not Found For: MOTV.nyse - https://ca.finance.yahoo.com/quote/MOTV/analysis?p=MOTV
 MPA.nyse : Growth Estimate Not Found For: MPA.nyse - https://ca.finance.yahoo.com/quote/MPA/analysis?p=MPA
@@ -5376,8 +5261,6 @@ MQT.nyse : Growth Estimate Not Found For: MQT.nyse - https://ca.finance.yahoo.co
 MSB.nyse : Growth Estimate Not Found For: MSB.nyse - https://ca.finance.yahoo.com/quote/MSB/analysis?p=MSB
 MSD.nyse : Growth Estimate Not Found For: MSD.nyse - https://ca.finance.yahoo.com/quote/MSD/analysis?p=MSD
 MSGE.nyse : Growth Estimate Not Found For: MSGE.nyse - https://ca.finance.yahoo.com/quote/MSGE/analysis?p=MSGE
-MSGS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MSGS.nyse
-MSP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MSP.nyse
 MTCN.nyse : Growth Estimate Not Found For: MTCN.nyse - https://ca.finance.yahoo.com/quote/MTCN/analysis?p=MTCN
 MTD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MTD.nyse
 MTH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MTH.nyse
@@ -5444,7 +5327,6 @@ NSTB.nyse : Growth Estimate Not Found For: NSTB.nyse - https://ca.finance.yahoo.
 NTCO.nyse : Growth Estimate Not Found For: NTCO.nyse - https://ca.finance.yahoo.com/quote/NTCO/analysis?p=NTCO
 NTEST.nyse : Growth Estimate Not Found For: NTEST.nyse - https://ca.finance.yahoo.com/quote/NTEST/analysis?p=NTEST
 NTG.nyse : Growth Estimate Not Found For: NTG.nyse - https://ca.finance.yahoo.com/quote/NTG/analysis?p=NTG
-NTST.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NTST.nyse
 NTZ.nyse : Growth Estimate Not Found For: NTZ.nyse - https://ca.finance.yahoo.com/quote/NTZ/analysis?p=NTZ
 NUV.nyse : Growth Estimate Not Found For: NUV.nyse - https://ca.finance.yahoo.com/quote/NUV/analysis?p=NUV
 NUVB.nyse : Growth Estimate Not Found For: NUVB.nyse - https://ca.finance.yahoo.com/quote/NUVB/analysis?p=NUVB
@@ -5468,13 +5350,11 @@ ODC.nyse : Growth Estimate Not Found For: ODC.nyse - https://ca.finance.yahoo.co
 OIA.nyse : Growth Estimate Not Found For: OIA.nyse - https://ca.finance.yahoo.com/quote/OIA/analysis?p=OIA
 OIB.nyse : Growth Estimate Not Found For: OIB.nyse - https://ca.finance.yahoo.com/quote/OIB/analysis?p=OIB
 ONTF.nyse : Growth Estimate Not Found For: ONTF.nyse - https://ca.finance.yahoo.com/quote/ONTF/analysis?p=ONTF
-ONTO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ONTO.nyse
 OR.nyse : Growth Estimate Not Found For: OR.nyse - https://ca.finance.yahoo.com/quote/OR/analysis?p=OR
 ORC.nyse : Growth Estimate Not Found For: ORC.nyse - https://ca.finance.yahoo.com/quote/ORC/analysis?p=ORC
 ORCC.nyse : Growth Estimate Not Found For: ORCC.nyse - https://ca.finance.yahoo.com/quote/ORCC/analysis?p=ORCC
 ORN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ORN.nyse
 OSG.nyse : Growth Estimate Not Found For: OSG.nyse - https://ca.finance.yahoo.com/quote/OSG/analysis?p=OSG
-OSH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OSH.nyse
 PAI.nyse : Growth Estimate Not Found For: PAI.nyse - https://ca.finance.yahoo.com/quote/PAI/analysis?p=PAI
 PAM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PAM.nyse
 PAN.nyse : Growth Estimate Not Found For: PAN.nyse - https://ca.finance.yahoo.com/quote/PAN/analysis?p=PAN
@@ -5528,7 +5408,6 @@ PPT.nyse : Growth Estimate Not Found For: PPT.nyse - https://ca.finance.yahoo.co
 PPX.nyse : Growth Estimate Not Found For: PPX.nyse - https://ca.finance.yahoo.com/quote/PPX/analysis?p=PPX
 PQG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PQG.nyse
 PRE.nyse : Growth Estimate Not Found For: PRE.nyse - https://ca.finance.yahoo.com/quote/PRE/analysis?p=PRE
-PRG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PRG.nyse
 PRP.nyse : Growth Estimate Not Found For: PRP.nyse - https://ca.finance.yahoo.com/quote/PRP/analysis?p=PRP
 PRPB.nyse : Growth Estimate Not Found For: PRPB.nyse - https://ca.finance.yahoo.com/quote/PRPB/analysis?p=PRPB
 PRS.nyse : Growth Estimate Not Found For: PRS.nyse - https://ca.finance.yahoo.com/quote/PRS/analysis?p=PRS
@@ -5564,7 +5443,6 @@ RFI.nyse : Growth Estimate Not Found For: RFI.nyse - https://ca.finance.yahoo.co
 RFL.nyse : Growth Estimate Not Found For: RFL.nyse - https://ca.finance.yahoo.com/quote/RFL/analysis?p=RFL
 RFM.nyse : Growth Estimate Not Found For: RFM.nyse - https://ca.finance.yahoo.com/quote/RFM/analysis?p=RFM
 RFMZ.nyse : Growth Estimate Not Found For: RFMZ.nyse - https://ca.finance.yahoo.com/quote/RFMZ/analysis?p=RFMZ
-RFP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RFP.nyse
 RGR.nyse : Growth Estimate Not Found For: RGR.nyse - https://ca.finance.yahoo.com/quote/RGR/analysis?p=RGR
 RICE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RICE.nyse
 RIV.nyse : Growth Estimate Not Found For: RIV.nyse - https://ca.finance.yahoo.com/quote/RIV/analysis?p=RIV
@@ -5578,7 +5456,6 @@ RQI.nyse : Growth Estimate Not Found For: RQI.nyse - https://ca.finance.yahoo.co
 RSF.nyse : Growth Estimate Not Found For: RSF.nyse - https://ca.finance.yahoo.com/quote/RSF/analysis?p=RSF
 RSI.nyse : Growth Estimate Not Found For: RSI.nyse - https://ca.finance.yahoo.com/quote/RSI/analysis?p=RSI
 RTPZ.nyse : Growth Estimate Not Found For: RTPZ.nyse - https://ca.finance.yahoo.com/quote/RTPZ/analysis?p=RTPZ
-RTX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RTX.nyse
 RVI.nyse : Growth Estimate Not Found For: RVI.nyse - https://ca.finance.yahoo.com/quote/RVI/analysis?p=RVI
 RVLV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RVLV.nyse
 RVT.nyse : Growth Estimate Not Found For: RVT.nyse - https://ca.finance.yahoo.com/quote/RVT/analysis?p=RVT
@@ -5598,7 +5475,6 @@ SBE.nyse : Growth Estimate Not Found For: SBE.nyse - https://ca.finance.yahoo.co
 SBH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SBH.nyse
 SBI.nyse : Growth Estimate Not Found For: SBI.nyse - https://ca.finance.yahoo.com/quote/SBI/analysis?p=SBI
 SBR.nyse : Growth Estimate Not Found For: SBR.nyse - https://ca.finance.yahoo.com/quote/SBR/analysis?p=SBR
-SBSW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SBSW.nyse
 SCA.nyse : Growth Estimate Not Found For: SCA.nyse - https://ca.finance.yahoo.com/quote/SCA/analysis?p=SCA
 SCH.nyse : Growth Estimate Not Found For: SCH.nyse - https://ca.finance.yahoo.com/quote/SCH/analysis?p=SCH
 SCM.nyse : Growth Estimate Not Found For: SCM.nyse - https://ca.finance.yahoo.com/quote/SCM/analysis?p=SCM
@@ -5664,7 +5540,6 @@ STG.nyse : Growth Estimate Not Found For: STG.nyse - https://ca.finance.yahoo.co
 STI.nyse : Growth Estimate Not Found For: STI.nyse - https://ca.finance.yahoo.com/quote/STI/analysis?p=STI
 STIC.nyse : Growth Estimate Not Found For: STIC.nyse - https://ca.finance.yahoo.com/quote/STIC/analysis?p=STIC
 STK.nyse : Growth Estimate Not Found For: STK.nyse - https://ca.finance.yahoo.com/quote/STK/analysis?p=STK
-STLA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STLA.nyse
 STPC.nyse : Growth Estimate Not Found For: STPC.nyse - https://ca.finance.yahoo.com/quote/STPC/analysis?p=STPC
 STPK.nyse : Growth Estimate Not Found For: STPK.nyse - https://ca.finance.yahoo.com/quote/STPK/analysis?p=STPK
 SUZ.nyse : Growth Estimate Not Found For: SUZ.nyse - https://ca.finance.yahoo.com/quote/SUZ/analysis?p=SUZ
@@ -5692,7 +5567,6 @@ TINV.nyse : Growth Estimate Not Found For: TINV.nyse - https://ca.finance.yahoo.
 TMA.nyse : Growth Estimate Not Found For: TMA.nyse - https://ca.finance.yahoo.com/quote/TMA/analysis?p=TMA
 TME.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TME.nyse
 TMX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TMX.nyse
-TNL.nyse : Growth Estimate Not Found For: TNL.nyse - https://ca.finance.yahoo.com/quote/TNL/analysis?p=TNL
 TPC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TPC.nyse
 TPGY.nyse : Growth Estimate Not Found For: TPGY.nyse - https://ca.finance.yahoo.com/quote/TPGY/analysis?p=TPGY
 TPRE.nyse : Growth Estimate Not Found For: TPRE.nyse - https://ca.finance.yahoo.com/quote/TPRE/analysis?p=TPRE
@@ -5702,7 +5576,6 @@ TRC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TRC.nyse
 TREB.nyse : Growth Estimate Not Found For: TREB.nyse - https://ca.finance.yahoo.com/quote/TREB/analysis?p=TREB
 TREX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TREX.nyse
 TSP.nyse : Growth Estimate Not Found For: TSP.nyse - https://ca.finance.yahoo.com/quote/TSP/analysis?p=TSP
-TT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TT.nyse
 TUFN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TUFN.nyse
 TVC.nyse : Growth Estimate Not Found For: TVC.nyse - https://ca.finance.yahoo.com/quote/TVC/analysis?p=TVC
 TVE.nyse : Growth Estimate Not Found For: TVE.nyse - https://ca.finance.yahoo.com/quote/TVE/analysis?p=TVE
@@ -5711,7 +5584,6 @@ TWN.nyse : Growth Estimate Not Found For: TWN.nyse - https://ca.finance.yahoo.co
 TWND.nyse : Growth Estimate Not Found For: TWND.nyse - https://ca.finance.yahoo.com/quote/TWND/analysis?p=TWND
 TYG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TYG.nyse
 TYL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TYL.nyse
-U.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: U.nyse
 UA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UA.nyse
 UBER.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UBER.nyse
 UFI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UFI.nyse
@@ -5721,7 +5593,6 @@ USA.nyse : Growth Estimate Not Found For: USA.nyse - https://ca.finance.yahoo.co
 USFD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: USFD.nyse
 USX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: USX.nyse
 UTF.nyse : Growth Estimate Not Found For: UTF.nyse - https://ca.finance.yahoo.com/quote/UTF/analysis?p=UTF
-UTZ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UTZ.nyse
 UVV.nyse : Growth Estimate Not Found For: UVV.nyse - https://ca.finance.yahoo.com/quote/UVV/analysis?p=UVV
 UWMC.nyse : Growth Estimate Not Found For: UWMC.nyse - https://ca.finance.yahoo.com/quote/UWMC/analysis?p=UWMC
 UZA.nyse : Growth Estimate Not Found For: UZA.nyse - https://ca.finance.yahoo.com/quote/UZA/analysis?p=UZA
@@ -5743,13 +5614,11 @@ VIST.nyse : Growth Estimate Not Found For: VIST.nyse - https://ca.finance.yahoo.
 VLT.nyse : Growth Estimate Not Found For: VLT.nyse - https://ca.finance.yahoo.com/quote/VLT/analysis?p=VLT
 VMO.nyse : Growth Estimate Not Found For: VMO.nyse - https://ca.finance.yahoo.com/quote/VMO/analysis?p=VMO
 VNE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VNE.nyse
-VNT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VNT.nyse
 VNTR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VNTR.nyse
 VOC.nyse : Growth Estimate Not Found For: VOC.nyse - https://ca.finance.yahoo.com/quote/VOC/analysis?p=VOC
 VOY.nyse : Growth Estimate Not Found For: VOY.nyse - https://ca.finance.yahoo.com/quote/VOY/analysis?p=VOY
 VPG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VPG.nyse
 VRS.nyse : Growth Estimate Not Found For: VRS.nyse - https://ca.finance.yahoo.com/quote/VRS/analysis?p=VRS
-VRT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VRT.nyse
 VTA.nyse : Growth Estimate Not Found For: VTA.nyse - https://ca.finance.yahoo.com/quote/VTA/analysis?p=VTA
 VTOL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VTOL.nyse
 VVR.nyse : Growth Estimate Not Found For: VVR.nyse - https://ca.finance.yahoo.com/quote/VVR/analysis?p=VVR
@@ -5768,7 +5637,6 @@ WPC.nyse : Growth Estimate Not Found For: WPC.nyse - https://ca.finance.yahoo.co
 WPF.nyse : Growth Estimate Not Found For: WPF.nyse - https://ca.finance.yahoo.com/quote/WPF/analysis?p=WPF
 WPG.nyse : Growth Estimate Not Found For: WPG.nyse - https://ca.finance.yahoo.com/quote/WPG/analysis?p=WPG
 WTI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WTI.nyse
-WTRG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WTRG.nyse
 WTRU.nyse : Growth Estimate Not Found For: WTRU.nyse - https://ca.finance.yahoo.com/quote/WTRU/analysis?p=WTRU
 WYND.nyse : Growth Estimate Not Found For: WYND.nyse - https://ca.finance.yahoo.com/quote/WYND/analysis?p=WYND
 XAN.nyse : Growth Estimate Not Found For: XAN.nyse - https://ca.finance.yahoo.com/quote/XAN/analysis?p=XAN
@@ -5777,7 +5645,6 @@ XHR.nyse : Growth Estimate Not Found For: XHR.nyse - https://ca.finance.yahoo.co
 XPOA.nyse : Growth Estimate Not Found For: XPOA.nyse - https://ca.finance.yahoo.com/quote/XPOA/analysis?p=XPOA
 YALA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: YALA.nyse
 YEXT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: YEXT.nyse
-ZIM.nyse : Growth Estimate Not Found For: ZIM.nyse - https://ca.finance.yahoo.com/quote/ZIM/analysis?p=ZIM
 ZTO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ZTO.nyse
 ZUO.nyse : Growth Estimate Not Found For: ZUO.nyse - https://ca.finance.yahoo.com/quote/ZUO/analysis?p=ZUO
 CEO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CEO.nyse
@@ -5786,62 +5653,36 @@ CLNE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLNE.nas
 OXFD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OXFD.nas
 PICO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PICO.nas
 XOMA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: XOMA.nas
-CHS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CHS.nyse
 CZZ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CZZ.nyse
 DVA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DVA.nyse
 EGY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EGY.nyse
 VMW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VMW.nyse
 XPO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: XPO.nyse
 AIM.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AIM.to
-SOY.to : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SOY.to
-ACHC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACHC.nas
 AEGN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AEGN.nas
-AMBA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AMBA.nas
 ANY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ANY.nas
 ARAV.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ARAV.nas
 ASRT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ASRT.nas
 BZUN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BZUN.nas
 CGBD.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CGBD.nas
-CREE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CREE.nas
 MFG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MFG.nyse
 CRVL : Growth Estimate Not Found For: CRVL - https://ca.finance.yahoo.com/quote/CRVL/analysis?p=CRVL
 DCOM.nas : Growth Estimate Not Found For: DCOM.nas - https://ca.finance.yahoo.com/quote/DCOM/analysis?p=DCOM
-EMKR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EMKR.nas
 ESGR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ESGR.nas
 GLRE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GLRE.nas
-GOGL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GOGL.nas
-GURE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GURE.nas
 HGEN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HGEN.nas
-IMBI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IMBI.nas
-IMMR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IMMR.nas
 JOBS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JOBS.nas
 KTOS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KTOS.nas
 LORL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LORL.nas
 MACK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MACK.nas
-MSTR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MSTR.nas
 NCTY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NCTY.nas
-NEOG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NEOG.nas
-NURO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NURO.nas
 OCSI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OCSI.nas
-OESX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OESX.nas
 ONCT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ONCT.nas
-OXSQ.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OXSQ.nas
 PFIE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PFIE.nas
 PLXP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PLXP.nas
-PPSI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PPSI.nas
 RBCN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RBCN.nas
-RCM.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RCM.nas
-RYAAY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RYAAY.nas
 SBBP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SBBP.nas
-SBLK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SBLK.nas
-SHSP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SHSP.nas
-SIGA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SIGA.nas
-SRAX.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SRAX.nas
-SRRA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SRRA.nas
-SSRM.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SSRM.nas
-STKL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STKL.nas
 TURN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TURN.nas
-UONEK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UONEK.nas
 ABR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ABR.nyse
 AFL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AFL.nyse
 AGI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AGI.nyse
@@ -5852,52 +5693,34 @@ AMBC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AMBC.nyse
 AMT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AMT.nyse
 ANH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ANH.nyse
 APTS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: APTS.nyse
-ARI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ARI.nyse
 ARR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ARR.nyse
 ATH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ATH.nyse
 BCSF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BCSF.nyse
-BHR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BHR.nyse
 BUD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BUD.nyse
 BXMT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BXMT.nyse
-CAE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CAE.nyse
 CB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CB.nyse
 CDR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CDR.nyse
-CIO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CIO.nyse
 CLI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CLI.nyse
 COLD.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: COLD.nyse
-COTY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: COTY.nyse
-DKL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DKL.nyse
 DL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DL.nyse
 DLR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DLR.nyse
 DOC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DOC.nyse
-DQ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DQ.nyse
 DRE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DRE.nyse
 EARN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EARN.nyse
-EEX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EEX.nyse
 EPR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EPR.nyse
 EPRT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EPRT.nyse
-EVC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EVC.nyse
 GBL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GBL.nyse
-GCO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GCO.nyse
 GMRE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GMRE.nyse
 GNW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GNW.nyse
 HASI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HASI.nyse
 HMN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HMN.nyse
-HPP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HPP.nyse
-IAG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IAG.nyse
 INVH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: INVH.nyse
 IVR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IVR.nyse
 JBGS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JBGS.nyse
-JEF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JEF.nyse
 JKS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JKS.nyse
-JMP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JMP.nyse
 KIM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KIM.nyse
-KODK.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KODK.nyse
 KREF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: KREF.nyse
 LADR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LADR.nyse
-LCI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LCI.nyse
-LEN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LEN.nyse
-LXFR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LXFR.nyse
 MAA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MAA.nyse
 MAC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MAC.nyse
 MBI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MBI.nyse
@@ -5905,33 +5728,24 @@ MGP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MGP.nyse
 MITT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MITT.nyse
 NRP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NRP.nyse
 NTP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NTP.nyse
-NVGS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NVGS.nyse
 O.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: O.nyse
 OMF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OMF.nyse
 ORI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ORI.nyse
 PDM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PDM.nyse
-PEB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PEB.nyse
-PEI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PEI.nyse
 PHG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PHG.nyse
-PMT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PMT.nyse
 PSA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PSA.nyse
 QEP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: QEP.nyse
 RE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RE.nyse
 RENN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RENN.nyse
 RF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RF.nyse
-RL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RL.nyse
 RLH.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RLH.nyse
 RLJ.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RLJ.nyse
-SAFE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SAFE.nyse
 SAN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SAN.nyse
 SHO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SHO.nyse
 SITC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SITC.nyse
-SJI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SJI.nyse
 SLG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SLG.nyse
-SMFG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SMFG.nyse
 SRC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SRC.nyse
 STAG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STAG.nyse
-STON.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STON.nyse
 STOR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STOR.nyse
 SUI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SUI.nyse
 SYF.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SYF.nyse
@@ -6528,12 +6342,118 @@ YOOM.cn : Growth Estimate Not Found For: YOOM.cn - https://ca.finance.yahoo.com/
 ZEU.cn : Growth Estimate Not Found For: ZEU.cn - https://ca.finance.yahoo.com/quote/ZEU.CN/analysis?p=ZEU.CN
 ZAIR.cn : Growth Estimate Not Found For: ZAIR.cn - https://ca.finance.yahoo.com/quote/ZAIR.CN/analysis?p=ZAIR.CN
 ZTE.cn : Growth Estimate Not Found For: ZTE.cn - https://ca.finance.yahoo.com/quote/ZTE.CN/analysis?p=ZTE.CN
-TTI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TTI.nyse
 TTM.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TTM.nyse
 UBA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UBA.nyse
 USB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: USB.nyse
 VHC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VHC.nyse
 VICI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VICI.nyse
-VLRS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VLRS.nyse
 WELL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WELL.nyse
 XL.nyse : Growth Estimate Not Found For: XL.nyse - https://ca.finance.yahoo.com/quote/XL/analysis?p=XL
+CSII.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CSII.nas
+CTIB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CTIB.nas
+DWSN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DWSN.nas
+DXPE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: DXPE.nas
+EGOV.nas : Growth Estimate Not Found For: EGOV.nas - https://ca.finance.yahoo.com/quote/EGOV/analysis?p=EGOV
+ENDP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ENDP.nas
+EPAY.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EPAY.nas
+EVFM.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EVFM.nas
+FLIR.nas : Growth Estimate Not Found For: FLIR.nas - https://ca.finance.yahoo.com/quote/FLIR/analysis?p=FLIR
+FRGI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FRGI.nas
+FTEK.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: FTEK.nas
+GERN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GERN.nas
+GFN.nas : Growth Estimate Not Found For: GFN.nas - https://ca.finance.yahoo.com/quote/GFN/analysis?p=GFN
+GLNG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GLNG.nas
+GLUU.nas : Growth Estimate Not Found For: GLUU.nas - https://ca.finance.yahoo.com/quote/GLUU/analysis?p=GLUU
+GWPH.nas : Growth Estimate Not Found For: GWPH.nas - https://ca.finance.yahoo.com/quote/GWPH/analysis?p=GWPH
+HBIO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HBIO.nas
+HCAP.nas : Growth Estimate Not Found For: HCAP.nas - https://ca.finance.yahoo.com/quote/HCAP/analysis?p=HCAP
+HMSY.nas : Growth Estimate Not Found For: HMSY.nas - https://ca.finance.yahoo.com/quote/HMSY/analysis?p=HMSY
+HWCC.nas : Growth Estimate Not Found For: HWCC.nas - https://ca.finance.yahoo.com/quote/HWCC/analysis?p=HWCC
+IAC.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IAC.nas
+ICON.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ICON.nas
+INFI.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: INFI.nas
+IPHI.nas : Growth Estimate Not Found For: IPHI.nas - https://ca.finance.yahoo.com/quote/IPHI/analysis?p=IPHI
+ISNS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ISNS.nas
+JBLU.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: JBLU.nas
+LSXMA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LSXMA.nas
+MEIP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MEIP.nas
+MIK.nas : Growth Estimate Not Found For: MIK.nas - https://ca.finance.yahoo.com/quote/MIK/analysis?p=MIK
+MLCO.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MLCO.nas
+MTSC.nas : Growth Estimate Not Found For: MTSC.nas - https://ca.finance.yahoo.com/quote/MTSC/analysis?p=MTSC
+MYGN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MYGN.nas
+NBLX.nas : Growth Estimate Not Found For: NBLX.nas - https://ca.finance.yahoo.com/quote/NBLX/analysis?p=NBLX
+NDLS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NDLS.nas
+PFMT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PFMT.nas
+PFSW.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PFSW.nas
+PLUS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PLUS.nas
+PLYA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: PLYA.nas
+PTVCB.nas : Growth Estimate Not Found For: PTVCB.nas - https://ca.finance.yahoo.com/quote/PTVCB/analysis?p=PTVCB
+RCMT.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RCMT.nas
+RKDA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: RKDA.nas
+RP.nas : Growth Estimate Not Found For: RP.nas - https://ca.finance.yahoo.com/quote/RP/analysis?p=RP
+SGMS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SGMS.nas
+SLAB.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SLAB.nas
+SMPL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SMPL.nas
+SMTX.nas : Growth Estimate Not Found For: SMTX.nas - https://ca.finance.yahoo.com/quote/SMTX/analysis?p=SMTX
+SNCR.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SNCR.nas
+SND.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SND.nas
+SQBG.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SQBG.nas
+STAY.nas : Growth Estimate Not Found For: STAY.nas - https://ca.finance.yahoo.com/quote/STAY/analysis?p=STAY
+STKS.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: STKS.nas
+SUPN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SUPN.nas
+TCF.nas : Growth Estimate Not Found For: TCF.nas - https://ca.finance.yahoo.com/quote/TCF/analysis?p=TCF
+TELL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TELL.nas
+TGA.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TGA.nas
+TRUP.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: TRUP.nas
+UAL.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: UAL.nas
+VERU.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VERU.nas
+VIAV.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VIAV.nas
+VIVE.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: VIVE.nas
+WYNN.nas : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WYNN.nas
+ACC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ACC.nyse
+ADT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ADT.nyse
+AIV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AIV.nyse
+ALEX.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ALEX.nyse
+AMRC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: AMRC.nyse
+ASR.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: ASR.nyse
+BDN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BDN.nyse
+BEDU.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: BEDU.nyse
+BXG.nyse : Growth Estimate Not Found For: BXG.nyse - https://ca.finance.yahoo.com/quote/BXG/analysis?p=BXG
+CKH.nyse : Growth Estimate Not Found For: CKH.nyse - https://ca.finance.yahoo.com/quote/CKH/analysis?p=CKH
+CLGX.nyse : Growth Estimate Not Found For: CLGX.nyse - https://ca.finance.yahoo.com/quote/CLGX/analysis?p=CLGX
+CMD.nyse : Growth Estimate Not Found For: CMD.nyse - https://ca.finance.yahoo.com/quote/CMD/analysis?p=CMD
+CMS.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CMS.nyse
+CTB.nyse : Growth Estimate Not Found For: CTB.nyse - https://ca.finance.yahoo.com/quote/CTB/analysis?p=CTB
+CTK.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CTK.nyse
+CUB.nyse : Growth Estimate Not Found For: CUB.nyse - https://ca.finance.yahoo.com/quote/CUB/analysis?p=CUB
+CVNA.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: CVNA.nyse
+E.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: E.nyse
+EAT.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EAT.nyse
+EDU.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EDU.nyse
+EHC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EHC.nyse
+EL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: EL.nyse
+ETM.nyse : Growth Estimate Not Found For: ETM.nyse - https://ca.finance.yahoo.com/quote/ETM/analysis?p=ETM
+FFG.nyse : Growth Estimate Not Found For: FFG.nyse - https://ca.finance.yahoo.com/quote/FFG/analysis?p=FFG
+GLOG.nyse : Growth Estimate Not Found For: GLOG.nyse - https://ca.finance.yahoo.com/quote/GLOG/analysis?p=GLOG
+GRUB.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GRUB.nyse
+GWRE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: GWRE.nyse
+HAE.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HAE.nyse
+HIL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HIL.nyse
+HP.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: HP.nyse
+IAC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IAC.nyse
+IO.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: IO.nyse
+LDL.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: LDL.nyse
+MDLY.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MDLY.nyse
+MG.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MG.nyse
+MPW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: MPW.nyse
+NAV.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NAV.nyse
+NOW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: NOW.nyse
+OCN.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: OCN.nyse
+PLT.nyse : Growth Estimate Not Found For: PLT.nyse - https://ca.finance.yahoo.com/quote/PLT/analysis?p=PLT
+PRSP.nyse : Growth Estimate Not Found For: PRSP.nyse - https://ca.finance.yahoo.com/quote/PRSP/analysis?p=PRSP
+SOI.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: SOI.nyse
+SYX.nyse : Growth Estimate Not Found For: SYX.nyse - https://ca.finance.yahoo.com/quote/SYX/analysis?p=SYX
+TOT.nyse : Growth Estimate Not Found For: TOT.nyse - https://ca.finance.yahoo.com/quote/TOT/analysis?p=TOT
+WDR.nyse : Growth Estimate Not Found For: WDR.nyse - https://ca.finance.yahoo.com/quote/WDR/analysis?p=WDR
+WMC.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WMC.nyse
+WOW.nyse : Multiple 0 values for P/E, DCF, ROE - Skipping stock: WOW.nyse
