@@ -4,4 +4,6 @@ This is a python program I created to work on my web scraping abilities and to s
 
 Desired processing can be adjusted in `main.py` however should be able to simply install required packages and run with default settings.
 
-If this program is desired to be used, make sure this is only a part of your due diligence. 
+If this program is desired to be used, make sure this is only a part of your due diligence.
+
+This was also made a few years ago, so may try to optimize it in the future with new knowledge
