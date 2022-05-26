@@ -5,8 +5,8 @@ powershell.exe
 
 /venvHome
 
-/sqlite/stonks - Copy.db
-/sqlite/stonks.db
+/sqlite/*
+!/sqlite/stonks.db
 
 /Stonks Files/Input/Manual Checks/
 /Stonks Files/Overall Good Symbol Spreadsheets/*
