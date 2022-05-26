@@ -1,12 +1,12 @@
-import json
+from json import loads
 import time
-import urllib3
-import yahooquery
 
 import requests
+import urllib3
+import yahooquery
 from bs4 import BeautifulSoup
 
-from stonk_list import data_update
+from stonk_list import data_update, create_connection, DB_FILE_PATH
 
 print_bool = False
 
@@ -104,7 +104,7 @@ def get_morningstar_roe(local_symbol):
     content_rows = []
     try:
         html_content = requests.get(link).text
-        test = json.loads(html_content)
+        test = loads(html_content)
         soup = BeautifulSoup(test['componentData'], "html5lib")
         rows = soup.findAll(lambda tag: tag.name == 'td')
 
@@ -384,8 +384,6 @@ def analyze_symbols(master_symbol_list, iteration=0):
         skip_existing = True
 
     for i, symbol in enumerate(master_symbol_list):
-        if iteration > 1:
-            time.sleep(3)
 
         yahoo_symbol = symbol.split(".")[0]
         exchange_fmt = ""
@@ -402,42 +400,57 @@ def analyze_symbols(master_symbol_list, iteration=0):
             exchange_fmt = "CSE"
             yahoo_symbol = symbol.upper()
 
-        new_stonk = {"Exchange": "", "Quality": "", "Current": 0, "P/E": 0, "DCF": 0, "ROE": 0, "Title": "",
-                     "Details": {"Industry": "", "Market Cap": 0, "Revenue": 0, "Net Income": 0, "Assets": 0,
-                                 "Liabilities": 0, "Debt": 0, "ESG Score": 0, "Controversy": 0},
-                     "LastUpdated": time.gmtime(0)}
         print("---------------------------------------")
         print(f"Analyzing {symbol.split('.')[0]} - {exchange_fmt} - {i + 1}/{len(master_symbol_list)}")
 
+        # Default values in case error arises
+        current_price, current_5y_backtrack_pe, current_10y_backtrack_dcf, current_10y_backtrack_roe, exchange_fmt, \
+        quality, title, industry, market_cap, revenue, net_income, quarterly_assets, quarterly_liabilities, \
+        long_term_debt, esg_score, controversy_level, summary, last_updated = \
+            [0.0, 0.0, 0.0, 0.0, "", "Bad", "", "", 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, "", "", "", int(time.time())]
+
+        details = [industry, market_cap, revenue, net_income, quarterly_assets, quarterly_liabilities,
+                   long_term_debt, esg_score, controversy_level, summary, last_updated]
+
         try:
-            with open('Stonks Files\\Output\\stock_data.txt', 'r') as json_file:
-                stonks = json.load(json_file)
-                if skip_existing:
-                    try:
-                        _ = stonks[symbol]
-                        raise ExistingStock
-                    except KeyError:
-                        pass
+            if skip_existing:
                 try:
-                    updated_time = int(stonks[symbol]["LastUpdated"])
-                    if abs(int(time.time()) - updated_time) < (86400/2):  # 86400/2 s = 12h
-                        raise RecentlyUpdated
-                except (KeyError, ValueError):
+                    conn = create_connection(DB_FILE_PATH)
+                    with conn:
+                        cur = conn.cursor()
+                        sql = "SELECT * FROM stonks WHERE symbol=?"
+                        cur.execute(sql, (symbol,))
+                        db_stonks_return = cur.fetchall()
+                    if db_stonks_return == "":
+                        raise ExistingStock
+                except KeyError:
                     pass
+            try:
+                conn = create_connection(DB_FILE_PATH)
+                with conn:
+                    cur = conn.cursor()
+                    sql = "SELECT last_updated FROM stonks WHERE symbol=?"
+                    cur.execute(sql, (symbol,))
+                    db_stonks_return_last_updated = cur.fetchall()
+                if db_stonks_return_last_updated:
+                    updated_time = db_stonks_return_last_updated[0][0]
+                    if abs(float(time.time()) - float(updated_time)) < (86400 / 2):  # 86400/2 s = 12h
+                        raise RecentlyUpdated
+            except (KeyError, ValueError, TypeError) as e:
+                print(e)
 
             title, industry, current_price, quarterly_liabilities, quarterly_assets, long_term_debt, net_income, \
             revenue, market_cap, growth_estimate, current_EPS, historical_PE, cash_raw_eq, liabilities_raw, \
             fcf_raw_value, shares_outstanding_raw, stockholders_equity_raw, historical_ROE, \
             trailing_dividend_rate_raw, ticker = \
                 stock_stats(symbol)
-
             if not is_float(growth_estimate):
                 growth_estimate_link = f"https://ca.finance.yahoo.com/quote/{yahoo_symbol}/analysis?p={yahoo_symbol}"
                 print_string = f"Growth Estimate Not Found For: {symbol} - {growth_estimate_link}"
                 print(print_string)
                 # Don't remove just set quality = Bad
                 # remove_symbol(local_exchange_list, removed_symbol=symbol, e=print_string)
-                raise BadStock(print_string)
+                raise BadStock
 
             # Calculations
             if is_float(growth_estimate) and is_float(current_EPS) and is_float(historical_PE):
@@ -482,14 +495,19 @@ def analyze_symbols(master_symbol_list, iteration=0):
                 raise BadStock(print_string)
 
             print(symbol, " - ", title)
-
-            new_stonk["Exchange"] = exchange_fmt
-            new_stonk["Current"] = current_price
-            new_stonk["P/E"] = current_5y_backtrack_pe
-            new_stonk["DCF"] = current_10y_backtrack_dcf
-            new_stonk["ROE"] = current_10y_backtrack_roe
-            new_stonk["Title"] = title
-            new_stonk["LastUpdated"] = time.time()
+            conn = create_connection(DB_FILE_PATH)
+            with conn:
+                cur = conn.cursor()
+                sql = "SELECT * FROM stonks WHERE symbol=?"
+                cur.execute(sql, (symbol,))
+                db_stonks_return = cur.fetchall()
+            try:
+                print(f"Last Updated: {db_stonks_return[19]} - Since Update: "
+                      f"{int(time.time() - db_stonks_return[19])}")
+            except IndexError:
+                pass
+            stonk_sql_update_values = [current_price, current_5y_backtrack_pe, current_10y_backtrack_dcf,
+                                       current_10y_backtrack_roe, exchange_fmt]
 
             if print_bool:
                 print(f"Current Price Based on P/E 5y Estimate: ${current_5y_backtrack_pe}")
@@ -509,8 +527,7 @@ def analyze_symbols(master_symbol_list, iteration=0):
                 else:
                     print(symbol, ": Could be a good investment, needs a manual check though")
                 quality = "Okay"
-
-            new_stonk["Quality"] = quality
+            stonk_sql_update_values += [quality, title]
             if quality == "Good" or quality == "Okay":
                 # industry, summary = get_yahoo_stat(yahoo_symbol, "profile")
                 # esg_score, controversy_level = get_yahoo_stat(yahoo_symbol, "sustainability")
@@ -534,26 +551,25 @@ def analyze_symbols(master_symbol_list, iteration=0):
                 except (TypeError, KeyError, IndexError):
                     controversy_level = ""
                     pass
-                new_stonk["Details"]["Liabilities"] = quarterly_liabilities
-                new_stonk["Details"]["Assets"] = quarterly_assets
-                new_stonk["Details"]["Debt"] = long_term_debt
-                new_stonk["Details"]["Net Income"] = net_income
-                new_stonk["Details"]["Revenue"] = revenue
-                new_stonk["Details"]["Industry"] = industry
-                new_stonk["Details"]["Market Cap"] = market_cap
-                new_stonk["Details"]["ESG Score"] = esg_score
-                new_stonk["Details"]["Controversy"] = controversy_level
-                new_stonk["Details"]["Summary"] = summary
+                details = [industry, market_cap, revenue, net_income, quarterly_assets, quarterly_liabilities,
+                           long_term_debt, esg_score, controversy_level, summary, int(time.time())]
 
-            data_update(symbol, new_stonk)
-
-            print(new_stonk)
+            stonk_sql_update_values += details
+            data_update(symbol, stonk_sql_update_values)
+            if not db_stonks_return_last_updated:
+                print(f"{symbol} : First Entry")
+            else:
+                print(f"{symbol} : Last Updated {db_stonks_return_last_updated}")
         except BadStock:
-            new_stonk["Quality"] = "Bad"
-            data_update(symbol, new_stonk)
+            stonk_sql_update_values = [current_price, current_5y_backtrack_pe, current_10y_backtrack_dcf,
+                                       current_10y_backtrack_roe, exchange_fmt, quality, title, industry, market_cap,
+                                       revenue, net_income, quarterly_assets, quarterly_liabilities, long_term_debt,
+                                       esg_score, controversy_level, summary, last_updated]
+
+            data_update(symbol, stonk_sql_update_values)
             continue
         except ExistingStock:
-            print(f"{symbol} is already in stock_data.txt : Skipping for now")
+            print(f"{symbol} is already in database : Skipping for now")
             continue
         except RecentlyUpdated:
             print(f"{symbol} has been recently updated. Skipping data processing.")
