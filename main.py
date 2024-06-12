@@ -1,52 +1,69 @@
 import time
+import logging
+import signal
+from typing import List
 
 from stonk_functions import analyze_symbols
 from stonk_list import get_symbols, get_good_symbols
 from stonk_spreadsheets import update_good_spreadsheets, update_spreadsheet
 
+# Configure logging
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-exchange_list = [
-    "{}tsx_{}.txt", 
-    "{}xnas_{}.txt", 
-    "{}xnyse_{}.txt", 
-    "{}cse_{}.txt"
-    ]
+# Constants and Configuration
+EXCHANGE_LIST = [
+    "tsx_{}.txt",
+    "xnas_{}.txt",
+    "xnyse_{}.txt",
+    "cse_{}.txt"
+]
+RAND_VALUE = 2  # Number of random stocks to analyze
+SLEEP_INTERVAL = 43200 / 2  # 12 hours divided by 2
+ITERATION_THRESHOLD = 3
 
-rand_value = 0  # Set value to 0 to use all symbols
-iter_count = 1  # Keep track of iterations
-while True:
-    # Get the master list of all symbols to be analyzed
-    master_list = get_symbols(
-        exchange_list, 
-        rand_value=rand_value
-        )
-    
-    # Anlyze the symbols from the list
+# Graceful shutdown flag
+shutdown_flag = False
+
+def signal_handler(sig, frame):
+    global shutdown_flag
+    logging.info("Shutdown signal received, stopping the program.")
+    shutdown_flag = True
+
+def analyze_and_update(iter_count: int, rand_value: int, exchange_list: List[str]):
+    """Perform the main analysis and update routine."""
+    master_list = get_symbols(exchange_list, rand_value=rand_value)
     analyze_symbols(master_list, iter_count)
     
-    # Update indivdual spreadsheets with analysis values
-    update_good_spreadsheets(get_good_symbols())
+    good_symbols = get_good_symbols()
+    update_good_spreadsheets(good_symbols)
     
-    # Update overall spreadsheet which contains all values requested
-    update_spreadsheet(get_good_symbols("okay"))
+    okay_symbols = get_good_symbols("okay")
+    update_spreadsheet(okay_symbols)
+    
+    if iter_count == 1 or iter_count % ITERATION_THRESHOLD == 0:
+        removed_list = get_symbols(exchange_list, return_bad=True, rand_value=rand_value)
+        analyze_symbols(removed_list, iter_count)
 
-    # Sometimes a stocks values may have not been updated on the websites
-    # or the connection failed so didnt return anything at all.
-    # So instead of permanately writing "Bad" stocks off, 
-    # re-check them every so often, like every 3rd iteration
-    if iter_count == 1 or iter_count % 3 == 0:
-        
-        master_list_removed = get_symbols(
-            exchange_list,
-            return_bad=True, 
-            rand_value=rand_value
-            )
-        
-        analyze_symbols(master_list_removed, iter_count)
+def main():
+    global shutdown_flag
+    iter_count = 1
+    
+    signal.signal(signal.SIGINT, signal_handler)
+    signal.signal(signal.SIGTERM, signal_handler)
+    
+    while not shutdown_flag:
+        try:
+            logging.info(f"Starting iteration {iter_count}")
+            analyze_and_update(iter_count, RAND_VALUE, EXCHANGE_LIST)
+            
+            if iter_count > 2:
+                logging.info(f"Sleeping for {SLEEP_INTERVAL} seconds.")
+                time.sleep(SLEEP_INTERVAL)
+            
+            iter_count += 1
+        except Exception as e:
+            logging.error(f"An error occurred: {e}")
+            break
 
-    # Sometimes I stop the program for a few days/weeks so run twice to make sure everything is updated
-    # Once every thing is done, sleep for 12 hours
-    if iter_count > 2:
-        time.sleep(43200/2)
-
-    iter_count += 1
+if __name__ == "__main__":
+    main()

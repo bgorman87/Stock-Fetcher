@@ -3,7 +3,7 @@ xnyse.py
 file_equiv.py
 powershell.exe
 
-/venvHome
+/venv
 
 /sqlite/*
 !/sqlite/stonks.db
