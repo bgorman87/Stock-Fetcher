@@ -4,7 +4,7 @@ import signal
 from typing import List
 
 from stonk_functions import analyze_symbols
-from stonk_list import get_symbols, get_good_symbols
+from stonk_list import get_symbols, get_good_symbols, initialize_database
 from stonk_spreadsheets import update_good_spreadsheets, update_spreadsheet
 
 # Configure logging
@@ -12,12 +12,12 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 # Constants and Configuration
 EXCHANGE_LIST = [
-    "tsx_{}.txt",
-    "xnas_{}.txt",
-    "xnyse_{}.txt",
-    "cse_{}.txt"
+    # "tsx",
+    "xnas",
+    "xnyse",
+    # "cse"
 ]
-RAND_VALUE = 2  # Number of random stocks to analyze
+RAND_VALUE = 50  # Number of random stocks to analyze
 SLEEP_INTERVAL = 43200 / 2  # 12 hours divided by 2
 ITERATION_THRESHOLD = 3
 
@@ -47,7 +47,7 @@ def analyze_and_update(iter_count: int, rand_value: int, exchange_list: List[str
 def main():
     global shutdown_flag
     iter_count = 1
-    
+    initialize_database()
     signal.signal(signal.SIGINT, signal_handler)
     signal.signal(signal.SIGTERM, signal_handler)
     
