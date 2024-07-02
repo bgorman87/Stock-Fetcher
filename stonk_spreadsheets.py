@@ -1,44 +1,53 @@
+import logging
 import re
 import time
-import logging
 from typing import List
 
 import yahooquery
 from openpyxl import load_workbook
 
-from stonk_functions import (
+from stonks import (
+    JustSkip,
     RecentlyUpdated,
+    calculate_and_update_dcf_value,
+    calculate_and_update_pe_value,
+    calculate_and_update_roe_value,
     fetch_stock_data,
-    calculate_pe_value,
-    calculate_dcf_value,
-    calculate_roe_value,
     is_float,
-    JustSkip
 )
 from stonk_list import DB_FILE_PATH, connect_to_database
+from utils import Stock
 
 # Configure logging
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(
+    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
+)
 
 # Constants
 TEMPLATE_FILE = "Stonks Files/Individual Good Symbol Spreadsheets/!Individual Good Symbol Template.xlsx"
-OVERALL_TEMPLATE_FILE = "Stonks Files/Overall Good Symbol Spreadsheets/Overall Good Symbols Template.xlsx"
+OVERALL_TEMPLATE_FILE = (
+    "Stonks Files/Overall Good Symbol Spreadsheets/Overall Good Symbols Template.xlsx"
+)
 GOOD_SYMBOLS_DIRECTORY = "Stonks Files/Individual Good Symbol Spreadsheets/"
 OVERALL_SYMBOLS_DIRECTORY = "Stonks Files/Overall Good Symbol Spreadsheets/"
 EXCEL_UPDATE_INTERVAL = 86400 / 2  # 12 hours in seconds
 
 
-def update_good_spreadsheets(good_symbols: List[str]):
+def update_good_spreadsheets(good_stocks: List[Stock]):
     logging.info("Starting update for individual 'good' spreadsheets")
-    good_symbols_to_update = get_symbols_to_update(good_symbols)
+    good_symbols_to_update = get_symbols_to_update(good_stocks)
     yahoo_symbols = format_symbols_for_yahoo(good_symbols_to_update)
     stock_data = fetch_stock_data_from_yahoo(yahoo_symbols)
-    
+
     total_symbols = len(good_symbols_to_update)
     for idx, symbol in enumerate(good_symbols_to_update):
         try:
-            logging.info(f"Updating spreadsheet for {symbol} ({idx + 1}/{total_symbols})")
-            update_individual_spreadsheet(symbol, yahoo_symbols[idx], stock_data[symbol])
+            logging.info(
+                f"Updating spreadsheet for {symbol} ({idx + 1}/{total_symbols})"
+            )
+            update_individual_spreadsheet(
+                symbol, yahoo_symbols[idx], stock_data[symbol]
+            )
         except RecentlyUpdated:
             logging.info(f"{symbol} has been recently updated. Skipping update.")
             continue
@@ -50,11 +59,13 @@ def update_good_spreadsheets(good_symbols: List[str]):
 def update_spreadsheet(symbol_list: List[str]):
     logging.info("Starting update for the overall 'good' spreadsheet")
     file_save = f"{OVERALL_SYMBOLS_DIRECTORY}Stonks Data - {time.strftime('%Y-%b-%d -- %I %M %p')}.xlsx"
-    
+
     with load_workbook(OVERALL_TEMPLATE_FILE) as wb:
         stonks_ws = wb.active
         for idx, symbol in enumerate(symbol_list):
-            logging.info(f"Updating overall spreadsheet for {symbol} ({idx + 1}/{len(symbol_list)})")
+            logging.info(
+                f"Updating overall spreadsheet for {symbol} ({idx + 1}/{len(symbol_list)})"
+            )
             try:
                 update_overall_spreadsheet_row(stonks_ws, symbol, idx + 2)
             except KeyError:
@@ -87,12 +98,6 @@ def should_update_symbol(symbol: str) -> bool:
     except (KeyError, ValueError):
         logging.error(f"Error checking update status for symbol {symbol}")
     return False
-
-
-def format_symbols_for_yahoo(symbols: List[str]) -> List[str]:
-    """Format symbols for Yahoo query."""
-    logging.info("Formatting symbols for Yahoo query")
-    return [symbol.upper() if ".to" in symbol or ".cn" in symbol else symbol.split(".")[0] for symbol in symbols]
 
 
 def fetch_stock_data_from_yahoo(symbols: List[str]) -> dict:
@@ -130,7 +135,7 @@ def get_symbol_title(symbol: str) -> str:
 
 def sanitize_filename(filename: str) -> str:
     """Sanitize the filename to remove invalid characters."""
-    return re.sub(r'(?u)[^-\w.]', '', filename.strip().replace(' ', '_'))
+    return re.sub(r"(?u)[^-\w.]", "", filename.strip().replace(" ", "_"))
 
 
 def is_recently_updated(file_path: str) -> bool:
@@ -158,7 +163,9 @@ def get_stock_details(symbol: str, yahoo_symbol: str, stock_data: dict):
                 logging.info(f"Fetched stock details for {symbol} from the database")
                 return details
             else:
-                logging.info(f"Fetching and calculating stock details for {symbol} from Yahoo")
+                logging.info(
+                    f"Fetching and calculating stock details for {symbol} from Yahoo"
+                )
                 return fetch_and_calculate_stock_details(yahoo_symbol)
     except (TypeError, ValueError, KeyError) as e:
         logging.error(f"Error fetching stock details for {symbol}: {e}")
@@ -183,21 +190,49 @@ def calculate_stock_values(stock_data: dict):
     logging.info("Calculating stock values based on fetched data")
     try:
         discount_rate = 0.09
-        current_5y_backtrack_pe = calculate_pe_value(stock_data.get("currentEPS"), stock_data.get("historicalPE"), stock_data.get("growthEstimate"), discount_rate)
-        current_10y_backtrack_dcf = calculate_dcf_value(stock_data.get("cash"), stock_data.get("liabilities"), stock_data.get("freeCashFlow"), stock_data.get("sharesOutstanding"), stock_data.get("growthEstimate"))
-        current_10y_backtrack_roe = calculate_roe_value(stock_data.get("stockholdersEquity"), stock_data.get("historicalROE"), stock_data.get("sharesOutstanding"), stock_data.get("trailingDividendRate"), stock_data.get("growthEstimate"))
+        current_5y_backtrack_pe = calculate_and_update_pe_value(
+            stock_data.get("currentEPS"),
+            stock_data.get("historicalPE"),
+            stock_data.get("growthEstimate"),
+            discount_rate,
+        )
+        current_10y_backtrack_dcf = calculate_and_update_dcf_value(
+            stock_data.get("cash"),
+            stock_data.get("liabilities"),
+            stock_data.get("freeCashFlow"),
+            stock_data.get("sharesOutstanding"),
+            stock_data.get("growthEstimate"),
+        )
+        current_10y_backtrack_roe = calculate_and_update_roe_value(
+            stock_data.get("stockholdersEquity"),
+            stock_data.get("historicalROE"),
+            stock_data.get("sharesOutstanding"),
+            stock_data.get("trailingDividendRate"),
+            stock_data.get("growthEstimate"),
+        )
         return [
-            stock_data.get("title"), stock_data.get("industry"), stock_data.get("currentPrice"), stock_data.get("quarterlyLiabilities"), 
-            stock_data.get("quarterlyAssets"), stock_data.get("longTermDebt"), stock_data.get("netIncome"), stock_data.get("revenue"), 
-            stock_data.get("marketCap"), stock_data.get("growthEstimate"), current_5y_backtrack_pe, current_10y_backtrack_dcf, 
-            current_10y_backtrack_roe
+            stock_data.get("title"),
+            stock_data.get("industry"),
+            stock_data.get("currentPrice"),
+            stock_data.get("quarterlyLiabilities"),
+            stock_data.get("quarterlyAssets"),
+            stock_data.get("longTermDebt"),
+            stock_data.get("netIncome"),
+            stock_data.get("revenue"),
+            stock_data.get("marketCap"),
+            stock_data.get("growthEstimate"),
+            current_5y_backtrack_pe,
+            current_10y_backtrack_dcf,
+            current_10y_backtrack_roe,
         ]
     except Exception as e:
         logging.error(f"Error calculating stock values: {e}")
         return []
 
 
-def save_stock_data_to_spreadsheet(file_save: str, stock_details: list, stock_data: dict, symbol: str):
+def save_stock_data_to_spreadsheet(
+    file_save: str, stock_details: list, stock_data: dict, symbol: str
+):
     """Save stock data to a spreadsheet."""
     try:
         with load_workbook(TEMPLATE_FILE) as wb:
@@ -208,6 +243,7 @@ def save_stock_data_to_spreadsheet(file_save: str, stock_details: list, stock_da
         logging.info(f"Spreadsheet for {symbol} saved to {file_save}")
     except Exception as e:
         logging.error(f"Error saving spreadsheet for {symbol}: {e}")
+
 
 def write_stock_details_to_sheet(ws, stock_details: list, symbol: str):
     """Write stock details to the worksheet."""
@@ -226,7 +262,9 @@ def update_overall_spreadsheet_row(ws, symbol: str, row: int):
 
         if stonk_details:
             file_title = sanitize_filename(stonk_details[8])
-            spreadsheet_link = f"{GOOD_SYMBOLS_DIRECTORY}{symbol.split('.')[0]} - {file_title}.xlsx"
+            spreadsheet_link = (
+                f"{GOOD_SYMBOLS_DIRECTORY}{symbol.split('.')[0]} - {file_title}.xlsx"
+            )
             ws.cell(row, 1).hyperlink = spreadsheet_link
             ws.cell(row, 1).value = symbol
             ws.cell(row, 2).value = stonk_details[8]

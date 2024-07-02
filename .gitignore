@@ -19,3 +19,11 @@ powershell.exe
 !/Stonks Files/Individual Good Symbol Spreadsheets/!Individual Good Symbol Template.xlsx
 !/Stonks Files/Overall Good Symbol Spreadsheets/Stonks Data - 2022-Jan-20 -- 11 57 AM.xlsx
 !/Stonks Files/Overall Good Symbol Spreadsheets/Overall Good Symbols Template.xlsx
+
+# Python specific gitignore
+**.pyc
+__pycache__/
+venv/
+*.egg-info/
+dist/
+build/
