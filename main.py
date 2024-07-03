@@ -47,8 +47,8 @@ def analyze_and_update(iter_count: int, rand_value: int, exchange_list: List[str
     new_symbols = database.fetch_new_symbols(exchange_list)
     if rand_value > 0:
         new_symbols = random.sample(list(new_symbols), rand_value)
-    for symbol, exchange in new_symbols:
-        logging.info(f"Fetching data for {symbol} - {exchange}")
+    for i, (symbol, exchange) in enumerate(new_symbols):
+        logging.info(f"Fetching data for {symbol} - {exchange} : {i + 1}/{len(new_symbols)}")
         try:
             stock = StockFactory.create_stock(symbol, exchange)
             stock_set.add(stock)
