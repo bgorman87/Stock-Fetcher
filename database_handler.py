@@ -1,87 +1,111 @@
 import logging
 import time
-import sqlite3
+import os
 import os
 import random
+import psycopg2
+
+from psycopg2.extras import DictCursor
 from contextlib import contextmanager
 from typing import Generator
-from stonks import Stock, StockQuality
 
+from stocks_handler import Stock, StockQuality
 from utils import ExistingStock, RecentlyUpdated
 
 
 class DatabaseHandler:
-    DB_FILE_PATH = os.getenv("DB_FILE_PATH", "sqlite/stonks.db")
+    DB_HOST = os.getenv("DATABASE_HOST", "localhost")
+    DB_PORT = os.getenv("DATABASE_PORT", "5432")
+    DB_NAME = os.getenv("DATABASE_NAME", "database")
+    DB_USER = os.getenv("DATABASE_USER", "postgres")
+    DB_PASSWORD = os.getenv("DATABASE_PASSWORD", "password")
     EXCHANGE_FILES_DIRECTORY = os.getenv(
-        "EXCHANGE_FILES_DIRECTORY", "Stonks Files/Input/"
+        "EXCHANGE_FILES_DIRECTORY", "Symbol Files"
     )
 
-    def __init__(self, db_file_path: str = DB_FILE_PATH):
-        self.db_file_path = db_file_path
-        self.initialize_database()
+    def __init__(self):
+        self.connection_string = self.create_connection_string()
+        self.test_connection()
+
+    def create_connection_string(self) -> str:
+        return f"host={self.DB_HOST} port={self.DB_PORT} dbname={self.DB_NAME} user={self.DB_USER} password={self.DB_PASSWORD}"
+    
+    def test_connection(self) -> None:
+        """Test the connection to the PostgreSQL database."""
+        try:
+            with self.connect_to_database() as conn:
+                cur = conn.cursor()
+                cur.execute("SELECT 1")
+                logging.info("Successfully connected to the database.")
+        except psycopg2.Error as e:
+            logging.error(f"Error connecting to the database")
+            raise e
 
     @contextmanager
-    def connect_to_database(self) -> Generator[sqlite3.Connection, None, None]:
-        """Context manager for SQLite database connection."""
-        conn = sqlite3.connect(self.db_file_path)
+    def connect_to_database(
+        self,
+    ) -> Generator[psycopg2.extensions.connection, None, None]:
+        """Context manager for PostgreSQL database connection."""
+        conn = psycopg2.connect(self.connection_string, cursor_factory=DictCursor)
         try:
             yield conn
         finally:
             conn.close()
 
-    def initialize_database(self) -> None:
-        """Initialize the SQLite database."""
-        try:
-            with self.connect_to_database() as conn:
-                cur = conn.cursor()
-                cur.execute("""CREATE TABLE IF NOT EXISTS stonks(
-                    symbol TEXT PRIMARY KEY, exchange TEXT, current REAL, pe REAL, dcf REAL,  
-                    roe REAL, quality INTEGER, title TEXT, industry TEXT, market_cap REAL, 
-                    revenue REAL, net_income REAL, assets REAL, liabilities REAL, debt REAL, 
-                    esg_score REAL, controversy REAL, summary TEXT, long_term_debt REAL, growth_estimate REAL, 
-                    current_eps REAL, historical_pe REAL, cash_raw_eq REAL, fcf_raw_value REAL,
-                    shares_outstanding_raw REAL, stockholders_equity_raw REAL, historical_roe REAL,
-                    trailing_dividend_rate_raw REAL, last_updated TEXT)""")
-                cur.execute(
-                    """CREATE TABLE IF NOT EXISTS symbols(symbol TEXT PRIMARY KEY, exchange TEXT, 
-                    valid INTEGER DEFAULT 1, last_updated TEXT DEFAULT CURRENT_TIMESTAMP)"""
-                )
-                conn.commit()
-        except sqlite3.Error as e:
-            logging.error(f"Database initialization failed: {e}")
-
     def read_symbols_from_files(self, file_paths: list[str]) -> list[tuple[str, str]]:
         """Read symbols from exchange files."""
         symbols = []
+        
+        if not os.path.exists(self.EXCHANGE_FILES_DIRECTORY):
+            raise FileNotFoundError(f"Directory {self.EXCHANGE_FILES_DIRECTORY} not found.")
+        
         for exchange in file_paths:
             full_path = os.path.join(self.EXCHANGE_FILES_DIRECTORY, f"{exchange}.txt")
-            with open(full_path, "r") as file:
-                symbols.extend(
-                    [(line.strip(), exchange) for line in file if line.strip()]
-                )
+            
+            try:
+                with open(full_path, "r") as file:
+                    symbols.extend(
+                        [(line.strip(), exchange) for line in file if line.strip()]
+                    )
+            except FileNotFoundError:
+                logging.error(f"File {full_path} not found.")
+            except IOError as e:
+                logging.error(f"Error reading file {full_path}: {e}")
+        
         return symbols
 
-    def update_symbols_from_files(self, file_paths: list[str]) -> None:
-        """Update the symbols in the database from exchange files."""
+
+    def update_stock_symbols_from_files(self, file_paths: list[str]) -> None:
+        """Update the stocks table with symbols from exchange files."""
         all_symbols = self.read_symbols_from_files(file_paths)
+        
         try:
             with self.connect_to_database() as conn:
                 cur = conn.cursor()
                 cur.executemany(
-                    """INSERT OR IGNORE INTO symbols(symbol, exchange) VALUES(?, ?)""",
+                    """INSERT INTO stocks(symbol, exchange) 
+                    VALUES(%s, %s) 
+                    ON CONFLICT(symbol, exchange) DO NOTHING""",
                     all_symbols,
                 )
                 conn.commit()
-        except sqlite3.Error as e:
-            logging.error(f"Error updating symbols: {e}")
+                logging.info(f"Successfully updated {cur.rowcount} stocks in the database.")
+        except psycopg2.Error as e:
+            conn.rollback()
+            logging.error(f"Error updating stocks: {e}")
+        finally:
+            if cur:
+                cur.close()
+
 
     def fetch_new_symbols(self, local_exchange_list: list[str]) -> set[tuple[str, str]]:
         """Get new symbols from the exchange files."""
-        all_symbols = set(self.fetch_all_symbols(local_exchange_list))
-        query = """SELECT symbol, exchange FROM stonks"""
+        all_symbols = set(self.read_symbols_from_files(local_exchange_list))
+        query = """SELECT symbol, exchange FROM stocks"""
+        
         try:
             results = self.execute_query(query, ())
-            existing_symbols = set([(row[0], row[1]) for row in results])
+            existing_symbols = set((row[0], row[1]) for row in results)
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             existing_symbols = set()
@@ -90,17 +114,18 @@ class DatabaseHandler:
         return new_symbols
 
     def fetch_existing_symbols(self) -> set[tuple[str, str]]:
-        """Get existing symbols from the exchange files."""
-        query = """SELECT symbol, exchange FROM stonks"""
+        """Get existing symbols from the stocks table."""
+        query = """SELECT symbol, exchange FROM stocks"""
+        
         try:
             results = self.execute_query(query, ())
-            existing_symbols = set([(row[0], row[1]) for row in results])
+            existing_symbols = set((row[0], row[1]) for row in results)
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             existing_symbols = set()
 
-        existing_symbols = existing_symbols
         return existing_symbols
+
 
     def fetch_all_symbols(
         self,
@@ -119,18 +144,21 @@ class DatabaseHandler:
             list[tuple[str, str]]: List of symbol, exchange tuples.
         """
         try:
-            self.update_symbols_from_files(local_exchange_list)
-            query = "SELECT symbol, exchange FROM symbols WHERE valid=1"
+            self.update_stock_symbols_from_files(local_exchange_list)
+            
+            query = """
+                SELECT symbol, exchange 
+                FROM stocks 
+                WHERE quality >= %s
+            """
             try:
-                results = self.execute_query(query, ())
-                all_symbols = [(row[0], row[1]) for row in results]
+                results = self.execute_query(query, (quality.value,))
+                all_symbols = [(row['symbol'], row['exchange']) for row in results]
             except Exception as e:
                 logging.error(f"Error fetching symbols: {e}")
                 all_symbols = []
 
-            master_list = set(self.get_better_quality_stocks(quality=quality)) | set(
-                all_symbols
-            )
+            master_list = set(all_symbols)
 
             if rand_value > 0:
                 master_list = random.sample(
@@ -138,30 +166,41 @@ class DatabaseHandler:
                 )
 
             logging.info(f"Master List is {len(master_list)} symbols")
-            return master_list
+            return list(master_list)
         except Exception as e:
             logging.error(f"Error getting symbols: {e}")
             return []
 
-    def execute_query(self, query: str, params: tuple) -> list[tuple]:
-        """Execute a query and return the results if any."""
+
+    def execute_query(self, query: str, params: tuple = (), fetchone=False) -> list[dict] | dict | None:
+        """Execute a query and return the results as a list of dictionaries if any."""
         try:
             with self.connect_to_database() as conn:
-                cur = conn.cursor()
+                cur = conn.cursor(cursor_factory=DictCursor)
                 cur.execute(query, params)
+                if fetchone:
+                    return cur.fetchone()
                 return cur.fetchall()
-        except sqlite3.Error as e:
+        except psycopg2.Error as e:
             logging.error(f"Database query failed: {e}")
             return None
+
 
     def get_better_quality_stocks(
         self, quality: StockQuality = StockQuality.OKAY
     ) -> list[tuple[str, str]]:
-        """Get good symbols from the database based on quality."""
-        query = "SELECT symbol, exchange FROM stonks WHERE quality < ?"
+        """Get good symbols from the database based on quality.
+
+        Args:
+            quality (StockQuality, optional): Maximum quality of stock to return. Defaults to StockQuality.OKAY.
+
+        Returns:
+            list[tuple[str, str]]: List of symbol, exchange tuples with quality better than the specified level.
+        """
+        query = "SELECT symbol, exchange FROM stocks WHERE quality <= %s"
         try:
             results = self.execute_query(query, (quality.value,))
-            return [(row[0], row[1]) for row in results]
+            return [(row['symbol'], row['exchange']) for row in results]
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             return []
@@ -169,127 +208,163 @@ class DatabaseHandler:
     def get_worse_quality_stocks(
         self, quality: StockQuality = StockQuality.OKAY
     ) -> list[tuple[str, str]]:
-        """Get good symbols from the database based on quality."""
-        query = "SELECT symbol, exchange FROM stonks WHERE quality > ?"
+        """Get symbols from the database that have worse quality than the specified level.
+
+        Args:
+            quality (StockQuality, optional): Minimum quality of stock to return. Defaults to StockQuality.OKAY.
+
+        Returns:
+            list[tuple[str, str]]: List of symbol, exchange tuples with quality worse than the specified level.
+        """
+        query = "SELECT symbol, exchange FROM stocks WHERE quality > %s"
         try:
             results = self.execute_query(query, (quality.value,))
-            return [(row[0], row[1]) for row in results]
+            return [(row['symbol'], row['exchange']) for row in results]
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             return []
 
-    def check_existing_stock(self, symbol: str):
-        """Check if the stock already exists in the database."""
-        query = "SELECT 1 FROM stonks WHERE symbol=?"
+
+    def check_existing_stock(self, symbol: str) -> bool:
+        """Check if the stock already exists in the database.
+
+        Args:
+            symbol (str): The stock symbol to check.
+
+        Returns:
+            bool: True if the stock exists, False otherwise.
+
+        Raises:
+            ExistingStock: If the stock exists in the database.
+        """
+        query = "SELECT 1 FROM stocks WHERE symbol=%s LIMIT 1"
         try:
             result = self.execute_query(query, (symbol,))
             if result:
                 raise ExistingStock(f"Stock {symbol} already exists.")
+            return False
+        except ExistingStock:
+            raise
         except Exception as e:
             logging.error(f"Error checking existing stock: {e}")
+            return False
 
-    def check_recent_update(self, symbol: str):
-        """Check if the stock was recently updated."""
-        query = "SELECT last_updated FROM stonks WHERE symbol=?"
+
+    def check_recent_update(self, symbol: str) -> bool:
+        """Check if the stock was recently updated.
+
+        Args:
+            symbol (str): The stock symbol to check.
+
+        Returns:
+            bool: True if the stock was recently updated, False otherwise.
+
+        Raises:
+            RecentlyUpdated: If the stock was updated within the last 12 hours.
+        """
+        query = "SELECT lastupdated FROM stocks WHERE symbol=%s"
         try:
             result = self.execute_query(query, (symbol,))
-            if result and time.time() - result[0] < 43200:  # 12 hours in seconds
-                raise RecentlyUpdated(f"Stock {symbol} was recently updated.")
+            if result:
+                last_updated_timestamp = result[0][0].timestamp()  # Convert datetime to timestamp
+                if time.time() - last_updated_timestamp < 43200:  # 12 hours in seconds
+                    raise RecentlyUpdated(f"Stock {symbol} was recently updated.")
+            return False
+        except RecentlyUpdated:
+            raise
         except Exception as e:
             logging.error(f"Error checking recent update: {e}")
+            return False
 
-    def fetch_stock_data_from_database(self, symbol: str, exchange: str) -> Stock:
-        """Fetch a stock from the database."""
-        query = "SELECT * FROM stonks WHERE symbol=? AND exchange=?"
+
+    def fetch_stock_data_from_database(self, symbol: str, exchange: str) -> tuple:
+        """Fetch a stock from the database by symbol and exchange.
+
+        Args:
+            symbol (str): The stock symbol to fetch.
+            exchange (str): The exchange where the stock is listed.
+
+        Returns:
+            tuple: A tuple containing all the fields of the stock record if found, or None if not found.
+        """
+        query = "SELECT * FROM stocks WHERE symbol=%s AND exchange=%s"
         try:
-            result = self.execute_query(query, (symbol, exchange))
+            result = self.execute_query(query, (symbol, exchange), fetchone=True)
             if result:
-                return result[0]
+                return result
             return None
         except Exception as e:
             logging.error(f"Error fetching stock: {e}")
+            return None
+
 
     def update_stock_in_database(self, stock: Stock) -> bool:
-        """Update or insert stonk in the database."""
-
-        values = tuple(
-            [
-                stock.stock_data.current_price,
-                stock.stock_data.pe,
-                stock.stock_data.dcf,
-                stock.stock_data.roe,
-                stock.exchange,
-                stock.stock_data.quality.value,
-                stock.stock_data.title,
-                stock.stock_data.industry,
-                stock.stock_data.market_cap,
-                stock.stock_data.revenue,
-                stock.stock_data.net_income,
-                stock.stock_data.assets,
-                stock.stock_data.liabilities,
-                stock.stock_data.debt,
-                stock.stock_data.esg_score,
-                stock.stock_data.controversy,
-                stock.stock_data.summary,
-                stock.stock_data.last_updated,
-                stock.stock_data.long_term_debt,
-                stock.stock_data.growth_estimate,
-                stock.stock_data.current_eps,
-                stock.stock_data.historical_pe,
-                stock.stock_data.cash_raw_eq,
-                stock.stock_data.fcf_raw_value,
-                stock.stock_data.shares_outstanding_raw,
-                stock.stock_data.stockholders_equity_raw,
-                stock.stock_data.historical_roe,
-                stock.stock_data.trailing_dividend_rate_raw,
-                stock.symbol,
-            ]
+        """Update or insert stock in the database."""
+        
+        values = (
+            stock.stock_data.current_price,
+            stock.stock_data.pe,
+            stock.stock_data.dcf,
+            stock.stock_data.roe,
+            stock.exchange,
+            stock.stock_data.quality.value,
+            stock.stock_data.title,
+            stock.stock_data.industry,
+            stock.stock_data.market_cap,
+            stock.stock_data.revenue,
+            stock.stock_data.net_income,
+            stock.stock_data.assets,
+            stock.stock_data.liabilities,
+            stock.stock_data.debt,
+            stock.stock_data.esg_score,
+            stock.stock_data.controversy,
+            stock.stock_data.summary,
+            stock.stock_data.last_updated,
+            stock.stock_data.long_term_debt,
+            stock.stock_data.growth_estimate,
+            stock.stock_data.current_eps,
+            stock.stock_data.historical_pe,
+            stock.stock_data.cash_raw_eq,
+            stock.stock_data.fcf_raw_value,
+            stock.stock_data.shares_outstanding_raw,
+            stock.stock_data.stockholders_equity_raw,
+            stock.stock_data.historical_roe,
+            stock.stock_data.trailing_dividend_rate_raw,
+            stock.symbol,
+            stock.exchange
         )
+        
         try:
             with self.connect_to_database() as conn:
                 cur = conn.cursor()
-                if cur.execute(
-                    "SELECT 1 FROM stonks WHERE symbol=? AND exchange=?",
-                    (
-                        stock.symbol,
-                        stock.exchange,
-                    ),
-                ).fetchone():
+                cur.execute(
+                    "SELECT 1 FROM stocks WHERE symbol=%s AND exchange=%s",
+                    (stock.symbol, stock.exchange),
+                )
+                if cur.fetchone():
                     cur.execute(
-                        """UPDATE stonks SET 
-                        current=?, pe=?, dcf=?, roe=?, exchange=?, quality=?, title=?, industry=?,
-                        market_cap=?, revenue=?, net_income=?, assets=?, liabilities=?, debt=?,
-                        esg_score=?, controversy=?, summary=?, last_updated=?, long_term_debt=?,
-                        growth_estimate=?, current_eps=?, historical_pe=?, cash_raw_eq=?, fcf_raw_value=?,
-                        shares_outstanding_raw=?, stockholders_equity_raw=?, historical_roe=?,
-                        trailing_dividend_rate_raw=? WHERE symbol=?""",
+                        """UPDATE stocks SET 
+                        current=%s, pe=%s, dcf=%s, roe=%s, exchange=%s, quality=%s, title=%s, industry=%s,
+                        marketcap=%s, revenue=%s, netincome=%s, assets=%s, liabilities=%s, debt=%s,
+                        esgscore=%s, controversy=%s, summary=%s, lastupdated=%s, longtermdebt=%s,
+                        growthestimate=%s, currenteps=%s, historicalpe=%s, cashraweq=%s, fcfrawvalue=%s,
+                        sharesoutstandingraw=%s, stockholdersequityraw=%s, historicalroe=%s,
+                        trailingdividendrateraw=%s WHERE symbol=%s AND exchange=%s""",
                         values,
                     )
                 else:
                     cur.execute(
-                        """INSERT INTO stonks(
-                        current, pe, dcf, roe, exchange, quality, title, industry, market_cap,
-                        revenue, net_income, assets, liabilities, debt, esg_score, controversy,
-                        summary, last_updated, long_term_debt, growth_estimate, current_eps,
-                        historical_pe, cash_raw_eq, fcf_raw_value, shares_outstanding_raw,
-                        stockholders_equity_raw, historical_roe, trailing_dividend_rate_raw, symbol
-                        ) VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
+                        """INSERT INTO stocks(
+                        current, pe, dcf, roe, exchange, quality, title, industry, marketcap,
+                        revenue, netincome, assets, liabilities, debt, esgscore, controversy,
+                        summary, lastupdated, longtermdebt, growthestimate, currenteps,
+                        historicalpe, cashraweq, fcfrawvalue, sharesoutstandingraw,
+                        stockholdersequityraw, historicalroe, trailingdividendrateraw, symbol, exchange
+                        ) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                         values,
                     )
                 conn.commit()
                 return True
-        except sqlite3.Error as e:
+        except psycopg2.Error as e:
             logging.error(f"Database update failed: {e}")
             return False
-        
-    def set_invalid_symbol(self, symbol: str, exchange: str) -> None:
-        """Set a symbol as invalid in the database."""
-        query = "UPDATE symbols SET valid=0 WHERE symbol=? AND exchange=?"
-        try:
-            with self.connect_to_database() as conn:
-                cur = conn.cursor()
-                cur.execute(query, (symbol, exchange))
-                conn.commit()
-        except sqlite3.Error as e:
-            logging.error(f"Error setting invalid symbol: {e}")
-            return None
