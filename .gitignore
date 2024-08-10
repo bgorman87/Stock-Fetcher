@@ -1,29 +1,8 @@
-.idea
-xnyse.py
-file_equiv.py
-powershell.exe
-
-/venv
-
-/sqlite/*
-!/sqlite/stonks.db
-
-/Stonks Files/Input/Manual Checks/
-/Stonks Files/Overall Good Symbol Spreadsheets/*
-/Stonks Files/How-To-Value-Stocks-by-Value-Spreadsheet.pdf
-/Stonks Files/Intrinsic-Value-Spreadsheet.xlsx
-/Stonks Files/Individual Good Symbol Spreadsheets/*
-/Stonks Files/Manaul Checks
-
-!/Stonks Files/Individual Good Symbol Spreadsheets/CHDN - Churchill_Downs_Incorporated.xlsx
-!/Stonks Files/Individual Good Symbol Spreadsheets/!Individual Good Symbol Template.xlsx
-!/Stonks Files/Overall Good Symbol Spreadsheets/Stonks Data - 2022-Jan-20 -- 11 57 AM.xlsx
-!/Stonks Files/Overall Good Symbol Spreadsheets/Overall Good Symbols Template.xlsx
-
-# Python specific gitignore
-**.pyc
+# Python
+*.pyc
+*.pyo
 __pycache__/
 venv/
-*.egg-info/
-dist/
-build/
+env/
+.vscode/
+.idea/
