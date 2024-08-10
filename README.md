@@ -31,8 +31,8 @@ As indicated, this program is heavily reliant on [Intrinsic](https://github.com/
 2. Clone the repository
 
     ```bash
-    git clone https://github.com/bgorman87/stonks.git
-    cd stonks
+    git clone https://github.com/bgorman87/Stock-Fetcher.git
+    cd Stock-Fetcher
     ```
 3. Modify the `.env` file as needed.
 4. Build the Docker container
