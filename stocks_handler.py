@@ -4,7 +4,6 @@ import pandas as pd
 import time
 import logging
 import yahooquery
-import requests
 from utils import BadStock
 from selenium import webdriver
 from selenium.webdriver.common.by import By
@@ -49,6 +48,39 @@ class StockData:
     trailing_dividend_rate_raw: float
     last_updated: int
 
+    @staticmethod
+    def from_db_row(row: dict) -> "StockData":
+        """Factory method to create StockData from a database row dictionary."""
+        return StockData(
+            current_price=row["current"],
+            pe=row["pe"],
+            dcf=row["dcf"],
+            roe=row["roe"],
+            quality=StockQuality(row["quality"]),
+            title=row["title"],
+            industry=row["industry"],
+            market_cap=row["marketcap"],
+            revenue=row["revenue"],
+            net_income=row["netincome"],
+            assets=row["assets"],
+            liabilities=row["liabilities"],
+            debt=row["debt"],
+            esg_score=row["esgscore"],
+            controversy=row["controversy"],
+            summary=row["summary"],
+            long_term_debt=row["longtermdebt"],
+            growth_estimate=row["growthestimate"],
+            current_eps=row["currenteps"],
+            historical_pe=row["historicalpe"],
+            cash_raw_eq=row["cashraweq"],
+            fcf_raw_value=row["fcfrawvalue"],
+            shares_outstanding_raw=row["sharesoutstandingraw"],
+            stockholders_equity_raw=row["stockholdersequityraw"],
+            historical_roe=row["historicalroe"],
+            trailing_dividend_rate_raw=row["trailingdividendrateraw"],
+            last_updated=row["lastupdated"].timestamp(),  # Convert to Unix timestamp
+        )
+
 
 class Stock:
     def __init__(self, symbol: str, exchange: str, stock_data: StockData):
@@ -67,6 +99,10 @@ class Stock:
 
     def __hash__(self) -> int:
         return hash((self.symbol, self.exchange))
+    
+    def __lt__(self, other: "Stock"):
+        # This will sort in ascending order (1 is higher quality than 4)
+        return self.stock_data.quality.value < other.stock_data.quality.value
 
     def get_summary(self):
         return f"${self.stock_data.current_price:.2f} - {self.stock_data.quality.name} - PE: ${self.stock_data.pe:.2f} DCF: ${self.stock_data.dcf:.2f} ROE: ${self.stock_data.roe:.2f}"
@@ -127,7 +163,6 @@ class StockFactory:
     def validate_growth_estimate(stock: Stock):
         """Validate the growth estimate of the stock."""
         if not isinstance(stock.stock_data.growth_estimate, (int, float)):
-
             stock.stock_data.growth_estimate = 0
 
     @staticmethod
@@ -188,9 +223,7 @@ class StockFactory:
             dividends.append(dividends[-1] * (1 + conservative_growth))
             npv_dividends.append(dividends[-1] / ((1 + discount_rate) ** (i + 1)))
 
-        y10_net_income = (
-            shareholders_equity[-1] * stock.stock_data.historical_roe / 100
-        )
+        y10_net_income = shareholders_equity[-1] * stock.stock_data.historical_roe / 100
         required_value = y10_net_income / discount_rate
         npv_required_value = required_value / ((1 + discount_rate) ** 10)
         stock.stock_data.roe = round(float(sum(npv_dividends) + npv_required_value), 2)
@@ -218,47 +251,55 @@ class StockFactory:
 
         total_npv = sum(npv_free_cash)
         year_10_free_cash = npv_free_cash[-1] * 12
-        stock.stock_data.dcf = round(float((
-            total_npv
-            + year_10_free_cash
-            + stock.stock_data.cash_raw_eq
-            - stock.stock_data.liabilities
-        ) / stock.stock_data.shares_outstanding_raw), 2)
+        stock.stock_data.dcf = round(
+            float(
+                (
+                    total_npv
+                    + year_10_free_cash
+                    + stock.stock_data.cash_raw_eq
+                    - stock.stock_data.liabilities
+                )
+                / stock.stock_data.shares_outstanding_raw
+            ),
+            2,
+        )
 
     @staticmethod
-    def fetch_historical_pe(
-        ticker: yahooquery.Ticker
-    ) -> float:
+    def fetch_historical_pe(ticker: yahooquery.Ticker) -> float:
         """Fetch 5-year historical PE from Yahoo Finance."""
         try:
-            avg_historical_price = ticker.history(period="5y", interval="3mo")["close"].mean()
-            avg_historical_eps = ticker.get_financial_data('BasicEPS')['BasicEPS'].mean()
+            avg_historical_price = ticker.history(period="5y", interval="3mo")[
+                "close"
+            ].mean()
+            avg_historical_eps = ticker.get_financial_data("BasicEPS")[
+                "BasicEPS"
+            ].mean()
             historical_pe = avg_historical_price / avg_historical_eps
             return historical_pe
         except Exception as e:
             logging.error(f"Error fetching historical PE: {e}")
             return 0.0
-    
+
     @staticmethod
-    def fetch_morningstar_roe(
-        symbol: str, exchange: str, basic_data: dict
-    ) -> float:
+    def fetch_morningstar_roe(symbol: str, exchange: str, basic_data: dict) -> float:
         """Fetch 5-year historical ROE from Morningstar."""
 
         MORNINGSTAR_ROE_URL = "https://www.morningstar.com/stocks/%$%/$%$/performance"
         MORNING_STAR_EXCHANGE = {
             "nas": "xnas",
-            "nyse": "xnyse",
+            "nyse": "xnys",
             "tsx": "xtse",
             "cse": "xcse",
         }
-        
+
         ms_exchange = MORNING_STAR_EXCHANGE.get(exchange)
         url = MORNINGSTAR_ROE_URL.replace("$%$", symbol).replace("%$%", ms_exchange)
 
         options = webdriver.ChromeOptions()
         options.add_argument("--headless")
-        options.add_argument('log-level=3')
+        options.add_argument("log-level=3")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
         driver = webdriver.Chrome(options=options)
 
         try:
@@ -285,17 +326,22 @@ class StockFactory:
             roe_value = columns[-2].text.strip()
 
             if "--" in roe_value:
-                logging.warning(f"No 5-year historical ROE available in MorningStar for {symbol}")
-                return StockFactory.extract_from_dict(
-                    basic_data, StockFactory.key_paths["ReturnOnEquity"]
-                ) * 100
+                logging.warning(
+                    f"No 5-year historical ROE available in MorningStar for {symbol}"
+                )
+                return (
+                    StockFactory.extract_from_dict(
+                        basic_data, StockFactory.key_paths["ReturnOnEquity"]
+                    )
+                    * 100
+                )
 
             return float(roe_value)
-        
+
         except Exception as e:
             logging.error(f"Error fetching MorningStar ROE for {symbol}: {e}")
             return 0.0
-        
+
         finally:
             driver.quit()
 
@@ -362,11 +408,13 @@ class StockFactory:
             if isinstance(basic_ticker, str):
                 raise BadStock(basic_ticker)
             raise BadStock(f"Error fetching data for {symbol}")
-        
-        current_price=basic_ticker.get("price", {}).get("regularMarketPrice", None)
+
+        current_price = basic_ticker.get("price", {}).get("regularMarketPrice", None)
         if current_price is None:
-            raise BadStock(f"Current Price not available. Insufficient data for {symbol}")
-        
+            raise BadStock(
+                f"Current Price not available. Insufficient data for {symbol}"
+            )
+
         financial_modules = [
             "MarketCap",
             "TotalRevenue",
@@ -379,10 +427,12 @@ class StockFactory:
             "FreeCashFlow",
             "StockholdersEquity",
         ]
-        financial_ticker: pd.DataFrame = ticker.get_financial_data(financial_modules, trailing=True)
+        financial_ticker: pd.DataFrame = ticker.get_financial_data(
+            financial_modules, trailing=True
+        )
         if not isinstance(financial_ticker, pd.DataFrame):
             raise BadStock(f"Error fetching financial data for {symbol}")
-        
+
         stock_data = StockData(
             current_price=current_price,
             pe=0,
@@ -435,9 +485,7 @@ class StockFactory:
             current_eps=basic_ticker.get("defaultKeyStatistics", {}).get(
                 "trailingEps", None
             ),
-            historical_pe=StockFactory.fetch_historical_pe(
-                ticker
-            ),
+            historical_pe=StockFactory.fetch_historical_pe(ticker),
             cash_raw_eq=StockFactory.get_financial_value(
                 financial_ticker, "CashAndCashEquivalents", basic_ticker
             ),
@@ -492,6 +540,40 @@ class StockFactory:
         """Create a stock object with the given symbol, exchange, and stock data."""
         stock = Stock(symbol, exchange, stock_data)
         return stock
+    
+    @staticmethod
+    def create_bad_stock(symbol: str, exchange: str) -> Stock:
+        """Create a bad stock object with the given symbol and exchange."""
+        stock_data = StockData(
+            current_price=0,
+            pe=0,
+            dcf=0,
+            roe=0,
+            quality=StockQuality.BAD,
+            title="",
+            industry="",
+            market_cap=0,
+            revenue=0,
+            net_income=0,
+            assets=0,
+            liabilities=0,
+            debt=0,
+            esg_score=0,
+            controversy=0,
+            summary="",
+            long_term_debt=0,
+            growth_estimate=0,
+            current_eps=0,
+            historical_pe=0,
+            cash_raw_eq=0,
+            fcf_raw_value=0,
+            shares_outstanding_raw=0,
+            stockholders_equity_raw=0,
+            historical_roe=0,
+            trailing_dividend_rate_raw=0,
+            last_updated=int(time.time()),
+        )
+        return Stock(symbol, exchange, stock_data)
 
 
 def get_stock_symbol_for_yahoo(symbol: str, exchange: str) -> str:
