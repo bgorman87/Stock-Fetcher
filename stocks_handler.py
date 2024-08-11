@@ -12,41 +12,41 @@ from selenium.webdriver.support.ui import WebDriverWait
 
 
 class StockQuality(Enum):
-    GOOD = 1
-    OKAY = 2
-    BAD = 3
-    UNKNOWN = 4
+    GREAT = 1
+    GOOD = 2
+    OKAY = 3
+    BAD = 4
 
 
 @dataclass
 class StockData:
-    current_price: float
-    pe: float
-    dcf: float
-    roe: float
-    quality: StockQuality
-    title: str
-    industry: str
-    market_cap: float
-    revenue: float
-    net_income: float
-    assets: float
-    liabilities: float
-    debt: float
-    esg_score: float
-    controversy: float
-    summary: str
-    long_term_debt: float
-    growth_estimate: float
-    current_eps: float
-    historical_pe: float
-    cash_raw_eq: float
-    fcf_raw_value: float
-    shares_outstanding_raw: float
-    stockholders_equity_raw: float
-    historical_roe: float
-    trailing_dividend_rate_raw: float
-    last_updated: int
+    current_price: float | None = None
+    pe: float | None = None
+    dcf: float | None = None
+    roe: float | None = None
+    quality: StockQuality = StockQuality.BAD
+    title: str | None = None
+    industry: str | None = None
+    market_cap: float | None = None
+    revenue: float | None = None
+    net_income: float | None = None
+    assets: float | None = None
+    liabilities: float | None = None
+    debt: float | None = None
+    esg_score: float | None = None
+    controversy: float | None = None
+    summary: str | None = None
+    long_term_debt: float | None = None
+    growth_estimate: float | None = None
+    current_eps: float | None = None
+    historical_pe: float | None = None
+    cash_raw_eq: float | None = None
+    fcf_raw_value: float | None = None
+    shares_outstanding_raw: float | None = None
+    stockholders_equity_raw: float | None = None
+    historical_roe: float | None = None
+    trailing_dividend_rate_raw: float | None = None
+    last_updated: float | None = None
 
     @staticmethod
     def from_db_row(row: dict) -> "StockData":
@@ -99,7 +99,7 @@ class Stock:
 
     def __hash__(self) -> int:
         return hash((self.symbol, self.exchange))
-    
+
     def __lt__(self, other: "Stock"):
         # This will sort in ascending order (1 is higher quality than 4)
         return self.stock_data.quality.value < other.stock_data.quality.value
@@ -164,28 +164,6 @@ class StockFactory:
         """Validate the growth estimate of the stock."""
         if not isinstance(stock.stock_data.growth_estimate, (int, float)):
             stock.stock_data.growth_estimate = 0
-
-    @staticmethod
-    def determine_and_update_stock_quality(stock: Stock):
-        """Determine the quality of the stock based on calculated values."""
-        try:
-            good_values = [
-                value
-                for value in [
-                    stock.stock_data.pe,
-                    stock.stock_data.dcf,
-                    stock.stock_data.roe,
-                ]
-                if stock.stock_data.current_price < value
-            ]
-            if len(good_values) == 3:
-                stock.stock_data.quality = StockQuality.GOOD
-            elif len(good_values) == 2:
-                stock.stock_data.quality = StockQuality.OKAY
-            else:
-                stock.stock_data.quality = StockQuality.BAD
-        except Exception:
-            stock.stock_data.quality = StockQuality.BAD
 
     @staticmethod
     def calculate_pe_npv(discount_rate: float, stock: Stock) -> float:
@@ -265,7 +243,7 @@ class StockFactory:
         )
 
     @staticmethod
-    def fetch_historical_pe(ticker: yahooquery.Ticker) -> float:
+    def fetch_historical_pe(ticker: yahooquery.Ticker) -> float | None:
         """Fetch 5-year historical PE from Yahoo Finance."""
         try:
             avg_historical_price = ticker.history(period="5y", interval="3mo")[
@@ -275,13 +253,13 @@ class StockFactory:
                 "BasicEPS"
             ].mean()
             historical_pe = avg_historical_price / avg_historical_eps
-            return historical_pe
+            return float(historical_pe)
         except Exception as e:
             logging.error(f"Error fetching historical PE: {e}")
-            return 0.0
+            return None
 
     @staticmethod
-    def fetch_morningstar_roe(symbol: str, exchange: str, basic_data: dict) -> float:
+    def fetch_morningstar_roe(symbol: str, exchange: str, basic_data: dict) -> float | None:
         """Fetch 5-year historical ROE from Morningstar."""
 
         MORNINGSTAR_ROE_URL = "https://www.morningstar.com/stocks/%$%/$%$/performance"
@@ -340,44 +318,53 @@ class StockFactory:
 
         except Exception as e:
             logging.error(f"Error fetching MorningStar ROE for {symbol}: {e}")
-            return 0.0
+            return None
 
         finally:
             driver.quit()
 
     @staticmethod
-    def extract_from_dict(data_dict: dict, key_path: list):
+    def extract_from_dict(data_dict: dict, key_path: list) -> float | None:
         try:
             for key in key_path:
                 if isinstance(key, int):
                     data_dict = data_dict[key]
                 else:
                     data_dict = data_dict.get(key, {})
-            return data_dict if data_dict else 0.0
+            return float(data_dict) if data_dict else 0.0
         except (KeyError, IndexError, TypeError):
-            return 0.0
+            return None
 
     @staticmethod
     def get_financial_value(
         df: pd.DataFrame, column_name: str, basic_stock_info: dict
-    ) -> float | int:
-        ttm_value = df.iloc[-1].get(column_name)
-        if pd.notna(ttm_value):
-            return ttm_value
+    ) -> float | None:
+        try:
+            ttm_value = df.iloc[-1].get(column_name)
+            if pd.notna(ttm_value):
+                return float(ttm_value)
 
-        prev_year_value = df.iloc[-2].get(column_name)
-        if pd.notna(prev_year_value):
-            return prev_year_value
+            prev_year_value = df.iloc[-2].get(column_name)
+            if pd.notna(prev_year_value):
+                return float(prev_year_value)
 
-        if column_name == "FreeCashFlow":
-            return StockFactory.calculate_free_cash_flow(basic_stock_info)
+            if column_name == "FreeCashFlow":
+                fcf_value = StockFactory.calculate_free_cash_flow(basic_stock_info)
+                if not fcf_value:
+                    fcf_value = df.iloc[-3].get(column_name)
+                    if pd.notna(fcf_value):
+                        return float(fcf_value)
+                return fcf_value
 
-        return StockFactory.extract_from_dict(
-            basic_stock_info, StockFactory.key_paths.get(column_name, [])
-        )
+            return StockFactory.extract_from_dict(
+                basic_stock_info, StockFactory.key_paths.get(column_name, [])
+            )
+        except Exception as e:
+            logging.error(f"Error fetching financial value for {column_name}: {e}")
+            return None
 
     @staticmethod
-    def calculate_free_cash_flow(basic_stock_info: dict) -> float:
+    def calculate_free_cash_flow(basic_stock_info: dict) -> float | None:
         try:
             cashflow_statements = basic_stock_info.get(
                 "cashflowStatementHistoryQuarterly", {}
@@ -390,31 +377,79 @@ class StockFactory:
                     if j < len(cashflow_statements)
                 ]
             )
-            return fcf_raw_value
+            return float(fcf_raw_value) if fcf_raw_value else None
         except (KeyError, IndexError, TypeError):
-            return 0.0
+            return None
 
     @staticmethod
     def create_stock(symbol: str, exchange: str) -> Stock:
         """Create a stock object with the given symbol and exchange."""
         yh_symbol = get_stock_symbol_for_yahoo(symbol, exchange)
         ticker = yahooquery.Ticker(yh_symbol)
+
+        stock_data = StockData()
+
         basic_ticker: dict = ticker.all_modules
         if not isinstance(basic_ticker, dict):
-            raise BadStock(f"Error fetching data for {symbol}")
+            raise BadStock(stock_data, f"Error fetching data for {symbol}")
 
         basic_ticker = basic_ticker[yh_symbol]
         if not isinstance(basic_ticker, dict):
             if isinstance(basic_ticker, str):
-                raise BadStock(basic_ticker)
-            raise BadStock(f"Error fetching data for {symbol}")
+                raise BadStock(stock_data, basic_ticker)
+            raise BadStock(stock_data, f"Error fetching data for {symbol}")
 
         current_price = basic_ticker.get("price", {}).get("regularMarketPrice", None)
         if current_price is None:
             raise BadStock(
+                stock_data,
                 f"Current Price not available. Insufficient data for {symbol}"
             )
 
+        stock_data.current_price = current_price
+        stock_data.title = (basic_ticker.get("quoteType", {}).get("longName", None),)
+        stock_data.industry = (
+            basic_ticker.get("assetProfile", {}).get("industry", None),
+        )
+        stock_data.esg_score = (
+            basic_ticker.get("esgScores", {}).get("totalEsg", None),
+        )
+        stock_data.controversy = basic_ticker.get("esgScores", {}).get(
+            "highestControversy", None
+        )
+        stock_data.summary = basic_ticker.get("summaryProfile", {}).get(
+            "longBusinessSummary", None
+        )
+        stock_data.growth_estimate = (
+            basic_ticker.get("earningsTrend", {})
+            .get(
+                "trend",
+                [
+                    {},
+                    {},
+                    {},
+                    {},
+                    {},
+                ],
+            )[4]
+            .get("growth", None)
+        )
+        stock_data.current_eps = basic_ticker.get("defaultKeyStatistics", {}).get(
+            "trailingEps", None
+        )
+        stock_data.shares_outstanding_raw = basic_ticker.get(
+            "defaultKeyStatistics", {}
+        ).get("sharesOutstanding", None)
+        stock_data.trailing_dividend_rate_raw = basic_ticker.get(
+            "summaryDetail", {}
+        ).get("trailingAnnualDividendRate", None)
+
+
+        stock_data.historical_pe = StockFactory.fetch_historical_pe(ticker)
+        stock_data.historical_roe = StockFactory.fetch_morningstar_roe(
+            symbol, exchange, basic_ticker
+        )
+        
         financial_modules = [
             "MarketCap",
             "TotalRevenue",
@@ -431,81 +466,40 @@ class StockFactory:
             financial_modules, trailing=True
         )
         if not isinstance(financial_ticker, pd.DataFrame):
-            raise BadStock(f"Error fetching financial data for {symbol}")
-
-        stock_data = StockData(
-            current_price=current_price,
-            pe=0,
-            dcf=0,
-            roe=0,
-            quality=StockQuality.UNKNOWN,
-            title=basic_ticker.get("quoteType", {}).get("longName", None),
-            industry=basic_ticker.get("assetProfile", {}).get("industry", None),
-            market_cap=StockFactory.get_financial_value(
-                financial_ticker, "MarketCap", basic_ticker
-            ),
-            revenue=StockFactory.get_financial_value(
-                financial_ticker, "TotalRevenue", basic_ticker
-            ),
-            net_income=StockFactory.get_financial_value(
-                financial_ticker, "NetIncome", basic_ticker
-            ),
-            assets=StockFactory.get_financial_value(
-                financial_ticker, "TotalAssets", basic_ticker
-            ),
-            liabilities=StockFactory.get_financial_value(
-                financial_ticker, "TotalLiabilitiesNetMinorityInterest", basic_ticker
-            ),
-            debt=StockFactory.get_financial_value(
-                financial_ticker, "TotalDebt", basic_ticker
-            ),
-            esg_score=basic_ticker.get("esgScores", {}).get("totalEsg", None),
-            controversy=basic_ticker.get("esgScores", {}).get(
-                "highestControversy", None
-            ),
-            summary=basic_ticker.get("summaryProfile", {}).get(
-                "longBusinessSummary", None
-            ),
-            long_term_debt=StockFactory.get_financial_value(
-                financial_ticker, "LongTermDebt", basic_ticker
-            ),
-            # growth_estimate=StockFactory.fetch_external_growth_estimate(symbol, exchange),
-            growth_estimate=basic_ticker.get("earningsTrend", {})
-            .get(
-                "trend",
-                [
-                    {},
-                    {},
-                    {},
-                    {},
-                    {},
-                ],
-            )[4]
-            .get("growth", None),
-            current_eps=basic_ticker.get("defaultKeyStatistics", {}).get(
-                "trailingEps", None
-            ),
-            historical_pe=StockFactory.fetch_historical_pe(ticker),
-            cash_raw_eq=StockFactory.get_financial_value(
-                financial_ticker, "CashAndCashEquivalents", basic_ticker
-            ),
-            fcf_raw_value=StockFactory.get_financial_value(
-                financial_ticker, "FreeCashFlow", basic_ticker
-            ),
-            shares_outstanding_raw=basic_ticker.get("defaultKeyStatistics", {}).get(
-                "sharesOutstanding", None
-            ),
-            stockholders_equity_raw=StockFactory.get_financial_value(
-                financial_ticker, "StockholdersEquity", basic_ticker
-            ),
-            historical_roe=StockFactory.fetch_morningstar_roe(
-                symbol, exchange, basic_ticker
-            ),
-            trailing_dividend_rate_raw=basic_ticker.get("summaryDetail", {}).get(
-                "trailingAnnualDividendRate", None
-            ),
-            last_updated=int(time.time()),
+            raise BadStock(stock_data, f"Error fetching financial data for {symbol}")
+        
+        stock_data.market_cap = StockFactory.get_financial_value(
+            financial_ticker, "MarketCap", basic_ticker
         )
+        stock_data.revenue = StockFactory.get_financial_value(
+            financial_ticker, "TotalRevenue", basic_ticker
+        )
+        stock_data.net_income = StockFactory.get_financial_value(
+            financial_ticker, "NetIncome", basic_ticker
+        )
+        stock_data.assets = StockFactory.get_financial_value(
+            financial_ticker, "TotalAssets", basic_ticker
+        )
+        stock_data.liabilities = StockFactory.get_financial_value(
+            financial_ticker, "TotalLiabilitiesNetMinorityInterest", basic_ticker
+        )
+        stock_data.debt = StockFactory.get_financial_value(
+            financial_ticker, "TotalDebt", basic_ticker
+        )
+        stock_data.long_term_debt = StockFactory.get_financial_value(
+            financial_ticker, "LongTermDebt", basic_ticker
+        )
+        stock_data.cash_raw_eq = StockFactory.get_financial_value(
+            financial_ticker, "CashAndCashEquivalents", basic_ticker
+        )
+        stock_data.fcf_raw_value = StockFactory.get_financial_value(
+            financial_ticker, "FreeCashFlow", basic_ticker
+        )
+        stock_data.stockholders_equity_raw = StockFactory.get_financial_value(
+            financial_ticker, "StockholdersEquity", basic_ticker
+        )
+
+        stock_data.last_updated = int(time.time())
 
         stock = Stock(symbol, exchange, stock_data)
 
@@ -515,21 +509,22 @@ class StockFactory:
                 StockFactory.calculate_pe_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
                 logging.error(f"Error calculating PE NPV for {symbol}: {e}")
+                stock.stock_data.pe = None
                 pass
 
             try:
                 StockFactory.calculate_roe_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
                 logging.error(f"Error calculating ROE NPV for {symbol}: {e}")
+                stock.stock_data.roe = None
                 pass
 
             try:
                 StockFactory.calculate_dcf_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
                 logging.error(f"Error calculating DCF NPV for {symbol}: {e}")
+                stock.stock_data.dcf = None
                 pass
-
-        StockFactory.determine_and_update_stock_quality(stock)
 
         return stock
 
@@ -540,40 +535,6 @@ class StockFactory:
         """Create a stock object with the given symbol, exchange, and stock data."""
         stock = Stock(symbol, exchange, stock_data)
         return stock
-    
-    @staticmethod
-    def create_bad_stock(symbol: str, exchange: str) -> Stock:
-        """Create a bad stock object with the given symbol and exchange."""
-        stock_data = StockData(
-            current_price=0,
-            pe=0,
-            dcf=0,
-            roe=0,
-            quality=StockQuality.BAD,
-            title="",
-            industry="",
-            market_cap=0,
-            revenue=0,
-            net_income=0,
-            assets=0,
-            liabilities=0,
-            debt=0,
-            esg_score=0,
-            controversy=0,
-            summary="",
-            long_term_debt=0,
-            growth_estimate=0,
-            current_eps=0,
-            historical_pe=0,
-            cash_raw_eq=0,
-            fcf_raw_value=0,
-            shares_outstanding_raw=0,
-            stockholders_equity_raw=0,
-            historical_roe=0,
-            trailing_dividend_rate_raw=0,
-            last_updated=int(time.time()),
-        )
-        return Stock(symbol, exchange, stock_data)
 
 
 def get_stock_symbol_for_yahoo(symbol: str, exchange: str) -> str:

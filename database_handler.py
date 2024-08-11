@@ -19,9 +19,7 @@ class DatabaseHandler:
     DB_NAME = os.getenv("DATABASE_NAME", "database")
     DB_USER = os.getenv("DATABASE_USER", "postgres")
     DB_PASSWORD = os.getenv("DATABASE_PASSWORD", "password")
-    EXCHANGE_FILES_DIRECTORY = os.getenv(
-        "EXCHANGE_FILES_DIRECTORY", "Symbol Files"
-    )
+    EXCHANGE_FILES_DIRECTORY = os.getenv("EXCHANGE_FILES_DIRECTORY", "Symbol Files")
 
     def __init__(self):
         self.connection_string = self.create_connection_string()
@@ -29,7 +27,7 @@ class DatabaseHandler:
 
     def create_connection_string(self) -> str:
         return f"host={self.DB_HOST} port={self.DB_PORT} dbname={self.DB_NAME} user={self.DB_USER} password={self.DB_PASSWORD}"
-    
+
     def test_connection(self) -> None:
         """Test the connection to the PostgreSQL database."""
         try:
@@ -55,13 +53,15 @@ class DatabaseHandler:
     def read_symbols_from_files(self, file_paths: list[str]) -> list[tuple[str, str]]:
         """Read symbols from exchange files."""
         symbols = []
-        
+
         if not os.path.exists(self.EXCHANGE_FILES_DIRECTORY):
-            raise FileNotFoundError(f"Directory {self.EXCHANGE_FILES_DIRECTORY} not found.")
-        
+            raise FileNotFoundError(
+                f"Directory {self.EXCHANGE_FILES_DIRECTORY} not found."
+            )
+
         for exchange in file_paths:
             full_path = os.path.join(self.EXCHANGE_FILES_DIRECTORY, f"{exchange}.txt")
-            
+
             try:
                 with open(full_path, "r") as file:
                     symbols.extend(
@@ -71,14 +71,13 @@ class DatabaseHandler:
                 logging.error(f"File {full_path} not found.")
             except IOError as e:
                 logging.error(f"Error reading file {full_path}: {e}")
-        
-        return symbols
 
+        return symbols
 
     def update_stock_symbols_from_files(self, file_paths: list[str]) -> None:
         """Update the stocks table with symbols from exchange files."""
         all_symbols = self.read_symbols_from_files(file_paths)
-        
+
         try:
             with self.connect_to_database() as conn:
                 cur = conn.cursor()
@@ -89,7 +88,9 @@ class DatabaseHandler:
                     all_symbols,
                 )
                 conn.commit()
-                logging.info(f"Successfully updated {cur.rowcount} stocks in the database.")
+                logging.info(
+                    f"Successfully updated {cur.rowcount} stocks in the database."
+                )
         except psycopg2.Error as e:
             conn.rollback()
             logging.error(f"Error updating stocks: {e}")
@@ -97,12 +98,11 @@ class DatabaseHandler:
             if cur:
                 cur.close()
 
-
     def fetch_new_symbols(self, local_exchange_list: list[str]) -> set[tuple[str, str]]:
         """Get new symbols from the exchange files."""
         all_symbols = set(self.read_symbols_from_files(local_exchange_list))
         query = """SELECT symbol, exchange FROM stocks"""
-        
+
         try:
             results = self.execute_query(query, ())
             existing_symbols = set((row[0], row[1]) for row in results)
@@ -116,7 +116,7 @@ class DatabaseHandler:
     def fetch_existing_symbols(self) -> set[tuple[str, str]]:
         """Get existing symbols from the stocks table."""
         query = """SELECT symbol, exchange FROM stocks"""
-        
+
         try:
             results = self.execute_query(query, ())
             existing_symbols = set((row[0], row[1]) for row in results)
@@ -125,7 +125,6 @@ class DatabaseHandler:
             existing_symbols = set()
 
         return existing_symbols
-
 
     def fetch_all_symbols(
         self,
@@ -145,7 +144,7 @@ class DatabaseHandler:
         """
         try:
             self.update_stock_symbols_from_files(local_exchange_list)
-            
+
             query = """
                 SELECT symbol, exchange 
                 FROM stocks 
@@ -153,7 +152,7 @@ class DatabaseHandler:
             """
             try:
                 results = self.execute_query(query, (quality.value,))
-                all_symbols = [(row['symbol'], row['exchange']) for row in results]
+                all_symbols = [(row["symbol"], row["exchange"]) for row in results]
             except Exception as e:
                 logging.error(f"Error fetching symbols: {e}")
                 all_symbols = []
@@ -171,8 +170,9 @@ class DatabaseHandler:
             logging.error(f"Error getting symbols: {e}")
             return []
 
-
-    def execute_query(self, query: str, params: tuple = (), fetchone=False) -> list[dict] | dict | None:
+    def execute_query(
+        self, query: str, params: tuple = (), fetchone=False
+    ) -> list[dict] | dict | None:
         """Execute a query and return the results as a list of dictionaries if any."""
         try:
             with self.connect_to_database() as conn:
@@ -184,7 +184,6 @@ class DatabaseHandler:
         except psycopg2.Error as e:
             logging.error(f"Database query failed: {e}")
             return None
-
 
     def get_better_quality_stocks(
         self, quality: StockQuality = StockQuality.OKAY
@@ -200,7 +199,7 @@ class DatabaseHandler:
         query = "SELECT symbol, exchange FROM stocks WHERE quality <= %s"
         try:
             results = self.execute_query(query, (quality.value,))
-            return [(row['symbol'], row['exchange']) for row in results]
+            return [(row["symbol"], row["exchange"]) for row in results]
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             return []
@@ -219,11 +218,10 @@ class DatabaseHandler:
         query = "SELECT symbol, exchange FROM stocks WHERE quality > %s"
         try:
             results = self.execute_query(query, (quality.value,))
-            return [(row['symbol'], row['exchange']) for row in results]
+            return [(row["symbol"], row["exchange"]) for row in results]
         except Exception as e:
             logging.error(f"Error fetching symbols: {e}")
             return []
-
 
     def check_existing_stock(self, symbol: str) -> bool:
         """Check if the stock already exists in the database.
@@ -249,34 +247,6 @@ class DatabaseHandler:
             logging.error(f"Error checking existing stock: {e}")
             return False
 
-
-    def check_recent_update(self, symbol: str) -> bool:
-        """Check if the stock was recently updated.
-
-        Args:
-            symbol (str): The stock symbol to check.
-
-        Returns:
-            bool: True if the stock was recently updated, False otherwise.
-
-        Raises:
-            RecentlyUpdated: If the stock was updated within the last 12 hours.
-        """
-        query = "SELECT lastupdated FROM stocks WHERE symbol=%s"
-        try:
-            result = self.execute_query(query, (symbol,))
-            if result:
-                last_updated_timestamp = result[0][0].timestamp()  # Convert datetime to timestamp
-                if time.time() - last_updated_timestamp < 43200:  # 12 hours in seconds
-                    raise RecentlyUpdated(f"Stock {symbol} was recently updated.")
-            return False
-        except RecentlyUpdated:
-            raise
-        except Exception as e:
-            logging.error(f"Error checking recent update: {e}")
-            return False
-
-
     def fetch_stock_data_from_database(self, symbol: str, exchange: str) -> tuple:
         """Fetch a stock from the database by symbol and exchange.
 
@@ -297,17 +267,15 @@ class DatabaseHandler:
             logging.error(f"Error fetching stock: {e}")
             return None
 
-
     def update_stock_in_database(self, stock: Stock) -> bool:
         """Update or insert stock in the database."""
-        
+
         values = (
             stock.stock_data.current_price,
             stock.stock_data.pe,
             stock.stock_data.dcf,
             stock.stock_data.roe,
             stock.exchange,
-            stock.stock_data.quality.value,
             stock.stock_data.title,
             stock.stock_data.industry,
             stock.stock_data.market_cap,
@@ -319,7 +287,6 @@ class DatabaseHandler:
             stock.stock_data.esg_score,
             stock.stock_data.controversy,
             stock.stock_data.summary,
-            stock.stock_data.last_updated,
             stock.stock_data.long_term_debt,
             stock.stock_data.growth_estimate,
             stock.stock_data.current_eps,
@@ -331,9 +298,8 @@ class DatabaseHandler:
             stock.stock_data.historical_roe,
             stock.stock_data.trailing_dividend_rate_raw,
             stock.symbol,
-            stock.exchange
         )
-        
+
         try:
             with self.connect_to_database() as conn:
                 cur = conn.cursor()
@@ -344,23 +310,23 @@ class DatabaseHandler:
                 if cur.fetchone():
                     cur.execute(
                         """UPDATE stocks SET 
-                        current=%s, pe=%s, dcf=%s, roe=%s, exchange=%s, quality=%s, title=%s, industry=%s,
+                        current=%s, pe=%s, dcf=%s, roe=%s, exchange=%s, title=%s, industry=%s,
                         marketcap=%s, revenue=%s, netincome=%s, assets=%s, liabilities=%s, debt=%s,
-                        esgscore=%s, controversy=%s, summary=%s, lastupdated=%s, longtermdebt=%s,
+                        esgscore=%s, controversy=%s, summary=%s, longtermdebt=%s,
                         growthestimate=%s, currenteps=%s, historicalpe=%s, cashraweq=%s, fcfrawvalue=%s,
                         sharesoutstandingraw=%s, stockholdersequityraw=%s, historicalroe=%s,
                         trailingdividendrateraw=%s WHERE symbol=%s AND exchange=%s""",
-                        values,
+                        values + (stock.exchange,),
                     )
                 else:
                     cur.execute(
                         """INSERT INTO stocks(
-                        current, pe, dcf, roe, exchange, quality, title, industry, marketcap,
+                        current, pe, dcf, roe, exchange, title, industry, marketcap,
                         revenue, netincome, assets, liabilities, debt, esgscore, controversy,
-                        summary, lastupdated, longtermdebt, growthestimate, currenteps,
+                        summary, longtermdebt, growthestimate, currenteps,
                         historicalpe, cashraweq, fcfrawvalue, sharesoutstandingraw,
-                        stockholdersequityraw, historicalroe, trailingdividendrateraw, symbol, exchange
-                        ) VALUES(%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
+                        stockholdersequityraw, historicalroe, trailingdividendrateraw, symbol
+                        ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                         values,
                     )
                 conn.commit()
