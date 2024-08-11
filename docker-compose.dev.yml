@@ -11,7 +11,12 @@ services:
       - DATABASE_PORT=${DATABASE_PORT}
     networks:
       - intrinsic_backend-network
+    volumes:
+      - stock-fetcher-logs:/var/log/stock-fetcher
 
 networks:
   intrinsic_backend-network:
     external: true
+
+volumes:
+  stock-fetcher-logs:

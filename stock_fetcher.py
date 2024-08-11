@@ -1,15 +1,13 @@
 import logging
 import random
-from typing import List
 import warnings
+import time
+import os
+from logging.handlers import RotatingFileHandler
 from database_handler import DatabaseHandler
 from stocks_handler import StockFactory, StockData, Stock
 from utils import BadStock
-import time
 
-logging.basicConfig(
-    level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s"
-)
 
 # Suppress specific yahooquery FutureWarnings
 warnings.filterwarnings("ignore", message=".*'S' is deprecated.*")
@@ -44,7 +42,7 @@ def process_stock(
         pass
 
 
-def analyze_and_update(rand_value: int, exchange_list: List[str]):
+def analyze_and_update(rand_value: int, exchange_list: list[str]):
     """Perform the main analysis and update routine."""
     try:
         database = DatabaseHandler()
@@ -91,6 +89,26 @@ def analyze_and_update(rand_value: int, exchange_list: List[str]):
         process_stock(stock.symbol, stock.exchange, database)
 
 if __name__ == "__main__":
+    log_dir = os.path.abspath("/var/log/stock-fetcher/")
+    if not os.path.exists(log_dir):
+        log_dir = os.path.abspath("logs/")
+        if not os.path.exists(log_dir):
+            os.makedirs(log_dir)
+
+    log_handler = RotatingFileHandler(
+        os.path.join(log_dir, 'stock-fetcher.log'),
+        maxBytes=10*1024*1024,  # 10MB per file
+        backupCount=5
+    )
+
+    formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")
+    log_handler.setFormatter(formatter)
+
+    root_logger = logging.getLogger()
+    root_logger.setLevel(logging.INFO)
+    root_logger.addHandler(log_handler)
+    root_logger.addHandler(logging.StreamHandler())
+
     try:
         logging.info("Starting processing")
         analyze_and_update(RAND_VALUE, EXCHANGE_LIST)
