@@ -12,6 +12,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 from feedparser import FeedParserDict
+from contextlib import contextmanager
 
 
 class StockQuality(Enum):
@@ -273,12 +274,23 @@ class StockFactory:
             logging.error(f"Error fetching historical PE: {e}")
             return None
 
-    @staticmethod
-    def fetch_morningstar_roe(
-        symbol: str, exchange: str, basic_data: dict
-    ) -> float | None:
-        """Fetch 5-year historical ROE from Morningstar."""
+    @contextmanager
+    def create_driver():
+        options = webdriver.ChromeOptions()
+        options.add_argument("--headless")
+        options.add_argument("log-level=3")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-dev-shm-usage")
+        driver = webdriver.Chrome(options=options)
+        try:
+            yield driver
+        finally:
+            driver.quit()
 
+
+    @staticmethod
+    def fetch_morningstar_roe(symbol: str, exchange: str, basic_data: dict) -> float | None:
+        """Fetch 5-year historical ROE from Morningstar."""
         MORNINGSTAR_ROE_URL = "https://www.morningstar.com/stocks/%$%/$%$/performance"
         MORNING_STAR_EXCHANGE = {
             "nas": "xnas",
@@ -290,56 +302,47 @@ class StockFactory:
         ms_exchange = MORNING_STAR_EXCHANGE.get(exchange)
         url = MORNINGSTAR_ROE_URL.replace("$%$", symbol).replace("%$%", ms_exchange)
 
-        options = webdriver.ChromeOptions()
-        options.add_argument("--headless")
-        options.add_argument("log-level=3")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        driver = webdriver.Chrome(options=options)
+        with StockFactory.create_driver() as driver:
+            try:
+                driver.get(url)
 
-        try:
-            driver.get(url)
-
-            WebDriverWait(driver, 3).until(
-                EC.presence_of_element_located((By.CLASS_NAME, "mds-tbody__sal"))
-            )
-
-            table = driver.find_element(By.CLASS_NAME, "mds-tbody__sal")
-            rows = table.find_elements(By.TAG_NAME, "tr")
-
-            if len(rows) < 2:
-                logging.warning(f"Table does not have enough rows for {symbol}")
-                return 0.0
-
-            second_row = rows[2]
-            columns = second_row.find_elements(By.TAG_NAME, "td")
-
-            if len(columns) < 2:
-                logging.warning(f"Second row does not have enough columns for {symbol}")
-                return 0.0
-
-            roe_value = columns[-2].text.strip()
-
-            if "--" in roe_value:
-                logging.warning(
-                    f"No 5-year historical ROE available in MorningStar for {symbol}"
+                WebDriverWait(driver, 3).until(
+                    EC.presence_of_element_located((By.CLASS_NAME, "mds-tbody__sal"))
                 )
-                return (
-                    StockFactory.extract_from_dict(
-                        basic_data, StockFactory.key_paths["ReturnOnEquity"]
+
+                table = driver.find_element(By.CLASS_NAME, "mds-tbody__sal")
+                rows = table.find_elements(By.TAG_NAME, "tr")
+
+                if len(rows) < 2:
+                    logging.warning(f"Table does not have enough rows for {symbol}")
+                    return 0.0
+
+                second_row = rows[2]
+                columns = second_row.find_elements(By.TAG_NAME, "td")
+
+                if len(columns) < 2:
+                    logging.warning(f"Second row does not have enough columns for {symbol}")
+                    return 0.0
+
+                roe_value = columns[-2].text.strip()
+
+                if "--" in roe_value:
+                    logging.warning(
+                        f"No 5-year historical ROE available in MorningStar for {symbol}"
                     )
-                    * 100
-                )
+                    return (
+                        StockFactory.extract_from_dict(
+                            basic_data, StockFactory.key_paths["ReturnOnEquity"]
+                        )
+                        * 100
+                    )
 
-            return float(roe_value)
+                return float(roe_value)
 
-        except Exception as e:
-            logging.error(f"Error fetching MorningStar ROE for {symbol}: {e}")
-            return None
-
-        finally:
-            driver.quit()
-
+            except Exception as e:
+                logging.error(f"Error fetching MorningStar ROE for {symbol}: {e}")
+                return None
+        
     @staticmethod
     def extract_from_dict(data_dict: dict, key_path: list) -> float | None:
         try:
