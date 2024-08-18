@@ -17,15 +17,10 @@ warnings.filterwarnings(
 )
 
 EXCHANGE_LIST = ["nas", "nyse", "tsx"]
-RAND_VALUE = 0  # Number of random stocks to analyze, mainly used for testing
-ITERATION_THRESHOLD = 3
+RAND_VALUE = 10  # Number of random stocks to analyze, mainly used for testing
 
 
-def process_stock(
-    symbol: str,
-    exchange: str,
-    database: DatabaseHandler
-):
+def process_stock(symbol: str, exchange: str, database: DatabaseHandler):
     """Process and update stock information."""
     try:
         stock = StockFactory.create_stock(symbol, exchange)
@@ -88,6 +83,7 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
 
         process_stock(stock.symbol, stock.exchange, database)
 
+
 if __name__ == "__main__":
     log_dir = os.path.abspath("/var/log/stock-fetcher/")
     if not os.path.exists(log_dir):
@@ -96,9 +92,9 @@ if __name__ == "__main__":
             os.makedirs(log_dir)
 
     log_handler = RotatingFileHandler(
-        os.path.join(log_dir, 'stock-fetcher.log'),
-        maxBytes=10*1024*1024,  # 10MB per file
-        backupCount=5
+        os.path.join(log_dir, "stock-fetcher.log"),
+        maxBytes=10 * 1024 * 1024,  # 10MB per file
+        backupCount=5,
     )
 
     formatter = logging.Formatter("%(asctime)s - %(levelname)s - %(message)s")

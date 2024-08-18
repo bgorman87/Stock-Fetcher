@@ -1,5 +1,4 @@
 import logging
-import time
 import os
 import os
 import random
@@ -10,7 +9,7 @@ from contextlib import contextmanager
 from typing import Generator
 
 from stocks_handler import Stock, StockQuality
-from utils import ExistingStock, RecentlyUpdated
+from utils import ExistingStock
 
 
 class DatabaseHandler:
@@ -304,10 +303,13 @@ class DatabaseHandler:
             with self.connect_to_database() as conn:
                 cur = conn.cursor()
                 cur.execute(
-                    "SELECT 1 FROM stocks WHERE symbol=%s AND exchange=%s",
+                    "SELECT id FROM stocks WHERE symbol=%s AND exchange=%s",
                     (stock.symbol, stock.exchange),
                 )
-                if cur.fetchone():
+                stock_row = cur.fetchone()
+
+                if stock_row:
+                    stock_id = stock_row[0]
                     cur.execute(
                         """UPDATE stocks SET 
                         current=%s, pe=%s, dcf=%s, roe=%s, exchange=%s, title=%s, industry=%s,
@@ -318,6 +320,7 @@ class DatabaseHandler:
                         trailingdividendrateraw=%s WHERE symbol=%s AND exchange=%s""",
                         values + (stock.exchange,),
                     )
+                    conn.commit()
                 else:
                     cur.execute(
                         """INSERT INTO stocks(
@@ -329,8 +332,31 @@ class DatabaseHandler:
                         ) VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)""",
                         values,
                     )
-                conn.commit()
-                return True
+                    cur.execute(
+                        "SELECT id FROM stocks WHERE symbol=%s AND exchange=%s",
+                        (stock.symbol, stock.exchange),
+                    )
+                    conn.commit()
+                    stock_id = cur.fetchone()[0]
+
+                if stock.stock_data.news:
+                    for news_item in stock.stock_data.news:
+                        cur.execute(
+                            """INSERT INTO news(
+                            stock_id, news_id, title, summary, url, provider_name, provider_publish_time
+                            ) VALUES (%s, %s, %s, %s, %s, %s, %s) ON CONFLICT (news_id) DO NOTHING""",
+                            (
+                                stock_id,
+                                news_item.id,
+                                news_item.title,
+                                news_item.summary,
+                                news_item.url,
+                                news_item.provider_name,
+                                news_item.provider_publish_time,
+                            ),
+                        )
+                    conn.commit()
+            return True
         except psycopg2.Error as e:
             logging.error(f"Database update failed: {e}")
             return False
