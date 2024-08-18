@@ -17,7 +17,7 @@ warnings.filterwarnings(
 )
 
 EXCHANGE_LIST = ["nas", "nyse", "tsx"]
-RAND_VALUE = 10  # Number of random stocks to analyze, mainly used for testing
+RAND_VALUE = 0  # Number of random stocks to analyze, mainly used for testing
 
 
 def process_stock(symbol: str, exchange: str, database: DatabaseHandler):
