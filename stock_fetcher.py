@@ -5,7 +5,7 @@ import time
 import os
 from logging.handlers import RotatingFileHandler
 from database_handler import DatabaseHandler
-from stocks_handler import StockFactory, StockData, Stock
+from stocks_handler import StockFactory, StockData, Stock, StockWebDriver
 from utils import BadStock
 
 
@@ -20,10 +20,10 @@ EXCHANGE_LIST = ["nas", "nyse", "tsx"]
 RAND_VALUE = 0  # Number of random stocks to analyze, mainly used for testing
 
 
-def process_stock(symbol: str, exchange: str, database: DatabaseHandler):
+def process_stock(symbol: str, exchange: str, database: DatabaseHandler, stock_web_driver: StockWebDriver):
     """Process and update stock information."""
     try:
-        stock = StockFactory.create_stock(symbol, exchange)
+        stock = StockFactory.create_stock(symbol, exchange, stock_web_driver)
         database.update_stock_in_database(stock)
     except BadStock as e:
         logging.error(f"BADSTOCK - {symbol}: {e.message}")
@@ -43,6 +43,12 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
         database = DatabaseHandler()
     except Exception as e:
         raise e
+    
+    try:
+        stock_web_driver = StockWebDriver()
+        stock_web_driver.initialize_driver()
+    except Exception as e:
+        raise e
 
     stock_set = set()
 
@@ -56,7 +62,7 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
         logging.info(
             f"Processing new stock {symbol} - {exchange} : {i + 1}/{len(new_symbols)}"
         )
-        process_stock(symbol, exchange, database)
+        process_stock(symbol, exchange, database, stock_web_driver)
 
     # Fetch existing stocks
     logging.info("Fetching existing stocks")
@@ -81,9 +87,10 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
             logging.info(f"Stock {stock.symbol} was recently updated")
             continue
 
-        process_stock(stock.symbol, stock.exchange, database)
+        process_stock(stock.symbol, stock.exchange, database, stock_web_driver)
 
-
+    stock_web_driver.quit_driver()
+    
 if __name__ == "__main__":
     log_dir = os.path.abspath("/var/log/stock-fetcher/")
     if not os.path.exists(log_dir):

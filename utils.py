@@ -26,3 +26,5 @@ class RecentlyUpdated(Exception):
 
     def __init__(self, message="The stock was recently updated"):
         super().__init__(message)
+
+
