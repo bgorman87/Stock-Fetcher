@@ -4,11 +4,14 @@ import pandas as pd
 import time
 import logging
 import yahooquery
+from datetime import datetime
+import feedparser
 from utils import BadStock
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
+from feedparser import FeedParserDict
 
 
 class StockQuality(Enum):
@@ -16,6 +19,17 @@ class StockQuality(Enum):
     GOOD = 2
     OKAY = 3
     BAD = 4
+
+
+@dataclass
+class News:
+    id: str
+    title: str | None = None
+    summary: str | None = None
+    url: str | None = None
+    author_name: str | None = None
+    provider_name: str | None = None
+    provider_publish_time: datetime | None = None
 
 
 @dataclass
@@ -47,6 +61,7 @@ class StockData:
     historical_roe: float | None = None
     trailing_dividend_rate_raw: float | None = None
     last_updated: float | None = None
+    news: list[News] | None = None
 
     @staticmethod
     def from_db_row(row: dict) -> "StockData":
@@ -259,7 +274,9 @@ class StockFactory:
             return None
 
     @staticmethod
-    def fetch_morningstar_roe(symbol: str, exchange: str, basic_data: dict) -> float | None:
+    def fetch_morningstar_roe(
+        symbol: str, exchange: str, basic_data: dict
+    ) -> float | None:
         """Fetch 5-year historical ROE from Morningstar."""
 
         MORNINGSTAR_ROE_URL = "https://www.morningstar.com/stocks/%$%/$%$/performance"
@@ -382,6 +399,32 @@ class StockFactory:
             return None
 
     @staticmethod
+    def get_news_from_yahoo(ticker_symbol: str) -> list[News]:
+        url = f"https://feeds.finance.yahoo.com/rss/2.0/headline?s={ticker_symbol}"
+        feed: FeedParserDict = feedparser.parse(url)
+
+        news_list = []
+        for entry in feed.entries:
+            try:
+                news = News(id=entry.id)
+                news.title = entry.title
+                news.summary = entry.summary
+                news.url = entry.link
+                news.provider_name = "Yahoo Finance"
+                news.provider_publish_time = datetime.fromtimestamp(
+                    time.mktime(entry.published_parsed)
+                )
+                news_list.append(news)
+            except AttributeError as e:
+                logging.error(f"RSS News Error: {e}")
+                continue
+            except Exception as e:
+                logging.error(f"Error fetching news: {e}")
+                continue
+
+        return news_list
+
+    @staticmethod
     def create_stock(symbol: str, exchange: str) -> Stock:
         """Create a stock object with the given symbol and exchange."""
         yh_symbol = get_stock_symbol_for_yahoo(symbol, exchange)
@@ -399,11 +442,13 @@ class StockFactory:
                 raise BadStock(stock_data, basic_ticker)
             raise BadStock(stock_data, f"Error fetching data for {symbol}")
 
+        stock_data.news = StockFactory.get_news_from_yahoo(yh_symbol)
+
         current_price = basic_ticker.get("price", {}).get("regularMarketPrice", None)
         if current_price is None:
             raise BadStock(
                 stock_data,
-                f"Current Price not available. Insufficient data for {symbol}"
+                f"Current Price not available. Insufficient data for {symbol}",
             )
 
         stock_data.current_price = current_price
@@ -444,12 +489,11 @@ class StockFactory:
             "summaryDetail", {}
         ).get("trailingAnnualDividendRate", None)
 
-
         stock_data.historical_pe = StockFactory.fetch_historical_pe(ticker)
         stock_data.historical_roe = StockFactory.fetch_morningstar_roe(
             symbol, exchange, basic_ticker
         )
-        
+
         financial_modules = [
             "MarketCap",
             "TotalRevenue",
@@ -467,7 +511,7 @@ class StockFactory:
         )
         if not isinstance(financial_ticker, pd.DataFrame):
             raise BadStock(stock_data, f"Error fetching financial data for {symbol}")
-        
+
         stock_data.market_cap = StockFactory.get_financial_value(
             financial_ticker, "MarketCap", basic_ticker
         )
