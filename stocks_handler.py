@@ -132,6 +132,8 @@ class StockWebDriver:
             if self.driver is None:
                 options = webdriver.ChromeOptions()
                 options.add_argument("--headless")
+                options.add_argument("log-level=3")
+                options.add_argument("--no-sandbox")
                 options.add_argument("--disable-dev-shm-usage")
                 self.driver = webdriver.Chrome(options=options)
 
