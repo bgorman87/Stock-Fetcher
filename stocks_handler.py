@@ -454,7 +454,7 @@ class StockFactory:
             if column_name == "FreeCashFlow":
                 fcf_value = StockFactory.calculate_free_cash_flow(basic_stock_info)
                 if not fcf_value:
-                    fcf_value = df.iloc[-3].get(column_name)
+                    fcf_value = df[df['periodType'] == 'TTM'].iloc[0].get(column_name)
                     if pd.notna(fcf_value):
                         return float(fcf_value)
                 return fcf_value
