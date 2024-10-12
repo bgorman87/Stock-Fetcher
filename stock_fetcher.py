@@ -43,7 +43,7 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
         database = DatabaseHandler()
     except Exception as e:
         raise e
-    
+
     try:
         stock_web_driver = StockWebDriver()
         stock_web_driver.initialize_driver()
@@ -90,7 +90,7 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
         process_stock(stock.symbol, stock.exchange, database, stock_web_driver)
 
     stock_web_driver.quit_driver()
-    
+
 if __name__ == "__main__":
     log_dir = os.path.abspath("/var/log/stock-fetcher/")
     if not os.path.exists(log_dir):
