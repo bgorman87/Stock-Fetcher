@@ -5,7 +5,7 @@ import time
 import os
 from logging.handlers import RotatingFileHandler
 from database_handler import DatabaseHandler
-from stocks_handler import StockFactory, StockData, Stock, StockWebDriver
+from stocks_handler import StockFactory, StockData
 from utils import BadStock
 
 
@@ -20,10 +20,10 @@ EXCHANGE_LIST = ["nas", "nyse", "tsx"]
 RAND_VALUE = 0  # Number of random stocks to analyze, mainly used for testing
 
 
-def process_stock(symbol: str, exchange: str, database: DatabaseHandler, stock_web_driver: StockWebDriver):
+def process_stock(symbol: str, exchange: str, database: DatabaseHandler):
     """Process and update stock information."""
     try:
-        stock = StockFactory.create_stock(symbol, exchange, stock_web_driver)
+        stock = StockFactory.create_stock(symbol, exchange)
         database.update_stock_in_database(stock)
     except BadStock as e:
         logging.error(f"BADSTOCK - {symbol}: {e.message}")
@@ -44,14 +44,6 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
     except Exception as e:
         raise e
 
-    try:
-        stock_web_driver = StockWebDriver()
-        stock_web_driver.initialize_driver()
-    except Exception as e:
-        raise e
-
-    stock_set = set()
-
     new_symbols = database.fetch_new_symbols(exchange_list)
 
     if rand_value > 0:
@@ -62,34 +54,22 @@ def analyze_and_update(rand_value: int, exchange_list: list[str]):
         logging.info(
             f"Processing new stock {symbol} - {exchange} : {i + 1}/{len(new_symbols)}"
         )
-        process_stock(symbol, exchange, database, stock_web_driver)
+        process_stock(symbol, exchange, database)
 
-    # Fetch existing stocks
+    # Process existing symbols next
     logging.info("Fetching existing stocks")
     existing_symbols = database.fetch_existing_symbols()
-    for symbol, exchange in existing_symbols:
-        stock_data_row = database.fetch_stock_data_from_database(symbol, exchange)
-        if not stock_data_row:
-            logging.error(f"Stock data not found for {symbol}")
-            continue
-        stock_data = StockData.from_db_row(stock_data_row)
-        stock_set.add(StockFactory.create_stock_from_data(symbol, exchange, stock_data))
-    logging.info(f"Found {len(stock_set)} existing stocks")
-
-    # Update existing stocks data in order of quality (great -> bad)
-    for i, stock in enumerate(sorted(list(stock_set))):
-        assert isinstance(stock, Stock)
+    for i, (symbol, exchange) in enumerate(list(existing_symbols)):
         logging.info(
-            f"Processing existing stock {stock.symbol} - {stock.exchange} : {i + 1}/{len(existing_symbols)}"
+            f"Processing existing stock {symbol} - {exchange} : {i + 1}/{len(existing_symbols)}"
         )
 
-        if (time.time() - stock.stock_data.last_updated) < (60 * 60 * 12):  # 12 hours
-            logging.info(f"Stock {stock.symbol} was recently updated")
-            continue
+        # TODO: Implement database check for last_updated rather than initializing every stock
+        # if (time.time() - stock.stock_data.last_updated) < (60 * 60 * 12):  # 12 hours
+        #     logging.info(f"Stock {stock.symbol} was recently updated")
+        #     continue
 
-        process_stock(stock.symbol, stock.exchange, database, stock_web_driver)
-
-    stock_web_driver.quit_driver()
+        process_stock(symbol, exchange, database)
 
 if __name__ == "__main__":
     log_dir = os.path.abspath("/var/log/stock-fetcher/")
