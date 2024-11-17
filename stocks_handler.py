@@ -212,7 +212,7 @@ class StockFactory:
             dividends.append(dividends[-1] * (1 + conservative_growth))
             npv_dividends.append(dividends[-1] / ((1 + discount_rate) ** (i + 1)))
 
-        y10_net_income = shareholders_equity[-1] * stock.stock_data.historical_roe / 100
+        y10_net_income = shareholders_equity[-1] * stock.stock_data.historical_roe
         required_value = y10_net_income / discount_rate
         npv_required_value = required_value / ((1 + discount_rate) ** 10)
         stock.stock_data.roe = round(float(sum(npv_dividends) + npv_required_value), 2)
@@ -310,13 +310,10 @@ class StockFactory:
                     return float(sum(roe_values) / len(roe_values))
                 return None
 
-            ttm_value = df.iloc[-1].get(column_name)
-            if pd.notna(ttm_value):
-                return float(ttm_value)
-
-            prev_year_value = df.iloc[-2].get(column_name)
-            if pd.notna(prev_year_value):
-                return float(prev_year_value)
+            if column_name in df.columns:
+                df_values = df[column_name].dropna()
+                if not df_values.empty:
+                    return float(df_values.iloc[-1])
 
             if column_name == "FreeCashFlow":
                 fcf_value = StockFactory.calculate_free_cash_flow(basic_stock_info)
@@ -428,9 +425,8 @@ class StockFactory:
                     {},
                     {},
                     {},
-                    {},
                 ],
-            )[4]
+            )[3]
             .get("growth", None)
         )
         stock_data.current_eps = basic_ticker.get("defaultKeyStatistics", {}).get(
