@@ -9,6 +9,7 @@ import feedparser
 from utils import BadStock
 from feedparser import FeedParserDict
 
+logger = logging.getLogger(__name__)
 
 class StockQuality(Enum):
     GREAT = 1
@@ -269,10 +270,10 @@ class StockFactory:
             historical_pe = avg_historical_price / avg_historical_eps
             return float(historical_pe)
         except AttributeError as e:
-            logging.error(f"Historical ROE Error: {e}")
+            logger.error(f"Historical ROE Error: {e}")
             return None
         except Exception as e:
-            logging.error(f"Error fetching historical PE: {e}")
+            logger.error(f"Error fetching historical PE: {e}")
             return None
         
     @staticmethod
@@ -327,7 +328,7 @@ class StockFactory:
                 basic_stock_info, StockFactory.key_paths.get(column_name, [])
             )
         except Exception as e:
-            logging.error(f"Error fetching financial value for {column_name}: {e}")
+            logger.error(f"Error fetching financial value for {column_name}: {e}")
             return None
 
 
@@ -367,10 +368,10 @@ class StockFactory:
                 )
                 news_list.append(news)
             except AttributeError as e:
-                logging.error(f"RSS News Error: {e}")
+                logger.error(f"RSS News Error: {e}")
                 continue
             except Exception as e:
-                logging.error(f"Error fetching news: {e}")
+                logger.error(f"Error fetching news: {e}")
                 continue
 
         return news_list
@@ -382,10 +383,22 @@ class StockFactory:
         ticker = yahooquery.Ticker(yh_symbol)
 
         stock_data = StockData()
+        time_interval = {0: 300, 1: 600, 2: 1200}
+        for i, interval in list(time_interval.items()):
+            basic_ticker: dict = ticker.all_modules
+            if not isinstance(basic_ticker, dict):
+                raise BadStock(stock_data, f"Error fetching data for {symbol}")
+            
+            if isinstance(basic_ticker[yh_symbol], str):
+                if "for input string" in basic_ticker[yh_symbol].lower():
+                   logger.error(f"Iteration {i+1} - earningsTrend returning error. Sleeping for {interval}s...")
+                   time.sleep(interval)
+            else:
+                break
 
-        basic_ticker: dict = ticker.all_modules
-        if not isinstance(basic_ticker, dict):
-            raise BadStock(stock_data, f"Error fetching data for {symbol}")
+        if isinstance(basic_ticker[yh_symbol], str):
+            if "for input string" in basic_ticker[yh_symbol].lower():
+                raise ValueError(f"Error getting all modules: {basic_ticker[yh_symbol]}")
 
         basic_ticker = basic_ticker[yh_symbol]
         if not isinstance(basic_ticker, dict):
@@ -503,21 +516,21 @@ class StockFactory:
             try:
                 StockFactory.calculate_pe_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
-                logging.error(f"Error calculating PE NPV for {symbol}: {e}")
+                logger.error(f"Error calculating PE NPV for {symbol}: {e}")
                 stock.stock_data.pe = None
                 pass
 
             try:
                 StockFactory.calculate_roe_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
-                logging.error(f"Error calculating ROE NPV for {symbol}: {e}")
+                logger.error(f"Error calculating ROE NPV for {symbol}: {e}")
                 stock.stock_data.roe = None
                 pass
 
             try:
                 StockFactory.calculate_dcf_npv(StockFactory.DISCOUNT_RATE, stock)
             except Exception as e:
-                logging.error(f"Error calculating DCF NPV for {symbol}: {e}")
+                logger.error(f"Error calculating DCF NPV for {symbol}: {e}")
                 stock.stock_data.dcf = None
                 pass
 
